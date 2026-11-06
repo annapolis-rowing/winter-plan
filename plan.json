@@ -1,0 +1,2421 @@
+{
+ "competitive": [
+  {
+   "wk": 1,
+   "phase": "Foundation",
+   "type": "Test",
+   "dates": "Nov 2–8",
+   "workouts": [
+    {
+     "n": 1,
+     "label": "#1",
+     "kind": "workout",
+     "focus": "Body Prep",
+     "workout": "3×10' UT2 r18–20 /2' + 20' body-weight circuit #1",
+     "team": "",
+     "rate": "",
+     "coachAm": "Sophie Westfield",
+     "coachPm": "Kari Hughes",
+     "erg": [
+      {
+       "label": "workout",
+       "url": "https://workout.ergdata.com/shared/vhgqt8za"
+      }
+     ],
+     "form": null,
+     "formLabel": ""
+    },
+    {
+     "n": 2,
+     "label": "#2",
+     "kind": "UT2",
+     "focus": "",
+     "workout": "20' UT2  + 2 x (6 x 2' on / 1' off) @ goal 5k pace",
+     "team": "",
+     "rate": "r18–20; race pace",
+     "coachAm": "Sophie Westfield",
+     "coachPm": "Kari Hughes",
+     "erg": [
+      {
+       "label": "UT2",
+       "url": "https://workout.ergdata.com/shared/vhgqt8za"
+      },
+      {
+       "label": "Race Prep",
+       "url": "https://workout.ergdata.com/shared/8o4d3qi5"
+      }
+     ],
+     "form": null,
+     "formLabel": ""
+    },
+    {
+     "n": 3,
+     "label": "#3",
+     "kind": "UT2",
+     "focus": "",
+     "workout": "40' UT2",
+     "team": "",
+     "rate": "r18–20",
+     "coachAm": "Uncoached",
+     "coachPm": "",
+     "erg": [],
+     "form": null,
+     "formLabel": ""
+    },
+    {
+     "n": 4,
+     "label": "#4 (Sat Nov 7)",
+     "kind": "Saturday team",
+     "focus": "",
+     "workout": "TEST: 5k, full effort",
+     "team": "Team test day: everyone starts together; Competitive row a 5k, F&C a 20' test",
+     "rate": "r24–race pace",
+     "coachAm": "Kari Hughes",
+     "coachPm": "",
+     "erg": [],
+     "form": "https://forms.gle/Fb2akZdWbUoeFRUB6",
+     "formLabel": "5k data"
+    }
+   ]
+  },
+  {
+   "wk": 2,
+   "phase": "Foundation",
+   "type": "Build",
+   "dates": "Nov 9–15",
+   "workouts": [
+    {
+     "n": 1,
+     "label": "#1",
+     "kind": "UT2",
+     "focus": "",
+     "workout": "45' UT2 r20",
+     "team": "",
+     "rate": "",
+     "coachAm": "",
+     "coachPm": "",
+     "erg": [],
+     "form": null,
+     "formLabel": ""
+    },
+    {
+     "n": 2,
+     "label": "#2",
+     "kind": "Threshold",
+     "focus": "",
+     "workout": "3×8' AT /3'",
+     "team": "",
+     "rate": "r20–30",
+     "coachAm": "",
+     "coachPm": "",
+     "erg": [],
+     "form": null,
+     "formLabel": ""
+    },
+    {
+     "n": 3,
+     "label": "#3",
+     "kind": "UT2, BW",
+     "focus": "",
+     "workout": "30' UT2 + 20' body-weight circuit",
+     "team": "",
+     "rate": "r18–20",
+     "coachAm": "",
+     "coachPm": "",
+     "erg": [],
+     "form": null,
+     "formLabel": ""
+    },
+    {
+     "n": 4,
+     "label": "#4 (Sat Nov 14)",
+     "kind": "Saturday team",
+     "focus": "",
+     "workout": "6×3' TR /2'",
+     "team": "Same clock, mixed teams; team score = total meters",
+     "rate": "r20–30",
+     "coachAm": "",
+     "coachPm": "",
+     "erg": [],
+     "form": null,
+     "formLabel": ""
+    }
+   ]
+  },
+  {
+   "wk": 3,
+   "phase": "Foundation",
+   "type": "Build",
+   "dates": "Nov 16–22",
+   "workouts": [
+    {
+     "n": 1,
+     "label": "#1",
+     "kind": "Steady",
+     "focus": "",
+     "workout": "30' UT2, 20' UT1",
+     "team": "",
+     "rate": "r18–20",
+     "coachAm": "",
+     "coachPm": "",
+     "erg": [],
+     "form": null,
+     "formLabel": ""
+    },
+    {
+     "n": 2,
+     "label": "#2",
+     "kind": "Threshold",
+     "focus": "",
+     "workout": "3×10' AT /3'",
+     "team": "",
+     "rate": "r20–30",
+     "coachAm": "",
+     "coachPm": "",
+     "erg": [],
+     "form": null,
+     "formLabel": ""
+    },
+    {
+     "n": 3,
+     "label": "#3",
+     "kind": "UT2, BW",
+     "focus": "",
+     "workout": "35' UT2 + 20' body-weight circuit",
+     "team": "",
+     "rate": "r18–20",
+     "coachAm": "",
+     "coachPm": "",
+     "erg": [],
+     "form": null,
+     "formLabel": ""
+    },
+    {
+     "n": 4,
+     "label": "#4 (Sat Nov 21)",
+     "kind": "Saturday team",
+     "focus": "",
+     "workout": "5x4' TR /2'",
+     "team": "Same clock, mixed teams; team score = total meters",
+     "rate": "r20–30",
+     "coachAm": "",
+     "coachPm": "",
+     "erg": [],
+     "form": null,
+     "formLabel": ""
+    }
+   ]
+  },
+  {
+   "wk": 4,
+   "phase": "Foundation",
+   "type": "Lighter",
+   "dates": "Nov 23–29",
+   "workouts": [
+    {
+     "n": 1,
+     "label": "#1",
+     "kind": "UT2",
+     "focus": "",
+     "workout": "40' UT2",
+     "team": "",
+     "rate": "r18–20",
+     "coachAm": "",
+     "coachPm": "",
+     "erg": [],
+     "form": null,
+     "formLabel": ""
+    },
+    {
+     "n": 2,
+     "label": "#2",
+     "kind": "Threshold",
+     "focus": "",
+     "workout": "2×10' AT /3'",
+     "team": "",
+     "rate": "r20–30",
+     "coachAm": "",
+     "coachPm": "",
+     "erg": [],
+     "form": null,
+     "formLabel": ""
+    },
+    {
+     "n": 3,
+     "label": "#3",
+     "kind": "UT2, BW",
+     "focus": "",
+     "workout": "20' UT2 + 20' body-weight circuit",
+     "team": "",
+     "rate": "r18–20",
+     "coachAm": "",
+     "coachPm": "",
+     "erg": [],
+     "form": null,
+     "formLabel": ""
+    },
+    {
+     "n": 4,
+     "label": "#4 (Sat Nov 28)",
+     "kind": "Saturday team",
+     "focus": "",
+     "workout": "40' team relay (~10' each) at UT1",
+     "team": "Thanksgiving pie relay: teams of 4 row 40' total, swap every 2'30\"; most meters picks the music",
+     "rate": "r20–22",
+     "coachAm": "",
+     "coachPm": "",
+     "erg": [],
+     "form": null,
+     "formLabel": ""
+    }
+   ]
+  },
+  {
+   "wk": 5,
+   "phase": "Aerobic build",
+   "type": "Build",
+   "dates": "Nov 30 – Dec 6",
+   "workouts": [
+    {
+     "n": 1,
+     "label": "#1",
+     "kind": "UT2",
+     "focus": "",
+     "workout": "35' UT2, 20' UT1",
+     "team": "",
+     "rate": "r18–20",
+     "coachAm": "",
+     "coachPm": "",
+     "erg": [],
+     "form": null,
+     "formLabel": ""
+    },
+    {
+     "n": 2,
+     "label": "#2",
+     "kind": "Threshold",
+     "focus": "",
+     "workout": "4×8' AT /2'",
+     "team": "",
+     "rate": "r20–30",
+     "coachAm": "",
+     "coachPm": "",
+     "erg": [],
+     "form": null,
+     "formLabel": ""
+    },
+    {
+     "n": 3,
+     "label": "#3",
+     "kind": "UT2, BW",
+     "focus": "",
+     "workout": "2×20' UT2 /2' + 20' body-weight circuit",
+     "team": "",
+     "rate": "r18–20",
+     "coachAm": "",
+     "coachPm": "",
+     "erg": [],
+     "form": null,
+     "formLabel": ""
+    },
+    {
+     "n": 4,
+     "label": "#4 (Sat Dec 5)",
+     "kind": "Saturday team",
+     "focus": "",
+     "workout": "8 x 500m / 2'30\" pace: goal 2k - 1",
+     "team": "mixed teams, switching ergs, closest to goal wins",
+     "rate": "r26–30",
+     "coachAm": "",
+     "coachPm": "",
+     "erg": [],
+     "form": null,
+     "formLabel": ""
+    }
+   ]
+  },
+  {
+   "wk": 6,
+   "phase": "Aerobic build",
+   "type": "Build + 2k test",
+   "dates": "Dec 7–13",
+   "workouts": [
+    {
+     "n": 1,
+     "label": "#1",
+     "kind": "UT2",
+     "focus": "",
+     "workout": "45' UT2, 15' UT1",
+     "team": "",
+     "rate": "r18–20",
+     "coachAm": "",
+     "coachPm": "",
+     "erg": [],
+     "form": null,
+     "formLabel": ""
+    },
+    {
+     "n": 2,
+     "label": "#2",
+     "kind": "Threshold",
+     "focus": "",
+     "workout": "3×12' AT /3'",
+     "team": "",
+     "rate": "r20–30",
+     "coachAm": "",
+     "coachPm": "",
+     "erg": [],
+     "form": null,
+     "formLabel": ""
+    },
+    {
+     "n": 3,
+     "label": "#3",
+     "kind": "UT2, BW",
+     "focus": "",
+     "workout": "30' UT2 in sync + 20' body-weight circuit in teams",
+     "team": "",
+     "rate": "r28–32",
+     "coachAm": "",
+     "coachPm": "",
+     "erg": [],
+     "form": null,
+     "formLabel": ""
+    },
+    {
+     "n": 4,
+     "label": "#4 (Sat Dec 12)",
+     "kind": "Saturday team",
+     "focus": "",
+     "workout": "2k",
+     "team": "",
+     "rate": "r18–20",
+     "coachAm": "",
+     "coachPm": "",
+     "erg": [],
+     "form": null,
+     "formLabel": ""
+    }
+   ]
+  },
+  {
+   "wk": 7,
+   "phase": "Aerobic build",
+   "type": "Build",
+   "dates": "Dec 14–20",
+   "workouts": [
+    {
+     "n": 1,
+     "label": "#1",
+     "kind": "UT2",
+     "focus": "",
+     "workout": "35' UT2, 25' UT1",
+     "team": "",
+     "rate": "r18–20",
+     "coachAm": "",
+     "coachPm": "",
+     "erg": [],
+     "form": null,
+     "formLabel": ""
+    },
+    {
+     "n": 2,
+     "label": "#2",
+     "kind": "Threshold",
+     "focus": "",
+     "workout": "2×20' AT /4'",
+     "team": "",
+     "rate": "r20–30",
+     "coachAm": "",
+     "coachPm": "",
+     "erg": [],
+     "form": null,
+     "formLabel": ""
+    },
+    {
+     "n": 3,
+     "label": "#3",
+     "kind": "UT2, BW",
+     "focus": "",
+     "workout": "45' UT2 + 20' body-weight circuit",
+     "team": "",
+     "rate": "r18–20",
+     "coachAm": "",
+     "coachPm": "",
+     "erg": [],
+     "form": null,
+     "formLabel": ""
+    },
+    {
+     "n": 4,
+     "label": "#4 (Sat Dec 19)",
+     "kind": "Saturday team",
+     "focus": "",
+     "workout": "5×500m relay turns (10k per team) at short TR",
+     "team": "Holiday 10k team relay: mixed teams, 500m turns; ugly sweaters encouraged",
+     "rate": "r28–34",
+     "coachAm": "",
+     "coachPm": "",
+     "erg": [],
+     "form": null,
+     "formLabel": ""
+    }
+   ]
+  },
+  {
+   "wk": 0,
+   "phase": "",
+   "type": "Off",
+   "dates": "Dec 21–27",
+   "workouts": [
+    {
+     "n": 0,
+     "label": "—",
+     "kind": "",
+     "focus": "",
+     "workout": "No team sessions; walk, bike or ski if you like",
+     "team": "",
+     "rate": "",
+     "coachAm": "",
+     "coachPm": "",
+     "erg": [],
+     "form": null,
+     "formLabel": ""
+    }
+   ]
+  },
+  {
+   "wk": 8,
+   "phase": "Aerobic build",
+   "type": "Lighter",
+   "dates": "Dec 28 – Jan 3",
+   "workouts": [
+    {
+     "n": 1,
+     "label": "#1",
+     "kind": "UT2",
+     "focus": "",
+     "workout": "40' UT2",
+     "team": "",
+     "rate": "r18–20",
+     "coachAm": "",
+     "coachPm": "",
+     "erg": [],
+     "form": null,
+     "formLabel": ""
+    },
+    {
+     "n": 2,
+     "label": "#2",
+     "kind": "Threshold",
+     "focus": "",
+     "workout": "3×8' AT /3'",
+     "team": "",
+     "rate": "r20–30",
+     "coachAm": "",
+     "coachPm": "",
+     "erg": [],
+     "form": null,
+     "formLabel": ""
+    },
+    {
+     "n": 3,
+     "label": "#3",
+     "kind": "UT2, BW",
+     "focus": "",
+     "workout": "25' UT2 + 20' body-weight circuit",
+     "team": "",
+     "rate": "r18–20",
+     "coachAm": "",
+     "coachPm": "",
+     "erg": [],
+     "form": null,
+     "formLabel": ""
+    },
+    {
+     "n": 4,
+     "label": "#4 (Sat Jan 2)",
+     "kind": "Saturday team",
+     "focus": "",
+     "workout": "4×4' TR /3'",
+     "team": "New Year same clock: each team sets a meters goal based up on 11/21 workout and tries to beat it",
+     "rate": "r26–30",
+     "coachAm": "",
+     "coachPm": "",
+     "erg": [],
+     "form": null,
+     "formLabel": ""
+    }
+   ]
+  },
+  {
+   "wk": 9,
+   "phase": "Strength-endurance",
+   "type": "Race build",
+   "dates": "Jan 4–10",
+   "workouts": [
+    {
+     "n": 1,
+     "label": "#1",
+     "kind": "UT2",
+     "focus": "",
+     "workout": "45' UT2, 15' UT1",
+     "team": "",
+     "rate": "r18–20",
+     "coachAm": "",
+     "coachPm": "",
+     "erg": [],
+     "form": null,
+     "formLabel": ""
+    },
+    {
+     "n": 2,
+     "label": "#2",
+     "kind": "Threshold",
+     "focus": "",
+     "workout": "3×15' AT r22 /3'",
+     "team": "",
+     "rate": "",
+     "coachAm": "",
+     "coachPm": "",
+     "erg": [],
+     "form": null,
+     "formLabel": ""
+    },
+    {
+     "n": 3,
+     "label": "#3",
+     "kind": "UT1, BW",
+     "focus": "",
+     "workout": "2×20' UT1 /2' + 20' body-weight circuit",
+     "team": "",
+     "rate": "r20–22",
+     "coachAm": "",
+     "coachPm": "",
+     "erg": [],
+     "form": null,
+     "formLabel": ""
+    },
+    {
+     "n": 4,
+     "label": "#4 (Sat Jan 9)",
+     "kind": "Saturday team",
+     "focus": "",
+     "workout": "8 x 500m / 3'30\" pace: goal 2k - 1",
+     "team": "mixed teams, switching ergs, closest to goal wins",
+     "rate": "r28–34",
+     "coachAm": "",
+     "coachPm": "",
+     "erg": [],
+     "form": null,
+     "formLabel": ""
+    }
+   ]
+  },
+  {
+   "wk": 10,
+   "phase": "Strength-endurance",
+   "type": "Race build",
+   "dates": "Jan 11–17",
+   "workouts": [
+    {
+     "n": 1,
+     "label": "#1",
+     "kind": "UT2",
+     "focus": "",
+     "workout": "60' UT2",
+     "team": "",
+     "rate": "r18–20",
+     "coachAm": "",
+     "coachPm": "",
+     "erg": [],
+     "form": null,
+     "formLabel": ""
+    },
+    {
+     "n": 2,
+     "label": "#2",
+     "kind": "Threshold",
+     "focus": "",
+     "workout": "2×20' AT /4'",
+     "team": "",
+     "rate": "r20–30",
+     "coachAm": "",
+     "coachPm": "",
+     "erg": [],
+     "form": null,
+     "formLabel": ""
+    },
+    {
+     "n": 3,
+     "label": "#3",
+     "kind": "UT2, BW",
+     "focus": "",
+     "workout": "45' UT2 + 20' body-weight circuit",
+     "team": "",
+     "rate": "r18–20",
+     "coachAm": "",
+     "coachPm": "",
+     "erg": [],
+     "form": null,
+     "formLabel": ""
+    },
+    {
+     "n": 4,
+     "label": "#4 (Sat Jan 16)",
+     "kind": "Saturday team",
+     "focus": "",
+     "workout": "3×1000m TR /4'",
+     "team": "mixed teams, switching ergs, fastest time wins",
+     "rate": "r26–30",
+     "coachAm": "",
+     "coachPm": "",
+     "erg": [],
+     "form": null,
+     "formLabel": ""
+    }
+   ]
+  },
+  {
+   "wk": 11,
+   "phase": "Strength-endurance",
+   "type": "Sharpen",
+   "dates": "Jan 18–24",
+   "workouts": [
+    {
+     "n": 1,
+     "label": "#1",
+     "kind": "UT2",
+     "focus": "",
+     "workout": "25' UT2, 20' UT1",
+     "team": "",
+     "rate": "r18–20",
+     "coachAm": "",
+     "coachPm": "",
+     "erg": [],
+     "form": null,
+     "formLabel": ""
+    },
+    {
+     "n": 2,
+     "label": "#2",
+     "kind": "Threshold",
+     "focus": "",
+     "workout": "30' rate ladder (r20/22/24) + 5×1' r30 /1'",
+     "team": "",
+     "rate": "",
+     "coachAm": "",
+     "coachPm": "",
+     "erg": [],
+     "form": null,
+     "formLabel": ""
+    },
+    {
+     "n": 3,
+     "label": "#3",
+     "kind": "UT2, BW",
+     "focus": "",
+     "workout": "35' UT2 + 20' body-weight circuit",
+     "team": "",
+     "rate": "r18–20",
+     "coachAm": "",
+     "coachPm": "",
+     "erg": [],
+     "form": null,
+     "formLabel": ""
+    },
+    {
+     "n": 4,
+     "label": "#4 (Sat Jan 23)",
+     "kind": "Saturday team",
+     "focus": "",
+     "workout": "1000m team race piece + 3×5' UT1 /2'",
+     "team": "Alexandria send-off: everyone races a 1000m, teams sum their times",
+     "rate": "r28–32 / r20–22",
+     "coachAm": "",
+     "coachPm": "",
+     "erg": [],
+     "form": null,
+     "formLabel": ""
+    }
+   ]
+  },
+  {
+   "wk": 12,
+   "phase": "Strength-endurance",
+   "type": "Race week",
+   "dates": "Jan 25–31",
+   "workouts": [
+    {
+     "n": 1,
+     "label": "#1",
+     "kind": "UT2, Race Prep",
+     "focus": "",
+     "workout": "40' UT2 + 3×250m race pace /2'",
+     "team": "",
+     "rate": "r18–20 / r28–32",
+     "coachAm": "",
+     "coachPm": "",
+     "erg": [],
+     "form": null,
+     "formLabel": ""
+    },
+    {
+     "n": 2,
+     "label": "#2",
+     "kind": "UT2, Race Prep",
+     "focus": "",
+     "workout": "30' UT2 + 4×1' race pace r30 /2'",
+     "team": "",
+     "rate": "",
+     "coachAm": "",
+     "coachPm": "",
+     "erg": [],
+     "form": null,
+     "formLabel": ""
+    },
+    {
+     "n": 3,
+     "label": "#3",
+     "kind": "UT2, Race Prep",
+     "focus": "",
+     "workout": "20' easy + 3×10 hard strokes",
+     "team": "",
+     "rate": "r18–20 / hard strokes r28–32",
+     "coachAm": "",
+     "coachPm": "",
+     "erg": [],
+     "form": null,
+     "formLabel": ""
+    },
+    {
+     "n": 4,
+     "label": "#4 (Sat Jan 30)",
+     "kind": "Saturday team",
+     "focus": "",
+     "workout": "RACE (Sat Jan 30): 2k, Alexandria Erg Sprints or at home with the team",
+     "team": "Race day: Competitive race at Alexandria; everyone else rows the same 2k at home and posts it to the team board",
+     "rate": "r28–32",
+     "coachAm": "",
+     "coachPm": "",
+     "erg": [],
+     "form": null,
+     "formLabel": ""
+    }
+   ]
+  },
+  {
+   "wk": 13,
+   "phase": "Strength-endurance",
+   "type": "Recovery",
+   "dates": "Feb 1–7",
+   "workouts": [
+    {
+     "n": 1,
+     "label": "#1",
+     "kind": "UT2",
+     "focus": "",
+     "workout": "40' UT2",
+     "team": "",
+     "rate": "r18–20",
+     "coachAm": "",
+     "coachPm": "",
+     "erg": [],
+     "form": null,
+     "formLabel": ""
+    },
+    {
+     "n": 2,
+     "label": "#2",
+     "kind": "Threshold",
+     "focus": "",
+     "workout": "2×10' AT /3'",
+     "team": "",
+     "rate": "r20–30",
+     "coachAm": "",
+     "coachPm": "",
+     "erg": [],
+     "form": null,
+     "formLabel": ""
+    },
+    {
+     "n": 3,
+     "label": "#3",
+     "kind": "UT2, BW",
+     "focus": "",
+     "workout": "25' UT2 + 20' body-weight circuit",
+     "team": "",
+     "rate": "r18–20",
+     "coachAm": "",
+     "coachPm": "",
+     "erg": [],
+     "form": null,
+     "formLabel": ""
+    },
+    {
+     "n": 4,
+     "label": "#4 (Sat Feb 6)",
+     "kind": "Saturday team",
+     "focus": "",
+     "workout": "2×12' pair relay at UT1 /4'",
+     "team": "Mixed-pair relay: pairs share each 12', swapping every 3'",
+     "rate": "r20–22",
+     "coachAm": "",
+     "coachPm": "",
+     "erg": [],
+     "form": null,
+     "formLabel": ""
+    }
+   ]
+  },
+  {
+   "wk": 14,
+   "phase": "Strength-endurance",
+   "type": "Build",
+   "dates": "Feb 8–14",
+   "workouts": [
+    {
+     "n": 1,
+     "label": "#1",
+     "kind": "UT2",
+     "focus": "",
+     "workout": "60' UT2",
+     "team": "",
+     "rate": "r18–20",
+     "coachAm": "",
+     "coachPm": "",
+     "erg": [],
+     "form": null,
+     "formLabel": ""
+    },
+    {
+     "n": 2,
+     "label": "#2",
+     "kind": "Threshold",
+     "focus": "",
+     "workout": "3×15' AT /3'",
+     "team": "",
+     "rate": "r20–30",
+     "coachAm": "",
+     "coachPm": "",
+     "erg": [],
+     "form": null,
+     "formLabel": ""
+    },
+    {
+     "n": 3,
+     "label": "#3",
+     "kind": "UT2, BW",
+     "focus": "",
+     "workout": "50' UT2 (or 2×25' /2') + 20' body-weight circuit",
+     "team": "",
+     "rate": "r18–20",
+     "coachAm": "",
+     "coachPm": "",
+     "erg": [],
+     "form": null,
+     "formLabel": ""
+    },
+    {
+     "n": 4,
+     "label": "#4 (Sat Feb 13)",
+     "kind": "Saturday team",
+     "focus": "",
+     "workout": "6×3' TR /2'30\"",
+     "team": "Same clock; team score = total meters",
+     "rate": "r26–30",
+     "coachAm": "",
+     "coachPm": "",
+     "erg": [],
+     "form": null,
+     "formLabel": ""
+    }
+   ]
+  },
+  {
+   "wk": 15,
+   "phase": "Strength-endurance",
+   "type": "Build",
+   "dates": "Feb 15–21",
+   "workouts": [
+    {
+     "n": 1,
+     "label": "#1",
+     "kind": "Steady",
+     "focus": "",
+     "workout": "35' UT2, 25' UT1",
+     "team": "",
+     "rate": "r18–20",
+     "coachAm": "",
+     "coachPm": "",
+     "erg": [],
+     "form": null,
+     "formLabel": ""
+    },
+    {
+     "n": 2,
+     "label": "#2",
+     "kind": "Threshold",
+     "focus": "",
+     "workout": "4×10' AT /2'",
+     "team": "",
+     "rate": "r20–30",
+     "coachAm": "",
+     "coachPm": "",
+     "erg": [],
+     "form": null,
+     "formLabel": ""
+    },
+    {
+     "n": 3,
+     "label": "#3",
+     "kind": "UT2, BW",
+     "focus": "",
+     "workout": "50' UT2 + 20' body-weight circuit",
+     "team": "",
+     "rate": "r18–20",
+     "coachAm": "",
+     "coachPm": "",
+     "erg": [],
+     "form": null,
+     "formLabel": ""
+    },
+    {
+     "n": 4,
+     "label": "#4 (Sat Feb 20)",
+     "kind": "Saturday team",
+     "focus": "",
+     "workout": "Pyramid 1-2-3-4-3-2-1' at TR /1'",
+     "team": "Team pyramid on one clock",
+     "rate": "1–2' r28–34 / 3–4' r26–30",
+     "coachAm": "",
+     "coachPm": "",
+     "erg": [],
+     "form": null,
+     "formLabel": ""
+    }
+   ]
+  },
+  {
+   "wk": 16,
+   "phase": "Strength-endurance",
+   "type": "Build",
+   "dates": "Feb 22–28",
+   "workouts": [
+    {
+     "n": 1,
+     "label": "#1",
+     "kind": "UT2",
+     "focus": "",
+     "workout": "65' UT2",
+     "team": "",
+     "rate": "r18–20",
+     "coachAm": "",
+     "coachPm": "",
+     "erg": [],
+     "form": null,
+     "formLabel": ""
+    },
+    {
+     "n": 2,
+     "label": "#2",
+     "kind": "Threshold",
+     "focus": "",
+     "workout": "4 x 12' AT /5'",
+     "team": "",
+     "rate": "r20–30",
+     "coachAm": "",
+     "coachPm": "",
+     "erg": [],
+     "form": null,
+     "formLabel": ""
+    },
+    {
+     "n": 3,
+     "label": "#3",
+     "kind": "UT2, BW",
+     "focus": "",
+     "workout": "50' UT2 + 20' body-weight circuit",
+     "team": "",
+     "rate": "r18–20",
+     "coachAm": "",
+     "coachPm": "",
+     "erg": [],
+     "form": null,
+     "formLabel": ""
+    },
+    {
+     "n": 4,
+     "label": "#4 (Sat Feb 27)",
+     "kind": "Saturday team",
+     "focus": "",
+     "workout": "5×5' TR /3'",
+     "team": "Same clock; team score = total meters",
+     "rate": "r20–30",
+     "coachAm": "",
+     "coachPm": "",
+     "erg": [],
+     "form": null,
+     "formLabel": ""
+    }
+   ]
+  },
+  {
+   "wk": 17,
+   "phase": "Race prep",
+   "type": "Lighter",
+   "dates": "Mar 1–7",
+   "workouts": [
+    {
+     "n": 1,
+     "label": "#1",
+     "kind": "UT2",
+     "focus": "",
+     "workout": "45' UT2",
+     "team": "",
+     "rate": "r18–20",
+     "coachAm": "",
+     "coachPm": "",
+     "erg": [],
+     "form": null,
+     "formLabel": ""
+    },
+    {
+     "n": 2,
+     "label": "#2",
+     "kind": "Threshold",
+     "focus": "",
+     "workout": "2×12' AT /3'",
+     "team": "",
+     "rate": "r20–30",
+     "coachAm": "",
+     "coachPm": "",
+     "erg": [],
+     "form": null,
+     "formLabel": ""
+    },
+    {
+     "n": 3,
+     "label": "#3",
+     "kind": "UT2, BW",
+     "focus": "",
+     "workout": "30' UT2 + 20' body-weight circuit",
+     "team": "",
+     "rate": "r18–20",
+     "coachAm": "",
+     "coachPm": "",
+     "erg": [],
+     "form": null,
+     "formLabel": ""
+    },
+    {
+     "n": 4,
+     "label": "#4 (Sat Mar 6)",
+     "kind": "Saturday team",
+     "focus": "",
+     "workout": "6×500m relay legs at race pace",
+     "team": "Team relay racing: mixed teams of 4 race six 4×500m relays",
+     "rate": "r28–32",
+     "coachAm": "",
+     "coachPm": "",
+     "erg": [],
+     "form": null,
+     "formLabel": ""
+    }
+   ]
+  },
+  {
+   "wk": 18,
+   "phase": "Race prep",
+   "type": "Build",
+   "dates": "Mar 8–14",
+   "workouts": [
+    {
+     "n": 1,
+     "label": "#1",
+     "kind": "UT2",
+     "focus": "",
+     "workout": "30' UT2, 30' UT1",
+     "team": "",
+     "rate": "r18–20",
+     "coachAm": "",
+     "coachPm": "",
+     "erg": [],
+     "form": null,
+     "formLabel": ""
+    },
+    {
+     "n": 2,
+     "label": "#2",
+     "kind": "Threshold",
+     "focus": "",
+     "workout": "30' rate ladder (r20/22/24) + 5×1' r30 /1'",
+     "team": "",
+     "rate": "",
+     "coachAm": "",
+     "coachPm": "",
+     "erg": [],
+     "form": null,
+     "formLabel": ""
+    },
+    {
+     "n": 3,
+     "label": "#3",
+     "kind": "UT2, BW",
+     "focus": "",
+     "workout": "40' UT2 + 20' body-weight circuit",
+     "team": "",
+     "rate": "r18–20",
+     "coachAm": "",
+     "coachPm": "",
+     "erg": [],
+     "form": null,
+     "formLabel": ""
+    },
+    {
+     "n": 4,
+     "label": "#4 (Sat Mar 13)",
+     "kind": "Saturday team",
+     "focus": "",
+     "workout": "3×1000m TR /5'",
+     "team": "Same clock 1000's; team score = combined time",
+     "rate": "r26–30",
+     "coachAm": "",
+     "coachPm": "",
+     "erg": [],
+     "form": null,
+     "formLabel": ""
+    }
+   ]
+  },
+  {
+   "wk": 19,
+   "phase": "Race prep",
+   "type": "Hardest",
+   "dates": "Mar 15–21",
+   "workouts": [
+    {
+     "n": 1,
+     "label": "#1",
+     "kind": "UT2",
+     "focus": "",
+     "workout": "60' UT2",
+     "team": "",
+     "rate": "r18–20",
+     "coachAm": "",
+     "coachPm": "",
+     "erg": [],
+     "form": null,
+     "formLabel": ""
+    },
+    {
+     "n": 2,
+     "label": "#2",
+     "kind": "Threshold",
+     "focus": "",
+     "workout": "2×15' AT /4'",
+     "team": "",
+     "rate": "r20–30",
+     "coachAm": "",
+     "coachPm": "",
+     "erg": [],
+     "form": null,
+     "formLabel": ""
+    },
+    {
+     "n": 3,
+     "label": "#3",
+     "kind": "UT2, BW",
+     "focus": "",
+     "workout": "45' UT2 + 20' body-weight circuit",
+     "team": "",
+     "rate": "r18–20",
+     "coachAm": "",
+     "coachPm": "",
+     "erg": [],
+     "form": null,
+     "formLabel": ""
+    },
+    {
+     "n": 4,
+     "label": "#4 (Sat Mar 20)",
+     "kind": "Saturday team",
+     "focus": "",
+     "workout": "2×500m relay legs at race pace + 3×5' UT1 /2'",
+     "team": "Team 2k racing: mixed teams of 4 race a 4×500m relay twice",
+     "rate": "r28–32 / r20–22",
+     "coachAm": "",
+     "coachPm": "",
+     "erg": [],
+     "form": null,
+     "formLabel": ""
+    }
+   ]
+  },
+  {
+   "wk": 20,
+   "phase": "Race prep",
+   "type": "Taper + test",
+   "dates": "Mar 22–28",
+   "workouts": [
+    {
+     "n": 1,
+     "label": "#1",
+     "kind": "UT2",
+     "focus": "",
+     "workout": "40' UT2",
+     "team": "",
+     "rate": "r18–20",
+     "coachAm": "",
+     "coachPm": "",
+     "erg": [],
+     "form": null,
+     "formLabel": ""
+    },
+    {
+     "n": 2,
+     "label": "#2",
+     "kind": "TR",
+     "focus": "",
+     "workout": "4×500m RP /3'",
+     "team": "",
+     "rate": "r28–32",
+     "coachAm": "",
+     "coachPm": "",
+     "erg": [],
+     "form": null,
+     "formLabel": ""
+    },
+    {
+     "n": 3,
+     "label": "#3",
+     "kind": "Long steady",
+     "focus": "",
+     "workout": "30' easy UT2 (taper for Saturday's 2k)",
+     "team": "",
+     "rate": "r18–20",
+     "coachAm": "",
+     "coachPm": "",
+     "erg": [],
+     "form": null,
+     "formLabel": ""
+    },
+    {
+     "n": 4,
+     "label": "#4 (Sat Mar 27)",
+     "kind": "Saturday team",
+     "focus": "",
+     "workout": "TEST: 2k (Competitive: final test; F&C: compare to Jan 30)",
+     "team": "Final team test day: everyone rows a 2k, teams sum their times",
+     "rate": "r28–32",
+     "coachAm": "",
+     "coachPm": "",
+     "erg": [],
+     "form": null,
+     "formLabel": ""
+    }
+   ]
+  },
+  {
+   "wk": 21,
+   "phase": "Transition",
+   "type": "Wrap-up",
+   "dates": "Mar 29–31",
+   "workouts": [
+    {
+     "n": 1,
+     "label": "#1",
+     "kind": "UT2",
+     "focus": "",
+     "workout": "40' easy UT2",
+     "team": "",
+     "rate": "r18–20",
+     "coachAm": "",
+     "coachPm": "",
+     "erg": [],
+     "form": null,
+     "formLabel": ""
+    },
+    {
+     "n": 2,
+     "label": "#2",
+     "kind": "UT2",
+     "focus": "",
+     "workout": "Season-end team row",
+     "team": "",
+     "rate": "r18–20",
+     "coachAm": "",
+     "coachPm": "",
+     "erg": [],
+     "form": null,
+     "formLabel": ""
+    }
+   ]
+  }
+ ],
+ "fitness": [
+  {
+   "wk": 1,
+   "phase": "Foundation",
+   "type": "Test",
+   "dates": "Nov 2–8",
+   "workouts": [
+    {
+     "n": 1,
+     "label": "#1",
+     "kind": "UT2, BW",
+     "focus": "Body Prep",
+     "workout": "15' technique drills + 20' UT2 + 20' body-weight circuit #1",
+     "team": "",
+     "rate": "r18–20",
+     "coachAm": "Jay Evans",
+     "coachPm": "Kari Hughes",
+     "erg": [],
+     "form": null,
+     "formLabel": ""
+    },
+    {
+     "n": 2,
+     "label": "#2",
+     "kind": "UT2, AT",
+     "focus": "",
+     "workout": "30' UT2 + 8' AT (2', 3', 3')",
+     "team": "",
+     "rate": "r18–20",
+     "coachAm": "",
+     "coachPm": "All Hands",
+     "erg": [],
+     "form": null,
+     "formLabel": ""
+    },
+    {
+     "n": 3,
+     "label": "#3 (Sat Nov 7)",
+     "kind": "UT1/AT",
+     "focus": "",
+     "workout": "TEST: 20' @ 22 test",
+     "team": "Team test day: everyone starts together; Competitive row a 5k, F&C a 20' test",
+     "rate": "r22",
+     "coachAm": "",
+     "coachPm": "",
+     "erg": [
+      {
+       "label": "UT1/AT",
+       "url": "https://workout.ergdata.com/shared/mkjsdnfj"
+      }
+     ],
+     "form": "https://forms.gle/h5mmDUdaSBpb3D31A",
+     "formLabel": "20' @ 22 spm"
+    }
+   ]
+  },
+  {
+   "wk": 2,
+   "phase": "Foundation",
+   "type": "Build",
+   "dates": "Nov 9–15",
+   "workouts": [
+    {
+     "n": 1,
+     "label": "#1",
+     "kind": "UT2, BW",
+     "focus": "",
+     "workout": "30' UT2 + 20' body-weight circuit",
+     "team": "",
+     "rate": "r18–20",
+     "coachAm": "",
+     "coachPm": "",
+     "erg": [],
+     "form": null,
+     "formLabel": ""
+    },
+    {
+     "n": 2,
+     "label": "#2",
+     "kind": "UT1, B@",
+     "focus": "",
+     "workout": "30' UT1 + 20' body-weight circuit",
+     "team": "",
+     "rate": "r18–20",
+     "coachAm": "",
+     "coachPm": "",
+     "erg": [],
+     "form": null,
+     "formLabel": ""
+    },
+    {
+     "n": 3,
+     "label": "#3 (Sat Nov 14)",
+     "kind": "Saturday team",
+     "focus": "",
+     "workout": "6×3' TR /2'",
+     "team": "Same clock, mixed teams; team score = total meters",
+     "rate": "r20–30",
+     "coachAm": "",
+     "coachPm": "",
+     "erg": [],
+     "form": null,
+     "formLabel": ""
+    }
+   ]
+  },
+  {
+   "wk": 3,
+   "phase": "Foundation",
+   "type": "Build",
+   "dates": "Nov 16–22",
+   "workouts": [
+    {
+     "n": 1,
+     "label": "#1",
+     "kind": "UT2, AT",
+     "focus": "",
+     "workout": "35' UT2 + 10' AT",
+     "team": "",
+     "rate": "r18–20",
+     "coachAm": "",
+     "coachPm": "",
+     "erg": [],
+     "form": null,
+     "formLabel": ""
+    },
+    {
+     "n": 2,
+     "label": "#2",
+     "kind": "UT2, TR",
+     "focus": "",
+     "workout": "30' UT2 + 3 x (40\" on / 20\" off) r 26 28 30",
+     "team": "",
+     "rate": "r18–20",
+     "coachAm": "",
+     "coachPm": "",
+     "erg": [],
+     "form": null,
+     "formLabel": ""
+    },
+    {
+     "n": 3,
+     "label": "#3 (Sat Nov 21)",
+     "kind": "Saturday team",
+     "focus": "",
+     "workout": "5x4' TR /2'",
+     "team": "Same clock, mixed teams; team score = total meters",
+     "rate": "r20–30",
+     "coachAm": "",
+     "coachPm": "",
+     "erg": [],
+     "form": null,
+     "formLabel": ""
+    }
+   ]
+  },
+  {
+   "wk": 4,
+   "phase": "Foundation",
+   "type": "Lighter",
+   "dates": "Nov 23–29",
+   "workouts": [
+    {
+     "n": 1,
+     "label": "#1",
+     "kind": "UT2, BW",
+     "focus": "",
+     "workout": "20' UT2 + 20' body-weight circuit",
+     "team": "",
+     "rate": "r18–20",
+     "coachAm": "",
+     "coachPm": "",
+     "erg": [],
+     "form": null,
+     "formLabel": ""
+    },
+    {
+     "n": 2,
+     "label": "#2",
+     "kind": "UT2, AT",
+     "focus": "",
+     "workout": "30' UT2 + 12' AT",
+     "team": "",
+     "rate": "r18–20",
+     "coachAm": "",
+     "coachPm": "",
+     "erg": [],
+     "form": null,
+     "formLabel": ""
+    },
+    {
+     "n": 3,
+     "label": "#3 (Sat Nov 28)",
+     "kind": "Saturday team",
+     "focus": "",
+     "workout": "40' team relay (~10' each) at UT1",
+     "team": "Thanksgiving pie relay: mixed row 40' total, swap every 2'30\"",
+     "rate": "r20–22",
+     "coachAm": "",
+     "coachPm": "",
+     "erg": [],
+     "form": null,
+     "formLabel": ""
+    }
+   ]
+  },
+  {
+   "wk": 5,
+   "phase": "Aerobic build",
+   "type": "Build",
+   "dates": "Nov 30 – Dec 6",
+   "workouts": [
+    {
+     "n": 1,
+     "label": "#1",
+     "kind": "UT1, BW",
+     "focus": "",
+     "workout": "20' UT1 + 20' body-weight circuit",
+     "team": "",
+     "rate": "r20 - 22",
+     "coachAm": "",
+     "coachPm": "",
+     "erg": [],
+     "form": null,
+     "formLabel": ""
+    },
+    {
+     "n": 2,
+     "label": "#2",
+     "kind": "UT2",
+     "focus": "",
+     "workout": "2×20' UT2 /2'",
+     "team": "",
+     "rate": "r18–20",
+     "coachAm": "",
+     "coachPm": "",
+     "erg": [],
+     "form": null,
+     "formLabel": ""
+    },
+    {
+     "n": 3,
+     "label": "#3 (Sat Dec 5)",
+     "kind": "Saturday team",
+     "focus": "",
+     "workout": "8 x 500m / 3'30\" pace: goal 2k - 1",
+     "team": "mixed teams, switching ergs, closest to goal wins",
+     "rate": "r26–30",
+     "coachAm": "",
+     "coachPm": "",
+     "erg": [],
+     "form": null,
+     "formLabel": ""
+    }
+   ]
+  },
+  {
+   "wk": 6,
+   "phase": "Aerobic build",
+   "type": "Build",
+   "dates": "Dec 7–13",
+   "workouts": [
+    {
+     "n": 1,
+     "label": "#1",
+     "kind": "UT2, BW",
+     "focus": "",
+     "workout": "30' UT2 + 20' body-weight circuit",
+     "team": "",
+     "rate": "r18–20",
+     "coachAm": "",
+     "coachPm": "",
+     "erg": [],
+     "form": null,
+     "formLabel": ""
+    },
+    {
+     "n": 2,
+     "label": "#2",
+     "kind": "UT2",
+     "focus": "",
+     "workout": "45' UT2",
+     "team": "",
+     "rate": "r18–20",
+     "coachAm": "",
+     "coachPm": "",
+     "erg": [],
+     "form": null,
+     "formLabel": ""
+    },
+    {
+     "n": 3,
+     "label": "#3 (Sat Dec 12)",
+     "kind": "Saturday team",
+     "focus": "",
+     "workout": "2k or 20' test",
+     "team": "",
+     "rate": "r22",
+     "coachAm": "",
+     "coachPm": "",
+     "erg": [],
+     "form": null,
+     "formLabel": ""
+    }
+   ]
+  },
+  {
+   "wk": 7,
+   "phase": "Aerobic build",
+   "type": "Build",
+   "dates": "Dec 14–20",
+   "workouts": [
+    {
+     "n": 1,
+     "label": "#1",
+     "kind": "UT1, TR BW",
+     "focus": "",
+     "workout": "20' UT1 + 4 x (90\" on, 30\" off) + 20' body-weight circuit",
+     "team": "",
+     "rate": "r20 - 22",
+     "coachAm": "",
+     "coachPm": "",
+     "erg": [],
+     "form": null,
+     "formLabel": ""
+    },
+    {
+     "n": 2,
+     "label": "#2",
+     "kind": "UT2",
+     "focus": "",
+     "workout": "45' UT2",
+     "team": "",
+     "rate": "r18–20",
+     "coachAm": "",
+     "coachPm": "",
+     "erg": [],
+     "form": null,
+     "formLabel": ""
+    },
+    {
+     "n": 3,
+     "label": "#3 (Sat Dec 19)",
+     "kind": "Saturday team",
+     "focus": "",
+     "workout": "5×500m relay turns (10k per team) at short TR",
+     "team": "Holiday 10k team relay: mixed teams, 500m turns; ugly sweaters encouraged",
+     "rate": "r28–34",
+     "coachAm": "",
+     "coachPm": "",
+     "erg": [],
+     "form": null,
+     "formLabel": ""
+    }
+   ]
+  },
+  {
+   "wk": 0,
+   "phase": "",
+   "type": "Off",
+   "dates": "Dec 21–27",
+   "workouts": [
+    {
+     "n": 0,
+     "label": "—",
+     "kind": "",
+     "focus": "",
+     "workout": "No team sessions; walk, bike or ski if you like",
+     "team": "",
+     "rate": "",
+     "coachAm": "",
+     "coachPm": "",
+     "erg": [],
+     "form": null,
+     "formLabel": ""
+    }
+   ]
+  },
+  {
+   "wk": 8,
+   "phase": "Aerobic build",
+   "type": "Lighter",
+   "dates": "Dec 28 – Jan 3",
+   "workouts": [
+    {
+     "n": 1,
+     "label": "#1",
+     "kind": "UT2, UT1, BW",
+     "focus": "",
+     "workout": "10' UT2 + 10 UT1 + 20' body-weight circuit",
+     "team": "",
+     "rate": "r18–20",
+     "coachAm": "",
+     "coachPm": "",
+     "erg": [],
+     "form": null,
+     "formLabel": ""
+    },
+    {
+     "n": 2,
+     "label": "#2",
+     "kind": "UT2, BW",
+     "focus": "",
+     "workout": "30' UT2 + 20' body-weight circuit",
+     "team": "",
+     "rate": "r18–20",
+     "coachAm": "",
+     "coachPm": "",
+     "erg": [],
+     "form": null,
+     "formLabel": ""
+    },
+    {
+     "n": 3,
+     "label": "#3 (Sat Jan 2)",
+     "kind": "Saturday team",
+     "focus": "",
+     "workout": "4×4' TR /3'",
+     "team": "New Year same clock: each team sets a meters goal based up on 11/21 workout and tries to beat it",
+     "rate": "r26–30",
+     "coachAm": "",
+     "coachPm": "",
+     "erg": [],
+     "form": null,
+     "formLabel": ""
+    }
+   ]
+  },
+  {
+   "wk": 9,
+   "phase": "Strength endurance",
+   "type": "Build",
+   "dates": "Jan 4–10",
+   "workouts": [
+    {
+     "n": 1,
+     "label": "#1",
+     "kind": "UT2",
+     "focus": "",
+     "workout": "40' UT2",
+     "team": "",
+     "rate": "r18–20",
+     "coachAm": "",
+     "coachPm": "",
+     "erg": [],
+     "form": null,
+     "formLabel": ""
+    },
+    {
+     "n": 2,
+     "label": "#2",
+     "kind": "UT2, BW",
+     "focus": "",
+     "workout": "25' UT2 + 20' body-weight circuit",
+     "team": "",
+     "rate": "r18–20",
+     "coachAm": "",
+     "coachPm": "",
+     "erg": [],
+     "form": null,
+     "formLabel": ""
+    },
+    {
+     "n": 3,
+     "label": "#3 (Sat Jan 9)",
+     "kind": "Saturday team",
+     "focus": "",
+     "workout": "8 x 500m / 3'30\" pace: goal 2k - 1",
+     "team": "mixed teams, switching ergs, closest to goal wins",
+     "rate": "r28–34",
+     "coachAm": "",
+     "coachPm": "",
+     "erg": [],
+     "form": null,
+     "formLabel": ""
+    }
+   ]
+  },
+  {
+   "wk": 10,
+   "phase": "Strength endurance",
+   "type": "Build",
+   "dates": "Jan 11–17",
+   "workouts": [
+    {
+     "n": 1,
+     "label": "#1",
+     "kind": "UT2",
+     "focus": "",
+     "workout": "40' UT2",
+     "team": "",
+     "rate": "r18–20",
+     "coachAm": "",
+     "coachPm": "",
+     "erg": [],
+     "form": null,
+     "formLabel": ""
+    },
+    {
+     "n": 2,
+     "label": "#2",
+     "kind": "UT1, BW",
+     "focus": "",
+     "workout": "2×15' UT1 /2' + 20' body-weight circuit",
+     "team": "",
+     "rate": "r18–20",
+     "coachAm": "",
+     "coachPm": "",
+     "erg": [],
+     "form": null,
+     "formLabel": ""
+    },
+    {
+     "n": 3,
+     "label": "#3 (Sat Jan 16)",
+     "kind": "Saturday team",
+     "focus": "",
+     "workout": "3×1000m TR /4'",
+     "team": "mixed teams, switching ergs, fastest time wins",
+     "rate": "r26–30",
+     "coachAm": "",
+     "coachPm": "",
+     "erg": [],
+     "form": null,
+     "formLabel": ""
+    }
+   ]
+  },
+  {
+   "wk": 11,
+   "phase": "Strength endurance",
+   "type": "Build",
+   "dates": "Jan 18–24",
+   "workouts": [
+    {
+     "n": 1,
+     "label": "#1",
+     "kind": "UT2",
+     "focus": "",
+     "workout": "45' UT2",
+     "team": "",
+     "rate": "r18–20",
+     "coachAm": "",
+     "coachPm": "",
+     "erg": [],
+     "form": null,
+     "formLabel": ""
+    },
+    {
+     "n": 2,
+     "label": "#2",
+     "kind": "UT2, BW",
+     "focus": "",
+     "workout": "30' UT2 + 20' body-weight circuit",
+     "team": "",
+     "rate": "r18–20",
+     "coachAm": "",
+     "coachPm": "",
+     "erg": [],
+     "form": null,
+     "formLabel": ""
+    },
+    {
+     "n": 3,
+     "label": "#3 (Sat Jan 23)",
+     "kind": "Saturday team",
+     "focus": "",
+     "workout": "1000m team race piece + 3×5' UT1 /2'",
+     "team": "Alexandria send-off: everyone races a 1000m, teams sum their times",
+     "rate": "r28–32 / r20–22",
+     "coachAm": "",
+     "coachPm": "",
+     "erg": [],
+     "form": null,
+     "formLabel": ""
+    }
+   ]
+  },
+  {
+   "wk": 12,
+   "phase": "Strength endurance",
+   "type": "Lighter + test",
+   "dates": "Jan 25–31",
+   "workouts": [
+    {
+     "n": 1,
+     "label": "#1",
+     "kind": "UT2, TR",
+     "focus": "",
+     "workout": "40' UT2 + 3×250m race pace /2'",
+     "team": "",
+     "rate": "r18–20",
+     "coachAm": "",
+     "coachPm": "",
+     "erg": [],
+     "form": null,
+     "formLabel": ""
+    },
+    {
+     "n": 2,
+     "label": "#2",
+     "kind": "UT2, TR",
+     "focus": "",
+     "workout": "30' UT2 + 4×1' race pace r30 /2'",
+     "team": "",
+     "rate": "r18–20",
+     "coachAm": "",
+     "coachPm": "",
+     "erg": [],
+     "form": null,
+     "formLabel": ""
+    },
+    {
+     "n": 3,
+     "label": "#3 (Sat Jan 30)",
+     "kind": "Saturday team",
+     "focus": "",
+     "workout": "RACE (Sat Jan 30): 2k, Alexandria Erg Sprints or at home with the team",
+     "team": "Race day: Competitive race at Alexandria; everyone else rows the same 2k at home and posts it to the team board",
+     "rate": "r28–32",
+     "coachAm": "",
+     "coachPm": "",
+     "erg": [],
+     "form": null,
+     "formLabel": ""
+    }
+   ]
+  },
+  {
+   "wk": 13,
+   "phase": "Strength endurance",
+   "type": "Build",
+   "dates": "Feb 1–7",
+   "workouts": [
+    {
+     "n": 1,
+     "label": "#1",
+     "kind": "UT2, BW",
+     "focus": "",
+     "workout": "20' UT2 + 20' body-weight circuit",
+     "team": "",
+     "rate": "r18–20",
+     "coachAm": "",
+     "coachPm": "",
+     "erg": [],
+     "form": null,
+     "formLabel": ""
+    },
+    {
+     "n": 2,
+     "label": "#2",
+     "kind": "UT2",
+     "focus": "",
+     "workout": "50' UT2",
+     "team": "",
+     "rate": "r18–20",
+     "coachAm": "",
+     "coachPm": "",
+     "erg": [],
+     "form": null,
+     "formLabel": ""
+    },
+    {
+     "n": 3,
+     "label": "#3 (Sat Feb 6)",
+     "kind": "Saturday team",
+     "focus": "",
+     "workout": "2×12' pair relay at UT1 /4'",
+     "team": "Mixed-pair relay: pairs share each 12', swapping every 3'",
+     "rate": "r20–22",
+     "coachAm": "",
+     "coachPm": "",
+     "erg": [],
+     "form": null,
+     "formLabel": ""
+    }
+   ]
+  },
+  {
+   "wk": 14,
+   "phase": "Strength endurance",
+   "type": "Build",
+   "dates": "Feb 8–14",
+   "workouts": [
+    {
+     "n": 1,
+     "label": "#1",
+     "kind": "UT2, BW",
+     "focus": "",
+     "workout": "25' UT2 + 20' body-weight circuit",
+     "team": "",
+     "rate": "r18–20",
+     "coachAm": "",
+     "coachPm": "",
+     "erg": [],
+     "form": null,
+     "formLabel": ""
+    },
+    {
+     "n": 2,
+     "label": "#2",
+     "kind": "UT2",
+     "focus": "",
+     "workout": "50' UT2",
+     "team": "",
+     "rate": "r18–20",
+     "coachAm": "",
+     "coachPm": "",
+     "erg": [],
+     "form": null,
+     "formLabel": ""
+    },
+    {
+     "n": 3,
+     "label": "#3 (Sat Feb 13)",
+     "kind": "Saturday team",
+     "focus": "",
+     "workout": "6×3' TR /2'30\"",
+     "team": "Same clock; team score = total meters",
+     "rate": "r26–30",
+     "coachAm": "",
+     "coachPm": "",
+     "erg": [],
+     "form": null,
+     "formLabel": ""
+    }
+   ]
+  },
+  {
+   "wk": 15,
+   "phase": "Strength endurance",
+   "type": "Build",
+   "dates": "Feb 15–21",
+   "workouts": [
+    {
+     "n": 1,
+     "label": "#1",
+     "kind": "UT2, BW",
+     "focus": "",
+     "workout": "25' UT2 + 20' body-weight circuit",
+     "team": "",
+     "rate": "r18–20",
+     "coachAm": "",
+     "coachPm": "",
+     "erg": [],
+     "form": null,
+     "formLabel": ""
+    },
+    {
+     "n": 2,
+     "label": "#2",
+     "kind": "UT2",
+     "focus": "",
+     "workout": "55' UT2",
+     "team": "",
+     "rate": "r18–20",
+     "coachAm": "",
+     "coachPm": "",
+     "erg": [],
+     "form": null,
+     "formLabel": ""
+    },
+    {
+     "n": 3,
+     "label": "#3 (Sat Feb 20)",
+     "kind": "Saturday team",
+     "focus": "",
+     "workout": "Pyramid 1-2-3-4-3-2-1' at TR /1'",
+     "team": "Team pyramid on one clock",
+     "rate": "1–2' r28–34 / 3–4' r26–30",
+     "coachAm": "",
+     "coachPm": "",
+     "erg": [],
+     "form": null,
+     "formLabel": ""
+    }
+   ]
+  },
+  {
+   "wk": 16,
+   "phase": "Strength endurance",
+   "type": "Lighter",
+   "dates": "Feb 22–28",
+   "workouts": [
+    {
+     "n": 1,
+     "label": "#1",
+     "kind": "UT2, BW",
+     "focus": "",
+     "workout": "20' UT2 + 20' body-weight circuit",
+     "team": "",
+     "rate": "r18–20",
+     "coachAm": "",
+     "coachPm": "",
+     "erg": [],
+     "form": null,
+     "formLabel": ""
+    },
+    {
+     "n": 2,
+     "label": "#2",
+     "kind": "UT2, BW",
+     "focus": "",
+     "workout": "20' UT2 + 20' body-weight circuit",
+     "team": "",
+     "rate": "r18–20",
+     "coachAm": "",
+     "coachPm": "",
+     "erg": [],
+     "form": null,
+     "formLabel": ""
+    },
+    {
+     "n": 3,
+     "label": "#3 (Sat Feb 27)",
+     "kind": "Saturday team",
+     "focus": "",
+     "workout": "5×5' AT /3'",
+     "team": "Same clock; team score = total meters",
+     "rate": "r20–30",
+     "coachAm": "",
+     "coachPm": "",
+     "erg": [],
+     "form": null,
+     "formLabel": ""
+    }
+   ]
+  },
+  {
+   "wk": 17,
+   "phase": "Race prep",
+   "type": "Build",
+   "dates": "Mar 1–7",
+   "workouts": [
+    {
+     "n": 1,
+     "label": "#1",
+     "kind": "UT2",
+     "focus": "",
+     "workout": "45' UT2",
+     "team": "",
+     "rate": "r18–20",
+     "coachAm": "",
+     "coachPm": "",
+     "erg": [],
+     "form": null,
+     "formLabel": ""
+    },
+    {
+     "n": 2,
+     "label": "#2",
+     "kind": "UT2, BW",
+     "focus": "",
+     "workout": "30' UT2 + 20' body-weight circuit",
+     "team": "",
+     "rate": "r18–20",
+     "coachAm": "",
+     "coachPm": "",
+     "erg": [],
+     "form": null,
+     "formLabel": ""
+    },
+    {
+     "n": 3,
+     "label": "#3 (Sat Mar 6)",
+     "kind": "Saturday team",
+     "focus": "",
+     "workout": "6×500m relay legs at race pace",
+     "team": "Team relay racing: mixed teams of 4 race six 4×500m relays",
+     "rate": "r28–32",
+     "coachAm": "",
+     "coachPm": "",
+     "erg": [],
+     "form": null,
+     "formLabel": ""
+    }
+   ]
+  },
+  {
+   "wk": 18,
+   "phase": "Race prep",
+   "type": "Build",
+   "dates": "Mar 8–14",
+   "workouts": [
+    {
+     "n": 1,
+     "label": "#1",
+     "kind": "UT2",
+     "focus": "",
+     "workout": "45' UT2",
+     "team": "",
+     "rate": "r18–20",
+     "coachAm": "",
+     "coachPm": "",
+     "erg": [],
+     "form": null,
+     "formLabel": ""
+    },
+    {
+     "n": 2,
+     "label": "#2",
+     "kind": "UT2, BW",
+     "focus": "",
+     "workout": "35' UT2 + 20' body-weight circuit",
+     "team": "",
+     "rate": "r18–20",
+     "coachAm": "",
+     "coachPm": "",
+     "erg": [],
+     "form": null,
+     "formLabel": ""
+    },
+    {
+     "n": 3,
+     "label": "#3 (Sat Mar 13)",
+     "kind": "Saturday team",
+     "focus": "",
+     "workout": "3×1000m TR /5'",
+     "team": "Same clock 1000's; team score = combined time",
+     "rate": "r26–30",
+     "coachAm": "",
+     "coachPm": "",
+     "erg": [],
+     "form": null,
+     "formLabel": ""
+    }
+   ]
+  },
+  {
+   "wk": 19,
+   "phase": "Race prep",
+   "type": "Build",
+   "dates": "Mar 15–21",
+   "workouts": [
+    {
+     "n": 1,
+     "label": "#1",
+     "kind": "UT2",
+     "focus": "",
+     "workout": "45' UT2",
+     "team": "",
+     "rate": "r18–20",
+     "coachAm": "",
+     "coachPm": "",
+     "erg": [],
+     "form": null,
+     "formLabel": ""
+    },
+    {
+     "n": 2,
+     "label": "#2",
+     "kind": "UT2, BW",
+     "focus": "",
+     "workout": "35' UT2 + 20' body-weight circuit",
+     "team": "",
+     "rate": "r18–20",
+     "coachAm": "",
+     "coachPm": "",
+     "erg": [],
+     "form": null,
+     "formLabel": ""
+    },
+    {
+     "n": 3,
+     "label": "#3 (Sat Mar 20)",
+     "kind": "Saturday team",
+     "focus": "",
+     "workout": "2×500m relay legs at race pace + 3×5' UT1 /2'",
+     "team": "Team 2k racing: mixed teams of 4 race a 4×500m relay twice",
+     "rate": "r28–32 / r20–22",
+     "coachAm": "",
+     "coachPm": "",
+     "erg": [],
+     "form": null,
+     "formLabel": ""
+    }
+   ]
+  },
+  {
+   "wk": 20,
+   "phase": "Race prep",
+   "type": "Lighter + test",
+   "dates": "Mar 22–28",
+   "workouts": [
+    {
+     "n": 1,
+     "label": "#1",
+     "kind": "UT2, TR",
+     "focus": "",
+     "workout": "40' UT2 + 3×250m race pace /2'",
+     "team": "",
+     "rate": "r18–20",
+     "coachAm": "",
+     "coachPm": "",
+     "erg": [],
+     "form": null,
+     "formLabel": ""
+    },
+    {
+     "n": 2,
+     "label": "#2",
+     "kind": "UT2, TR",
+     "focus": "",
+     "workout": "30' UT2 + 4×1' race pace r30 /2'",
+     "team": "",
+     "rate": "r18–20",
+     "coachAm": "",
+     "coachPm": "",
+     "erg": [],
+     "form": null,
+     "formLabel": ""
+    },
+    {
+     "n": 3,
+     "label": "#3 (Sat Mar 27)",
+     "kind": "Saturday team",
+     "focus": "",
+     "workout": "TEST: 2k (Competitive: final test; F&C: compare to Jan 30)",
+     "team": "Final team test day: everyone rows a 2k, teams sum their times",
+     "rate": "r28–32",
+     "coachAm": "",
+     "coachPm": "",
+     "erg": [],
+     "form": null,
+     "formLabel": ""
+    }
+   ]
+  },
+  {
+   "wk": 21,
+   "phase": "Transition",
+   "type": "Wrap-up",
+   "dates": "Mar 29–31",
+   "workouts": [
+    {
+     "n": 1,
+     "label": "#1",
+     "kind": "UT2",
+     "focus": "",
+     "workout": "30' easy",
+     "team": "",
+     "rate": "r18–20",
+     "coachAm": "",
+     "coachPm": "",
+     "erg": [],
+     "form": null,
+     "formLabel": ""
+    },
+    {
+     "n": 2,
+     "label": "#2",
+     "kind": "UT2",
+     "focus": "",
+     "workout": "Season-end team row",
+     "team": "",
+     "rate": "r18–20",
+     "coachAm": "",
+     "coachPm": "",
+     "erg": [],
+     "form": null,
+     "formLabel": ""
+    }
+   ]
+  }
+ ]
+}
