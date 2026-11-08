@@ -1,18 +1,665 @@
 {
- "comp-1-1": {
-  "tab": "Comp Wk1 Wo1",
+ "comp-2-1": {
+  "tab": "Comp Wk2 Wo1",
   "erg": [
    {
-    "label": "ErgData workout",
-    "url": "https://workout.ergdata.com/shared/vhgqt8za"
+    "label": "UT2",
+    "url": "https://workout.ergdata.com/shared/worefoas"
    }
   ],
   "coach": [
-   "11.2 am Sophie Westfield",
-   "11.3 pm Kari Hughes"
+   "11.9 am Sophie Westfield",
+   "11.10 pm Evan Rea"
+  ],
+  "focus": "Suspension",
+  "type": "UT2",
+  "dynamic": [
+   "10 jumping jacks",
+   "10 seal jacks",
+   "10 pancakes",
+   "10 arm circles (5 forward, 5 back)",
+   "10 monkeys",
+   "10 I's",
+   "10 Y's",
+   "10 T's",
+   "10 Windmills",
+   "10 Around the Worlds",
+   "10 sit, spin, reach (5 each side)",
+   "10 kicks (each side)",
+   "10 Spidermans",
+   "10 push ups"
+  ],
+  "dynamicLink": "https://drive.google.com/file/d/1Y63MDfROopiRK4V9vX1bb-Rbu7gB4y7X/view",
+  "video": "https://app.coachnow.io/i/b7d058bb74/02be",
+  "form": null,
+  "warmup": [
+   {
+    "t": "1' @ 18 - 20 @ 1/2 pressure",
+    "i": 0
+   },
+   {
+    "t": "Reverse pick drill x 10 strokes",
+    "i": 0
+   },
+   {
+    "t": "top 1/4, top 1/2, legs only, legs + hips, full stroke",
+    "i": 1
+   },
+   {
+    "t": "focus: suspension through the drive",
+    "i": 1
+   },
+   {
+    "t": "1' @ 18 - 20 @ 3/4 pressure, focus on suspension",
+    "i": 0
+   }
+  ],
+  "workout": [
+   {
+    "t": "20', 15', 10'  UT2 (relaxed steady state, able to hold a conversation, perceived exertion around 3-4 on a scale of 1-10)",
+    "i": 0
+   },
+   {
+    "t": "20': 8', 6', 4', 2' @ 16, 18, 20, 22",
+    "i": 0
+   },
+   {
+    "t": "rest = 2'",
+    "i": 0
+   },
+   {
+    "t": "15': 10, 20, 30, 20, 10, 20, ... @ 20, 18, 16, 18, 20, 18...",
+    "i": 0
+   },
+   {
+    "t": "rest = 2'",
+    "i": 0
+   },
+   {
+    "t": "10':  2 x (2', 2', 1') @ 18, 20, 22",
+    "i": 0
+   }
+  ],
+  "cooldown": [
+   {
+    "t": "5' cooldown on erg",
+    "i": 0
+   }
+  ]
+ },
+ "comp-2-2": {
+  "tab": "Comp Wk2 Wo2",
+  "erg": [
+   {
+    "label": "UT2",
+    "url": "https://workout.ergdata.com/shared/worefoas"
+   }
+  ],
+  "coach": [
+   "11.11 am Sophie Westfield",
+   "11.12 pm Kari Hughes or Pascal Evans"
+  ],
+  "focus": "Suspension",
+  "type": "AT",
+  "dynamic": [
+   "10 jumping jacks",
+   "10 seal jacks",
+   "10 pancakes",
+   "10 arm circles (5 forward, 5 back)",
+   "10 monkeys",
+   "10 I's",
+   "10 Y's",
+   "10 T's",
+   "10 Windmills",
+   "10 Around the Worlds",
+   "10 sit, spin, reach (5 each side)",
+   "10 kicks (each side)",
+   "10 Spidermans",
+   "10 push ups"
+  ],
+  "dynamicLink": "https://drive.google.com/file/d/1Y63MDfROopiRK4V9vX1bb-Rbu7gB4y7X/view",
+  "video": "https://app.coachnow.io/i/b7d058bb74/02be",
+  "form": "https://forms.gle/zqWCvSMwrMjmUMd77",
+  "warmup": [
+   {
+    "t": "1' @ 18 - 20 @ 1/2 pressure",
+    "i": 0
+   },
+   {
+    "t": "Reverse pick drill x 10 strokes",
+    "i": 0
+   },
+   {
+    "t": "top 1/4, top 1/2, legs only, legs + hips, full stroke",
+    "i": 1
+   },
+   {
+    "t": "focus: suspension through the drive",
+    "i": 1
+   },
+   {
+    "t": "4' @ 18 - 20 @ 2/3 pressure",
+    "i": 0
+   },
+   {
+    "t": "2' @ 22 - 24",
+    "i": 0
+   },
+   {
+    "t": "3 x 1' @ 22 , 24, 26 with 1' easy between",
+    "i": 0
+   }
+  ],
+  "workout": [
+   {
+    "t": "3 x 8' AT (Choppy, single words or short phrases. You can manage 2 to 3 words at a time) RPE 7-8",
+    "i": 0
+   },
+   {
+    "t": "3 x 8':  2', 3', 3' @ 22, 24, 26",
+    "i": 0
+   },
+   {
+    "t": "rest = 3'",
+    "i": 0
+   }
+  ],
+  "cooldown": [
+   {
+    "t": "5' cooldown on erg",
+    "i": 0
+   }
+  ]
+ },
+ "comp-2-3": {
+  "tab": "Comp Wk2 Wo3",
+  "erg": [
+   {
+    "label": "UT2",
+    "url": "https://workout.ergdata.com/shared/rtzzf0wy"
+   }
+  ],
+  "coach": [
+   "UNCOACHED"
+  ],
+  "focus": "Suspension",
+  "type": "UT2",
+  "dynamic": [
+   "10 jumping jacks",
+   "10 seal jacks",
+   "10 pancakes",
+   "10 arm circles (5 forward, 5 back)",
+   "10 monkeys",
+   "10 I's",
+   "10 Y's",
+   "10 T's",
+   "10 Windmills",
+   "10 Around the Worlds",
+   "10 sit, spin, reach (5 each side)",
+   "10 kicks (each side)",
+   "10 Spidermans",
+   "10 push ups"
+  ],
+  "dynamicLink": "https://drive.google.com/file/d/1Y63MDfROopiRK4V9vX1bb-Rbu7gB4y7X/view",
+  "video": "https://app.coachnow.io/i/b7d058bb74/02be",
+  "form": null,
+  "warmup": [
+   {
+    "t": "1' @ 18 - 20 @ 1/2 pressure",
+    "i": 0
+   },
+   {
+    "t": "Reverse pick drill x 10 strokes",
+    "i": 0
+   },
+   {
+    "t": "top 1/4, top 1/2, legs only, legs + hips, full stroke",
+    "i": 1
+   },
+   {
+    "t": "focus: suspension through the drive",
+    "i": 1
+   },
+   {
+    "t": "1' @ 18 - 20 @ 3/4 pressure, focus on suspension",
+    "i": 0
+   }
+  ],
+  "workout": [
+   {
+    "t": "2 x 15'  UT2 (relaxed steady state, able to hold a conversation, perceived exertion around 3-4 on a scale of 1-10)",
+    "i": 0
+   },
+   {
+    "t": "P1: 3 x (1', 4')",
+    "i": 0
+   },
+   {
+    "t": "1' @ legs only, 4' @ 18 - 20",
+    "i": 1
+   },
+   {
+    "t": "rest = 2'",
+    "i": 0
+   },
+   {
+    "t": "P1: 15': 5', 4', 3', 2', 1' @ 16, 18, 20, 18, 16",
+    "i": 0
+   },
+   {
+    "t": "Body-Weight Circuit",
+    "i": 0
+   }
+  ],
+  "cooldown": [
+   {
+    "t": "5' cooldown on erg",
+    "i": 0
+   }
+  ]
+ },
+ "comp-2-4": {
+  "tab": "Comp Wk2 Wo4",
+  "erg": [
+   {
+    "label": "TR",
+    "url": "https://workout.ergdata.com/shared/yj7oy6o1"
+   }
+  ],
+  "coach": [
+   "Kari Hughes"
+  ],
+  "focus": "Suspension",
+  "type": "TR",
+  "dynamic": [
+   "10 jumping jacks",
+   "10 seal jacks",
+   "10 pancakes",
+   "10 arm circles (5 forward, 5 back)",
+   "10 monkeys",
+   "10 I's",
+   "10 Y's",
+   "10 T's",
+   "10 Windmills",
+   "10 Around the Worlds",
+   "10 sit, spin, reach (5 each side)",
+   "10 kicks (each side)",
+   "10 Spidermans",
+   "10 push ups"
+  ],
+  "dynamicLink": "https://drive.google.com/file/d/1Y63MDfROopiRK4V9vX1bb-Rbu7gB4y7X/view",
+  "video": "https://app.coachnow.io/i/b7d058bb74/02be",
+  "form": "https://forms.gle/emMsCcJaDEWXZRDS6",
+  "warmup": [
+   {
+    "t": "1' @ 18 - 20 @ 1/2 pressure",
+    "i": 0
+   },
+   {
+    "t": "Reverse pick drill x 10 strokes",
+    "i": 0
+   },
+   {
+    "t": "top 1/4, top 1/2, legs only, legs + hips, full stroke",
+    "i": 1
+   },
+   {
+    "t": "2' @ 18 - 20 @ 1/2 pressure",
+    "i": 0
+   },
+   {
+    "t": "1' paddle",
+    "i": 0
+   },
+   {
+    "t": "3 x 20 @ 22, 24, 26 (60 strokes continuous)",
+    "i": 0
+   },
+   {
+    "t": "1' paddle",
+    "i": 0
+   },
+   {
+    "t": "2' @ 20 - 22 @ full pressure",
+    "i": 0
+   },
+   {
+    "t": "4 x 15 @ 26, 28, 30, 32 with 5 stroke paddle between",
+    "i": 0
+   },
+   {
+    "t": "1' paddle",
+    "i": 0
+   },
+   {
+    "t": "10 @ 32 - 34",
+    "i": 0
+   },
+   {
+    "t": "1' paddle out",
+    "i": 0
+   }
+  ],
+  "workout": [
+   {
+    "t": "6 x 3' on , 2' off; racing in teams on alternate ergs - winning team has highest meters/person average",
+    "i": 0
+   },
+   {
+    "t": "rates = 26, 28, 30, open, 30, 28",
+    "i": 0
+   },
+   {
+    "t": "rest = 2'",
+    "i": 0
+   }
+  ],
+  "cooldown": [
+   {
+    "t": "5' cooldown on erg",
+    "i": 0
+   }
+  ]
+ },
+ "fit-2-1": {
+  "tab": "Fit Wk2 Wo1",
+  "erg": [
+   {
+    "label": "ErgData workout",
+    "url": "https://workout.ergdata.com/shared/lq8rzxf8"
+   }
+  ],
+  "coach": [
+   "11.9 pm Evan Rea",
+   "11.10am Pascal Evans"
+  ],
+  "focus": "Suspension",
+  "type": "UT1",
+  "dynamic": [
+   "10 jumping jacks",
+   "10 seal jacks",
+   "10 pancakes",
+   "10 arm circles (5 forward, 5 back)",
+   "10 monkeys",
+   "10 I's",
+   "10 Y's",
+   "10 T's",
+   "10 Windmills",
+   "10 Around the Worlds",
+   "10 sit, spin, reach (5 each side)",
+   "10 kicks (each side)",
+   "10 Spidermans",
+   "10 push ups"
+  ],
+  "dynamicLink": "https://drive.google.com/file/d/1Y63MDfROopiRK4V9vX1bb-Rbu7gB4y7X/view",
+  "video": "https://app.coachnow.io/i/b7d058bb74/02be",
+  "form": null,
+  "warmup": [
+   {
+    "t": "Suspension work with strap and partner",
+    "i": 0
+   },
+   {
+    "t": "1' @ 18 - 20 @ 1/2 pressure",
+    "i": 0
+   },
+   {
+    "t": "Reverse pick drill x 10 strokes",
+    "i": 0
+   },
+   {
+    "t": "top 1/4, top 1/2, legs only, legs + hips, full stroke",
+    "i": 1
+   },
+   {
+    "t": "focus: suspension through the drive",
+    "i": 1
+   },
+   {
+    "t": "1' @ 18 - 20 @ 3/4 pressure, focus on suspension",
+    "i": 0
+   }
+  ],
+  "workout": [
+   {
+    "t": "3 x 10' UT1 (Short sentences only.  You can still hold a conversation but must actively choose shorter phrases. RPE 6-7)",
+    "i": 0
+   },
+   {
+    "t": "P1: 2 x  (1' drill, 4' @ 20)",
+    "i": 0
+   },
+   {
+    "t": "-coach chooses 2 drills for suspension (legs only, ogre rowing,etc)",
+    "i": 2
+   },
+   {
+    "t": "rest = 3'",
+    "i": 0
+   },
+   {
+    "t": "P2: 4', 3', 2', 1' @ 18, 20, 22, 24",
+    "i": 0
+   },
+   {
+    "t": "rest = 3'",
+    "i": 0
+   },
+   {
+    "t": "P3: 10':  20 on, 5 off @ 22, 24, 26, 24, 22, ...",
+    "i": 0
+   }
+  ],
+  "cooldown": [
+   {
+    "t": "5' cooldown on erg",
+    "i": 0
+   }
+  ]
+ },
+ "fit-2-2": {
+  "tab": "Fit Wk2 Wo2",
+  "erg": [
+   {
+    "label": "ErgData workout",
+    "url": "https://workout.ergdata.com/shared/gfo6dc4t"
+   }
+  ],
+  "coach": [
+   "11.11 pm Kari Hughes"
+  ],
+  "focus": "Suspension",
+  "type": "UT2",
+  "dynamic": [
+   "10 jumping jacks",
+   "10 seal jacks",
+   "10 pancakes",
+   "10 arm circles (5 forward, 5 back)",
+   "10 monkeys",
+   "10 I's",
+   "10 Y's",
+   "10 T's",
+   "10 Windmills",
+   "10 Around the Worlds",
+   "10 sit, spin, reach (5 each side)",
+   "10 kicks (each side)",
+   "10 Spidermans",
+   "10 push ups"
+  ],
+  "dynamicLink": "https://drive.google.com/file/d/1Y63MDfROopiRK4V9vX1bb-Rbu7gB4y7X/view",
+  "video": "https://app.coachnow.io/i/b7d058bb74/02be",
+  "form": null,
+  "warmup": [
+   {
+    "t": "Suspension work with strap and partner",
+    "i": 0
+   },
+   {
+    "t": "1' @ 18 - 20 @ 1/2 pressure",
+    "i": 0
+   },
+   {
+    "t": "Reverse pick drill x 10 strokes",
+    "i": 0
+   },
+   {
+    "t": "top 1/4, top 1/2, legs only, legs + hips, full stroke",
+    "i": 1
+   },
+   {
+    "t": "focus: suspension through the drive",
+    "i": 1
+   },
+   {
+    "t": "1' @ 18 - 20 @ 3/4 pressure, focus on suspension",
+    "i": 0
+   }
+  ],
+  "workout": [
+   {
+    "t": "2 x 20 UT2 (relaxed steady state, able to hold a conversation, perceived exertion around 3-4 on a scale of 1-10)",
+    "i": 0
+   },
+   {
+    "t": "Piece 1 (P1):  4 x (1' , 4')",
+    "i": 0
+   },
+   {
+    "t": "1':  gather at hip hinge every stroke, focus on posture to get good suspension at catch",
+    "i": 1
+   },
+   {
+    "t": "4':  rate 18 - 20, keeping focus on suspension",
+    "i": 1
+   },
+   {
+    "t": "rest = 3'",
+    "i": 0
+   },
+   {
+    "t": "Piece 2 (P2):  8', 6', 4', 2 @ 16, 18, 20, 22",
+    "i": 0
+   },
+   {
+    "t": "10' Body Weight Circuit",
+    "i": 0
+   }
+  ],
+  "cooldown": [
+   {
+    "t": "5' cooldown on erg",
+    "i": 0
+   }
+  ]
+ },
+ "comp-1-4": {
+  "tab": "Comp Wk1 Wo4",
+  "erg": [
+   {
+    "label": "ErgData workout",
+    "url": "https://workout.ergdata.com/shared/zu6sxeov"
+   }
+  ],
+  "coach": [
+   "11.7 am Kari Hughes"
   ],
   "focus": "Body Prep",
-  "type": "UT2, Body Weight Circuit",
+  "type": "5k",
+  "dynamic": [
+   "10 jumping jacks",
+   "10 seal jacks",
+   "10 pancakes",
+   "10 arm circles (5 forward, 5 back)",
+   "10 monkeys",
+   "10 I's",
+   "10 Y's",
+   "10 T's",
+   "10 Windmills",
+   "10 Around the Worlds",
+   "10 sit, spin, reach (5 each side)",
+   "10 kicks (each side)",
+   "10 Spidermans",
+   "10 push ups"
+  ],
+  "dynamicLink": "https://drive.google.com/file/d/1Y63MDfROopiRK4V9vX1bb-Rbu7gB4y7X/view",
+  "video": "https://app.coachnow.io/i/b7d058bb74/02be",
+  "form": "https://forms.gle/Fb2akZdWbUoeFRUB6",
+  "warmup": [
+   {
+    "t": "3' @ 18 - 20 @ 1/2 pressure",
+    "i": 0
+   },
+   {
+    "t": "1' @ 24 - 26, full pressure",
+    "i": 0
+   },
+   {
+    "t": "1' paddle",
+    "i": 0
+   },
+   {
+    "t": "2' @ 18 - 20 @ 3/4 pressure",
+    "i": 0
+   },
+   {
+    "t": "3 x 20 @ 22, 24, 26 (60 strokes continuous)",
+    "i": 0
+   },
+   {
+    "t": "1' paddle",
+    "i": 0
+   },
+   {
+    "t": "2' @ 20 - 22 @ full pressure",
+    "i": 0
+   },
+   {
+    "t": "4 x 15 @ 26, 28, 30, 32 with 5 stroke paddle between",
+    "i": 0
+   },
+   {
+    "t": "1' paddle",
+    "i": 0
+   },
+   {
+    "t": "10 @ 32 - 34",
+    "i": 0
+   },
+   {
+    "t": "1' paddle out",
+    "i": 0
+   }
+  ],
+  "workout": [
+   {
+    "t": "5k",
+    "i": 0
+   },
+   {
+    "t": "make sure erg is set for 500m split length",
+    "i": 0
+   }
+  ],
+  "cooldown": [
+   {
+    "t": "5' cooldown on erg",
+    "i": 0
+   }
+  ]
+ },
+ "comp-1-3": {
+  "tab": "Comp Wk1 Wo3",
+  "erg": [
+   {
+    "label": "ErgData workout",
+    "url": "https://workout.ergdata.com/shared/gfo6dc4t"
+   }
+  ],
+  "coach": [
+   "UNCOACHED"
+  ],
+  "focus": "Body Prep",
+  "type": "UT2",
   "dynamic": [
    "10 jumping jacks",
    "10 seal jacks",
@@ -56,56 +703,28 @@
   ],
   "workout": [
    {
-    "t": "Erg: 3 x 10'",
+    "t": "2 x 20 UT2 (relaxed steady state, able to hold a conversation, perceived exertion around 3-4 on a scale of 1-10)",
     "i": 0
    },
    {
-    "t": "(1)  4' 2' 1' 2' 1' @ 18, 20, 22, 20, 18",
-    "i": 1
-   },
-   {
-    "t": "(2)  2 x (2' 2',1') @ 18, 20, 22",
-    "i": 1
-   },
-   {
-    "t": "(3)  10' @ 20",
-    "i": 1
-   },
-   {
-    "t": "Circuit (2x through) - 1' rest before starting second set",
+    "t": "Piece 1 (P1):  4 x (1' , 4')",
     "i": 0
    },
    {
-    "t": "30\" on, 30\" off",
+    "t": "1':  gather at hip hinge every stroke, focus on posture",
     "i": 1
    },
    {
-    "t": "Plank",
+    "t": "4':  rate 18 - 20, keeping focus on swinging out to hip hinge",
     "i": 1
    },
    {
-    "t": "Glute bridge",
-    "i": 1
+    "t": "rest = 3'",
+    "i": 0
    },
    {
-    "t": "Pushups",
-    "i": 1
-   },
-   {
-    "t": "Scullers",
-    "i": 1
-   },
-   {
-    "t": "Bench dips (adaptation - kickbacks)",
-    "i": 1
-   },
-   {
-    "t": "Squats",
-    "i": 1
-   },
-   {
-    "t": "Spiderman plank",
-    "i": 1
+    "t": "Piece 2 (P2):  8', 6', 4', 2 @ 16, 18, 20, 22",
+    "i": 0
    }
   ],
   "cooldown": [
@@ -228,19 +847,20 @@
    }
   ]
  },
- "comp-1-3": {
-  "tab": "Comp Wk1 Wo3",
+ "comp-1-1": {
+  "tab": "Comp Wk1 Wo1",
   "erg": [
    {
     "label": "ErgData workout",
-    "url": "https://workout.ergdata.com/shared/gfo6dc4t"
+    "url": "https://workout.ergdata.com/shared/vhgqt8za"
    }
   ],
   "coach": [
-   "UNCOACHED"
+   "11.2 am Sophie Westfield",
+   "11.3 pm Kari Hughes"
   ],
   "focus": "Body Prep",
-  "type": "UT2",
+  "type": "UT2, Body Weight Circuit",
   "dynamic": [
    "10 jumping jacks",
    "10 seal jacks",
@@ -284,28 +904,56 @@
   ],
   "workout": [
    {
-    "t": "2 x 20 UT2 (relaxed steady state, able to hold a conversation, perceived exertion around 3-4 on a scale of 1-10)",
+    "t": "Erg: 3 x 10'",
     "i": 0
    },
    {
-    "t": "Piece 1 (P1):  4 x (1' , 4')",
-    "i": 0
-   },
-   {
-    "t": "1':  gather at hip hinge every stroke, focus on posture",
+    "t": "(1)  4' 2' 1' 2' 1' @ 18, 20, 22, 20, 18",
     "i": 1
    },
    {
-    "t": "4':  rate 18 - 20, keeping focus on swinging out to hip hinge",
+    "t": "(2)  2 x (2' 2',1') @ 18, 20, 22",
     "i": 1
    },
    {
-    "t": "rest = 3'",
+    "t": "(3)  10' @ 20",
+    "i": 1
+   },
+   {
+    "t": "Circuit (2x through) - 1' rest before starting second set",
     "i": 0
    },
    {
-    "t": "Piece 2 (P2):  8', 6', 4', 2 @ 16, 18, 20, 22",
-    "i": 0
+    "t": "30\" on, 30\" off",
+    "i": 1
+   },
+   {
+    "t": "Plank",
+    "i": 1
+   },
+   {
+    "t": "Glute bridge",
+    "i": 1
+   },
+   {
+    "t": "Pushups",
+    "i": 1
+   },
+   {
+    "t": "Scullers",
+    "i": 1
+   },
+   {
+    "t": "Bench dips (adaptation - kickbacks)",
+    "i": 1
+   },
+   {
+    "t": "Squats",
+    "i": 1
+   },
+   {
+    "t": "Spiderman plank",
+    "i": 1
    }
   ],
   "cooldown": [
@@ -315,12 +963,12 @@
    }
   ]
  },
- "comp-1-4": {
-  "tab": "Comp Wk1 Wo4",
+ "fit-1-3": {
+  "tab": "Fit Wk1 Wo3",
   "erg": [
    {
     "label": "ErgData workout",
-    "url": "https://workout.ergdata.com/shared/zu6sxeov"
+    "url": "https://workout.ergdata.com/shared/mkjsdnfj"
    }
   ],
   "coach": [
@@ -346,7 +994,7 @@
   ],
   "dynamicLink": "https://drive.google.com/file/d/1Y63MDfROopiRK4V9vX1bb-Rbu7gB4y7X/view",
   "video": "https://app.coachnow.io/i/b7d058bb74/02be",
-  "form": "https://forms.gle/Fb2akZdWbUoeFRUB6",
+  "form": "https://forms.gle/h5mmDUdaSBpb3D31A",
   "warmup": [
    {
     "t": "3' @ 18 - 20 @ 1/2 pressure",
@@ -395,17 +1043,108 @@
   ],
   "workout": [
    {
-    "t": "5k",
+    "t": "20' at 22 spm",
     "i": 0
    },
    {
-    "t": "make sure erg is set for 500m split length",
+    "t": "make sure erg is set for 4' split length",
     "i": 0
    }
   ],
   "cooldown": [
    {
     "t": "5' cooldown on erg",
+    "i": 0
+   }
+  ]
+ },
+ "fit-1-2": {
+  "tab": "Fit Wk1 Wo2",
+  "erg": [
+   {
+    "label": "UT2",
+    "url": "https://workout.ergdata.com/shared/zvq4ruwr"
+   },
+   {
+    "label": "AT",
+    "url": "https://workout.ergdata.com/shared/lvhfpdik"
+   }
+  ],
+  "coach": [
+   "UNCOACHED"
+  ],
+  "focus": "Body Prep",
+  "type": "UT2, AT",
+  "dynamic": [
+   "10 jumping jacks",
+   "10 seal jacks",
+   "10 pancakes",
+   "10 arm circles (5 forward, 5 back)",
+   "10 monkeys",
+   "10 I's",
+   "10 Y's",
+   "10 T's",
+   "10 Windmills",
+   "10 Around the Worlds",
+   "10 sit, spin, reach (5 each side)",
+   "10 kicks (each side)",
+   "10 Spidermans",
+   "10 push ups"
+  ],
+  "dynamicLink": "https://drive.google.com/file/d/1Y63MDfROopiRK4V9vX1bb-Rbu7gB4y7X/view",
+  "video": "https://app.coachnow.io/i/b7d058bb74/02be",
+  "form": null,
+  "warmup": [
+   {
+    "t": "Pick Drill: 15 hands away, 15 hip hinge, 15 1/2 slide, 15 full slide",
+    "i": 0
+   },
+   {
+    "t": "3' UT2 @ r18 - 20",
+    "i": 0
+   },
+   {
+    "t": "3 x 10 strokes @ r20 / 22 / 24",
+    "i": 0
+   }
+  ],
+  "workout": [
+   {
+    "t": "2 x 15' UT2 (relaxed steady state, able to hold a conversation, perceived exertion around 3-4 on a scale of 1-10)",
+    "i": 0
+   },
+   {
+    "t": "Piece 1 (P1):  3 x (1' , 4')",
+    "i": 0
+   },
+   {
+    "t": "1':  gather at hip hinge every stroke, focus on posture",
+    "i": 1
+   },
+   {
+    "t": "4':  rate 18 - 20, keeping focus on swinging out to hip hinge",
+    "i": 1
+   },
+   {
+    "t": "rest = 3'",
+    "i": 0
+   },
+   {
+    "t": "Piece 2 (P2):  8', 4', 2', 1' @ 16, 18, 20, 22",
+    "i": 0
+   },
+   {
+    "t": "8' AT (80% - 85% of heart rate max, no conversation, perceived exertion 7 - 8)",
+    "i": 0
+   },
+   {
+    "t": "2', 3', 3' @ 22, 24, 26",
+    "i": 1
+   }
+  ],
+  "cooldown": [
+   {
+    "t": "stretching",
     "i": 0
    }
   ]
@@ -513,192 +1252,6 @@
   "cooldown": [
    {
     "t": "stretching",
-    "i": 0
-   }
-  ]
- },
- "fit-1-2": {
-  "tab": "Fit Wk1 Wo2",
-  "erg": [
-   {
-    "label": "UT2",
-    "url": "https://workout.ergdata.com/shared/zvq4ruwr"
-   },
-   {
-    "label": "AT",
-    "url": "https://workout.ergdata.com/shared/lvhfpdik"
-   }
-  ],
-  "coach": [
-   "UNCOACHED"
-  ],
-  "focus": "Body Prep",
-  "type": "UT2, AT",
-  "dynamic": [
-   "10 jumping jacks",
-   "10 seal jacks",
-   "10 pancakes",
-   "10 arm circles (5 forward, 5 back)",
-   "10 monkeys",
-   "10 I's",
-   "10 Y's",
-   "10 T's",
-   "10 Windmills",
-   "10 Around the Worlds",
-   "10 sit, spin, reach (5 each side)",
-   "10 kicks (each side)",
-   "10 Spidermans",
-   "10 push ups"
-  ],
-  "dynamicLink": "https://drive.google.com/file/d/1Y63MDfROopiRK4V9vX1bb-Rbu7gB4y7X/view",
-  "video": "https://app.coachnow.io/i/b7d058bb74/02be",
-  "form": null,
-  "warmup": [
-   {
-    "t": "Pick Drill: 15 hands away, 15 hip hinge, 15 1/2 slide, 15 full slide",
-    "i": 0
-   },
-   {
-    "t": "3' UT2 @ r18 - 20",
-    "i": 0
-   },
-   {
-    "t": "3 x 10 strokes @ r20 / 22 / 24",
-    "i": 0
-   }
-  ],
-  "workout": [
-   {
-    "t": "2 x 15' UT2 (relaxed steady state, able to hold a conversation, perceived exertion around 3-4 on a scale of 1-10)",
-    "i": 0
-   },
-   {
-    "t": "Piece 1 (P1):  3 x (1' , 4')",
-    "i": 0
-   },
-   {
-    "t": "1':  gather at hip hinge every stroke, focus on posture",
-    "i": 1
-   },
-   {
-    "t": "4':  rate 18 - 20, keeping focus on swinging out to hip hinge",
-    "i": 1
-   },
-   {
-    "t": "rest = 3'",
-    "i": 0
-   },
-   {
-    "t": "Piece 2 (P2):  8', 4', 2', 1' @ 16, 18, 20, 22",
-    "i": 0
-   },
-   {
-    "t": "8' AT (80% - 85% of heart rate max, no conversation, perceived exertion 7 - 8)",
-    "i": 0
-   },
-   {
-    "t": "2', 3', 3' @ 22, 24, 26",
-    "i": 1
-   }
-  ],
-  "cooldown": [
-   {
-    "t": "stretching",
-    "i": 0
-   }
-  ]
- },
- "fit-1-3": {
-  "tab": "Fit Wk1 Wo3",
-  "erg": [
-   {
-    "label": "ErgData workout",
-    "url": "https://workout.ergdata.com/shared/mkjsdnfj"
-   }
-  ],
-  "coach": [
-   "11.7 am Kari Hughes"
-  ],
-  "focus": "Body Prep",
-  "type": "5k",
-  "dynamic": [
-   "10 jumping jacks",
-   "10 seal jacks",
-   "10 pancakes",
-   "10 arm circles (5 forward, 5 back)",
-   "10 monkeys",
-   "10 I's",
-   "10 Y's",
-   "10 T's",
-   "10 Windmills",
-   "10 Around the Worlds",
-   "10 sit, spin, reach (5 each side)",
-   "10 kicks (each side)",
-   "10 Spidermans",
-   "10 push ups"
-  ],
-  "dynamicLink": "https://drive.google.com/file/d/1Y63MDfROopiRK4V9vX1bb-Rbu7gB4y7X/view",
-  "video": "https://app.coachnow.io/i/b7d058bb74/02be",
-  "form": "https://forms.gle/h5mmDUdaSBpb3D31A",
-  "warmup": [
-   {
-    "t": "3' @ 18 - 20 @ 1/2 pressure",
-    "i": 0
-   },
-   {
-    "t": "1' @ 24 - 26, full pressure",
-    "i": 0
-   },
-   {
-    "t": "1' paddle",
-    "i": 0
-   },
-   {
-    "t": "2' @ 18 - 20 @ 3/4 pressure",
-    "i": 0
-   },
-   {
-    "t": "3 x 20 @ 22, 24, 26 (60 strokes continuous)",
-    "i": 0
-   },
-   {
-    "t": "1' paddle",
-    "i": 0
-   },
-   {
-    "t": "2' @ 20 - 22 @ full pressure",
-    "i": 0
-   },
-   {
-    "t": "4 x 15 @ 26, 28, 30, 32 with 5 stroke paddle between",
-    "i": 0
-   },
-   {
-    "t": "1' paddle",
-    "i": 0
-   },
-   {
-    "t": "10 @ 32 - 34",
-    "i": 0
-   },
-   {
-    "t": "1' paddle out",
-    "i": 0
-   }
-  ],
-  "workout": [
-   {
-    "t": "20' at 22 spm",
-    "i": 0
-   },
-   {
-    "t": "make sure erg is set for 4' split length",
-    "i": 0
-   }
-  ],
-  "cooldown": [
-   {
-    "t": "5' cooldown on erg",
     "i": 0
    }
   ]

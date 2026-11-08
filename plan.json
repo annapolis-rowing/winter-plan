@@ -58,7 +58,12 @@
      "rate": "r18–20",
      "coachAm": "Uncoached",
      "coachPm": "",
-     "erg": [],
+     "erg": [
+      {
+       "label": "UT2",
+       "url": "https://workout.ergdata.com/shared/rtzzf0wy"
+      }
+     ],
      "form": null,
      "formLabel": ""
     },
@@ -70,7 +75,7 @@
      "workout": "TEST: 5k, full effort",
      "team": "Team test day: everyone starts together; Competitive row a 5k, F&C a 20' test",
      "rate": "r24–race pace",
-     "coachAm": "Kari Hughes",
+     "coachAm": "Sophie Westfield",
      "coachPm": "",
      "erg": [],
      "form": "https://forms.gle/Fb2akZdWbUoeFRUB6",
@@ -88,13 +93,18 @@
      "n": 1,
      "label": "#1",
      "kind": "UT2",
-     "focus": "",
+     "focus": "Suspension",
      "workout": "45' UT2 r20",
      "team": "",
      "rate": "",
-     "coachAm": "",
-     "coachPm": "",
-     "erg": [],
+     "coachAm": "Sophie Westfield",
+     "coachPm": "Evan Rea",
+     "erg": [
+      {
+       "label": "UT2",
+       "url": "https://workout.ergdata.com/shared/worefoas"
+      }
+     ],
      "form": null,
      "formLabel": ""
     },
@@ -105,12 +115,12 @@
      "focus": "",
      "workout": "3×8' AT /3'",
      "team": "",
-     "rate": "r20–30",
-     "coachAm": "",
-     "coachPm": "",
+     "rate": "r22–26",
+     "coachAm": "Sophie Westfield",
+     "coachPm": "Kari Hughes",
      "erg": [],
-     "form": null,
-     "formLabel": ""
+     "form": "https://forms.gle/zqWCvSMwrMjmUMd77",
+     "formLabel": "3 x 8'"
     },
     {
      "n": 3,
@@ -120,25 +130,35 @@
      "workout": "30' UT2 + 20' body-weight circuit",
      "team": "",
      "rate": "r18–20",
-     "coachAm": "",
+     "coachAm": "Uncoached",
      "coachPm": "",
-     "erg": [],
+     "erg": [
+      {
+       "label": "UT2, BW",
+       "url": "https://workout.ergdata.com/shared/rtzzf0wy"
+      }
+     ],
      "form": null,
      "formLabel": ""
     },
     {
      "n": 4,
      "label": "#4 (Sat Nov 14)",
-     "kind": "Saturday team",
+     "kind": "TR",
      "focus": "",
      "workout": "6×3' TR /2'",
-     "team": "Same clock, mixed teams; team score = total meters",
+     "team": "Same clock, mixed teams; team score = ave meters",
      "rate": "r20–30",
-     "coachAm": "",
+     "coachAm": "Kari Hughes",
      "coachPm": "",
-     "erg": [],
-     "form": null,
-     "formLabel": ""
+     "erg": [
+      {
+       "label": "TR",
+       "url": "https://workout.ergdata.com/shared/yj7oy6o1"
+      }
+     ],
+     "form": "https://forms.gle/emMsCcJaDEWXZRDS6",
+     "formLabel": "6 x 3'"
     }
    ]
   },
@@ -1418,44 +1438,59 @@
     {
      "n": 1,
      "label": "#1",
-     "kind": "UT2, BW",
-     "focus": "",
-     "workout": "30' UT2 + 20' body-weight circuit",
+     "kind": "UT1, drill",
+     "focus": "Suspension",
+     "workout": "Strap suspension + 30' UT1",
      "team": "",
-     "rate": "r18–20",
+     "rate": "r18 - 22",
      "coachAm": "",
      "coachPm": "",
-     "erg": [],
+     "erg": [
+      {
+       "label": "UT1, drill",
+       "url": "https://workout.ergdata.com/shared/lq8rzxf8"
+      }
+     ],
      "form": null,
      "formLabel": ""
     },
     {
      "n": 2,
      "label": "#2",
-     "kind": "UT1, B@",
+     "kind": "UT2, BW",
      "focus": "",
-     "workout": "30' UT1 + 20' body-weight circuit",
+     "workout": "40' UT2 + 10' body-weight circuit",
      "team": "",
-     "rate": "r18–20",
+     "rate": "r16–20",
      "coachAm": "",
      "coachPm": "",
-     "erg": [],
+     "erg": [
+      {
+       "label": "UT2, BW",
+       "url": "https://workout.ergdata.com/shared/gfo6dc4t"
+      }
+     ],
      "form": null,
      "formLabel": ""
     },
     {
      "n": 3,
      "label": "#3 (Sat Nov 14)",
-     "kind": "Saturday team",
+     "kind": "TR",
      "focus": "",
      "workout": "6×3' TR /2'",
-     "team": "Same clock, mixed teams; team score = total meters",
+     "team": "Same clock, mixed teams; team score = ave meters",
      "rate": "r20–30",
      "coachAm": "",
      "coachPm": "",
-     "erg": [],
-     "form": null,
-     "formLabel": ""
+     "erg": [
+      {
+       "label": "TR",
+       "url": "https://workout.ergdata.com/shared/yj7oy6o1"
+      }
+     ],
+     "form": "https://forms.gle/emMsCcJaDEWXZRDS6",
+     "formLabel": "6 x 3'"
     }
    ]
   },
