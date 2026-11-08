@@ -98,7 +98,7 @@
      "team": "",
      "rate": "",
      "coachAm": "Sophie Westfield",
-     "coachPm": "Evan Rea",
+     "coachPm": "Kari Hughes",
      "erg": [
       {
        "label": "UT2",
@@ -111,14 +111,19 @@
     {
      "n": 2,
      "label": "#2",
-     "kind": "Threshold",
+     "kind": "AT",
      "focus": "",
      "workout": "3×8' AT /3'",
      "team": "",
      "rate": "r22–26",
      "coachAm": "Sophie Westfield",
-     "coachPm": "Kari Hughes",
-     "erg": [],
+     "coachPm": "Kari Hughes or Pascal Evans",
+     "erg": [
+      {
+       "label": "AT",
+       "url": "https://workout.ergdata.com/shared/lvhfpdik"
+      }
+     ],
      "form": "https://forms.gle/zqWCvSMwrMjmUMd77",
      "formLabel": "3 x 8'"
     },
@@ -1443,8 +1448,8 @@
      "workout": "Strap suspension + 30' UT1",
      "team": "",
      "rate": "r18 - 22",
-     "coachAm": "",
-     "coachPm": "",
+     "coachAm": "Pascal Evans",
+     "coachPm": "Evan REA",
      "erg": [
       {
        "label": "UT1, drill",
@@ -1463,7 +1468,7 @@
      "team": "",
      "rate": "r16–20",
      "coachAm": "",
-     "coachPm": "",
+     "coachPm": "Kari Hughes",
      "erg": [
       {
        "label": "UT2, BW",
@@ -1481,7 +1486,7 @@
      "workout": "6×3' TR /2'",
      "team": "Same clock, mixed teams; team score = ave meters",
      "rate": "r20–30",
-     "coachAm": "",
+     "coachAm": "Kari Hughes",
      "coachPm": "",
      "erg": [
       {
