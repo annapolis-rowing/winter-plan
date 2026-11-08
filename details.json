@@ -552,6 +552,109 @@
    }
   ]
  },
+ "fit-2-3": {
+  "tab": "Fit Wk2 Wo3",
+  "erg": [
+   {
+    "label": "TR",
+    "url": "https://workout.ergdata.com/shared/yj7oy6o1"
+   }
+  ],
+  "coach": [
+   "Kari Hughes"
+  ],
+  "focus": "Suspension",
+  "type": "TR",
+  "dynamic": [
+   "10 jumping jacks",
+   "10 seal jacks",
+   "10 pancakes",
+   "10 arm circles (5 forward, 5 back)",
+   "10 monkeys",
+   "10 I's",
+   "10 Y's",
+   "10 T's",
+   "10 Windmills",
+   "10 Around the Worlds",
+   "10 sit, spin, reach (5 each side)",
+   "10 kicks (each side)",
+   "10 Spidermans",
+   "10 push ups"
+  ],
+  "dynamicLink": "https://drive.google.com/file/d/1Y63MDfROopiRK4V9vX1bb-Rbu7gB4y7X/view",
+  "video": "https://app.coachnow.io/i/b7d058bb74/02be",
+  "form": "https://forms.gle/emMsCcJaDEWXZRDS6",
+  "warmup": [
+   {
+    "t": "1' @ 18 - 20 @ 1/2 pressure",
+    "i": 0
+   },
+   {
+    "t": "Reverse pick drill x 10 strokes",
+    "i": 0
+   },
+   {
+    "t": "top 1/4, top 1/2, legs only, legs + hips, full stroke",
+    "i": 1
+   },
+   {
+    "t": "2' @ 18 - 20 @ 1/2 pressure",
+    "i": 0
+   },
+   {
+    "t": "1' paddle",
+    "i": 0
+   },
+   {
+    "t": "3 x 20 @ 22, 24, 26 (60 strokes continuous)",
+    "i": 0
+   },
+   {
+    "t": "1' paddle",
+    "i": 0
+   },
+   {
+    "t": "2' @ 20 - 22 @ full pressure",
+    "i": 0
+   },
+   {
+    "t": "4 x 15 @ 26, 28, 30, 32 with 5 stroke paddle between",
+    "i": 0
+   },
+   {
+    "t": "1' paddle",
+    "i": 0
+   },
+   {
+    "t": "10 @ 32 - 34",
+    "i": 0
+   },
+   {
+    "t": "1' paddle out",
+    "i": 0
+   }
+  ],
+  "workout": [
+   {
+    "t": "6 x 3' on , 2' off; racing in teams on alternate ergs - winning team has highest meters/person average",
+    "i": 0
+   },
+   {
+    "t": "rates = 26, 28, 30, open, 30, 28",
+    "i": 0
+   },
+   {
+    "t": "rest = 2'",
+    "i": 0
+   }
+  ],
+  "cooldown": [
+   {
+    "t": "5' cooldown on erg",
+    "i": 0
+   }
+  ]
+ },
  "comp-1-4": {
   "tab": "Comp Wk1 Wo4",
   "erg": [
