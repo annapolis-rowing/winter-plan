@@ -130,7 +130,7 @@ details summary{cursor:pointer;font-weight:600}
     <button id="btn-competitive" data-track="competitive" aria-pressed="true">Competitive · 4 days</button>
     <button id="btn-fitness" data-track="fitness" aria-pressed="false">Fitness &amp; Community · 3 days</button>
   </div>
-  <nav class="jump"><a href="#season-list">Season</a><a href="#zones">Zones</a></nav>
+  <nav class="jump"><a href="#season-list">Season</a><a href="#zones">Zones</a><a href="https://docs.google.com/spreadsheets/d/1s_MzG2c8uqPr9-fNQo5RTkrWPZf2h2XPotyrbsmzpEQ/edit" target="_blank" rel="noopener">Results ↗</a></nav>
 </div>
 
 <div class="now" id="now"><p class="empty">Loading this week's workouts…</p></div>
@@ -143,7 +143,7 @@ details summary{cursor:pointer;font-weight:600}
 <section id="zones">
   <h2>Training zones</h2>
   <p>Choose your most recent test, a 5k or a 2k, and enter its split (time per 500m) to see your target splits.</p>
-  <div class="calc"><div class="seg" role="group" aria-label="Which test split"><button type="button" id="t-5k" data-test="5k" aria-pressed="true">5k split</button><button type="button" id="t-2k" data-test="2k" aria-pressed="false">2k split</button></div><label for="split" id="splitlab">My 5k split</label><input id="split" inputmode="decimal" placeholder="2:12" value="2:12" aria-describedby="splithelp"><span class="muted" id="splithelp">per 500m, e.g. 2:12</span></div>
+  <div class="calc"><div class="seg" role="group" aria-label="Which test split"><button type="button" id="t-5k" data-test="5k" aria-pressed="true">5k split</button><button type="button" id="t-2k" data-test="2k" aria-pressed="false">2k split</button></div><label for="split" id="splitlab">My 5k split</label><input id="split" inputmode="decimal" placeholder="2:12" value="2:12" aria-describedby="splithelp"><span class="muted" id="splithelp">per 500m, e.g. 2:12 or 212</span></div>
   <div class="tbl"><table>
     <thead><tr><th>Zone</th><th>Your split</th><th>Offset</th><th>Rate</th><th>RPE</th></tr></thead>
     <tbody id="zonebody"></tbody>
@@ -252,7 +252,8 @@ Promise.all([getJSON("plan.json"),getJSON("details.json")]).then(([p,d])=>{if(p)
 // zones
 const Z=[["UT2 (easy steady)",18,22,"18–20","3–4"],["UT1 (firm steady)",12,16,"20–22","5–6"],["AT (threshold)",6,10,"20–30","7"],["TR (transport)",2,5,"26–34","8"],["RP (race pace)",-2,2,"28–32","9"]];
 const fmt=s=>{const m=Math.floor(s/60),r=Math.round(s-m*60);return r===60?`${m+1}:00`:`${m}:${String(r).padStart(2,"0")}`};
-function parse(v){const m=v.trim().match(/^(\d):([0-5]\d)(\.\d)?$/);return m?(+m[1])*60+(+m[2])+(m[3]?+m[3]:0):null}
+function parse(v){const m=v.trim().match(/^(\d)\s*[:.,;\s]?\s*([0-5]\d)(?:[.,]?(\d))?$/);return m?(+m[1])*60+(+m[2])+(m[3]?+m[3]/10:0):null}
+const fmt1=s=>{const m=Math.floor(s/60),r=s-m*60;return `${m}:${r.toFixed(r%1?1:0).padStart(r%1?4:2,"0")}`};
 let TEST="5k"; const SHIFT={"2k":0,"5k":-7};
 const sg=n=>n>0?`+${n}`:n<0?`−${-n}`:"0";
 function zones(){
@@ -261,7 +262,7 @@ function zones(){
   document.getElementById("splitlab").textContent=`My ${TEST} split`;
   document.getElementById("zonebody").innerHTML=Z.map(z=>{const a=z[1]+sh,b=z[2]+sh;
     return `<tr><td><strong>${z[0]}</strong></td><td class="num"><strong>${s==null?"—":`${fmt(s+a)}–${fmt(s+b)}`}</strong></td><td class="num">${sg(a)} to ${sg(b)} sec vs ${TEST}</td><td class="num">${z[3]}</td><td class="num">${z[4]}</td></tr>`}).join("");
-  document.getElementById("splithelp").textContent=s==null?"Enter as m:ss, e.g. 2:12":(TEST==="5k"?"per 500m · 2k split estimated as 5k minus 7 sec":"per 500m");
+  document.getElementById("splithelp").textContent=s==null?"Enter m:ss, or just the digits, e.g. 212 or 2.12 for 2:12":(TEST==="5k"?`${fmt1(s)} per 500m · 2k split estimated as 5k minus 7 sec`:`${fmt1(s)} per 500m`);
 }
 const inp=document.getElementById("split"), VAL={"5k":"2:12","2k":"2:05"};
 try{const t=localStorage.getItem("arc-test");if(t&&SHIFT[t]!==undefined)TEST=t;const v=localStorage.getItem("arc-split-"+TEST);inp.value=v||VAL[TEST]}catch(e){}
