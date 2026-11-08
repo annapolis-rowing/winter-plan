@@ -78,14 +78,85 @@
    {
     "t": "10':  2 x (2', 2', 1') @ 18, 20, 22",
     "i": 0
-   }
-  ],
-  "cooldown": [
+   },
+   {
+    "t": "COOL DOWN / STRETCHING",
+    "i": 0
+   },
    {
     "t": "5' cooldown on erg",
     "i": 0
+   },
+   {
+    "t": "Post-cool down Stretch",
+    "i": 0
+   },
+   {
+    "t": "Hold the movements for 30 seconds",
+    "i": 0
+   },
+   {
+    "t": "1 - Shoulder cross body stretch (https://www.youtube.com/shorts/aIq0fLi8iak)",
+    "i": 0,
+    "url": "https://www.youtube.com/shorts/aIq0fLi8iak"
+   },
+   {
+    "t": "2 - Tricep stretch (https://www.youtube.com/watch?v=zzvDO56B0HE)",
+    "i": 0,
+    "url": "https://www.youtube.com/watch?v=zzvDO56B0HE"
+   },
+   {
+    "t": "3 - Triangle stretch (https://www.youtube.com/watch?v=hY6cmXdq-Sw)",
+    "i": 0,
+    "url": "https://www.youtube.com/watch?v=hY6cmXdq-Sw"
+   },
+   {
+    "t": "4 - Downward dog (https://www.youtube.com/shorts/YtMP5JxIMpI)",
+    "i": 0,
+    "url": "https://www.youtube.com/shorts/YtMP5JxIMpI"
+   },
+   {
+    "t": "5 - Upward dog (https://www.youtube.com/watch?v=zbG9LQst6EA)",
+    "i": 0,
+    "url": "https://www.youtube.com/watch?v=zbG9LQst6EA"
+   },
+   {
+    "t": "6 - Pigeon (https://www.youtube.com/watch?v=1o7awuDGzag)",
+    "i": 0,
+    "url": "https://www.youtube.com/watch?v=1o7awuDGzag"
+   },
+   {
+    "t": "Alternative: Figure 4 (https://www.youtube.com/shorts/ckHZyA99Das)",
+    "i": 1,
+    "url": "https://www.youtube.com/shorts/ckHZyA99Das"
+   },
+   {
+    "t": "Alternative: Seated Figure 4 (https://www.youtube.com/shorts/b2FwygFSgn0)",
+    "i": 1,
+    "url": "https://www.youtube.com/shorts/b2FwygFSgn0"
+   },
+   {
+    "t": "7 - Seated twists (https://www.youtube.com/watch?v=Pjq54qOuE_A)",
+    "i": 0,
+    "url": "https://www.youtube.com/watch?v=Pjq54qOuE_A"
+   },
+   {
+    "t": "8 - Hip flexor stretch (https://www.youtube.com/watch?v=DXuStgWuJV8)",
+    "i": 0,
+    "url": "https://www.youtube.com/watch?v=DXuStgWuJV8"
+   },
+   {
+    "t": "Alternative: Supine hip flexor stretch (can do at home on couch/bed) (https://www.youtube.com/watch?v=Z_esPBAUDhY)",
+    "i": 1,
+    "url": "https://www.youtube.com/watch?v=Z_esPBAUDhY"
+   },
+   {
+    "t": "9 - Child's pose with reach (https://www.youtube.com/watch?v=FPHDSZJw3EY)",
+    "i": 0,
+    "url": "https://www.youtube.com/watch?v=FPHDSZJw3EY"
    }
-  ]
+  ],
+  "cooldown": []
  },
  "comp-2-2": {
   "tab": "Comp Wk2 Wo2",
@@ -162,14 +233,85 @@
    {
     "t": "rest = 3'",
     "i": 0
-   }
-  ],
-  "cooldown": [
+   },
+   {
+    "t": "COOL DOWN / STRETCHING",
+    "i": 0
+   },
    {
     "t": "5' cooldown on erg",
     "i": 0
+   },
+   {
+    "t": "Post-cool down Stretch",
+    "i": 1
+   },
+   {
+    "t": "Hold the movements for 30 seconds",
+    "i": 1
+   },
+   {
+    "t": "1 - Shoulder cross body stretch (https://www.youtube.com/shorts/aIq0fLi8iak)",
+    "i": 0,
+    "url": "https://www.youtube.com/shorts/aIq0fLi8iak"
+   },
+   {
+    "t": "2 - Tricep stretch (https://www.youtube.com/watch?v=zzvDO56B0HE)",
+    "i": 0,
+    "url": "https://www.youtube.com/watch?v=zzvDO56B0HE"
+   },
+   {
+    "t": "3 - Triangle stretch (https://www.youtube.com/watch?v=hY6cmXdq-Sw)",
+    "i": 0,
+    "url": "https://www.youtube.com/watch?v=hY6cmXdq-Sw"
+   },
+   {
+    "t": "4 - Downward dog (https://www.youtube.com/shorts/YtMP5JxIMpI)",
+    "i": 0,
+    "url": "https://www.youtube.com/shorts/YtMP5JxIMpI"
+   },
+   {
+    "t": "5 - Upward dog (https://www.youtube.com/watch?v=zbG9LQst6EA)",
+    "i": 0,
+    "url": "https://www.youtube.com/watch?v=zbG9LQst6EA"
+   },
+   {
+    "t": "6 - Pigeon (https://www.youtube.com/watch?v=1o7awuDGzag)",
+    "i": 0,
+    "url": "https://www.youtube.com/watch?v=1o7awuDGzag"
+   },
+   {
+    "t": "Alternative: Figure 4 (https://www.youtube.com/shorts/ckHZyA99Das)",
+    "i": 2,
+    "url": "https://www.youtube.com/shorts/ckHZyA99Das"
+   },
+   {
+    "t": "Alternative: Seated Figure 4 (https://www.youtube.com/shorts/b2FwygFSgn0)",
+    "i": 2,
+    "url": "https://www.youtube.com/shorts/b2FwygFSgn0"
+   },
+   {
+    "t": "7 - Seated twists (https://www.youtube.com/watch?v=Pjq54qOuE_A)",
+    "i": 0,
+    "url": "https://www.youtube.com/watch?v=Pjq54qOuE_A"
+   },
+   {
+    "t": "8 - Hip flexor stretch (https://www.youtube.com/watch?v=DXuStgWuJV8)",
+    "i": 0,
+    "url": "https://www.youtube.com/watch?v=DXuStgWuJV8"
+   },
+   {
+    "t": "Alternative: Supine hip flexor stretch (can do at home on couch/bed) (https://www.youtube.com/watch?v=Z_esPBAUDhY)",
+    "i": 2,
+    "url": "https://www.youtube.com/watch?v=Z_esPBAUDhY"
+   },
+   {
+    "t": "9 - Child's pose with reach (https://www.youtube.com/watch?v=FPHDSZJw3EY)",
+    "i": 0,
+    "url": "https://www.youtube.com/watch?v=FPHDSZJw3EY"
    }
-  ]
+  ],
+  "cooldown": []
  },
  "comp-2-3": {
   "tab": "Comp Wk2 Wo3",
@@ -251,6 +393,82 @@
     "i": 0
    },
    {
+    "t": "COOL DOWN / STRETCHING",
+    "i": 0
+   },
+   {
+    "t": "5' cooldown on erg",
+    "i": 0
+   },
+   {
+    "t": "Post-cool down Stretch",
+    "i": 1
+   },
+   {
+    "t": "Hold the movements for 30 seconds",
+    "i": 1
+   },
+   {
+    "t": "1 - Shoulder cross body stretch (https://www.youtube.com/shorts/aIq0fLi8iak)",
+    "i": 0,
+    "url": "https://www.youtube.com/shorts/aIq0fLi8iak"
+   },
+   {
+    "t": "2 - Tricep stretch (https://www.youtube.com/watch?v=zzvDO56B0HE)",
+    "i": 0,
+    "url": "https://www.youtube.com/watch?v=zzvDO56B0HE"
+   },
+   {
+    "t": "3 - Triangle stretch (https://www.youtube.com/watch?v=hY6cmXdq-Sw)",
+    "i": 0,
+    "url": "https://www.youtube.com/watch?v=hY6cmXdq-Sw"
+   },
+   {
+    "t": "4 - Downward dog (https://www.youtube.com/shorts/YtMP5JxIMpI)",
+    "i": 0,
+    "url": "https://www.youtube.com/shorts/YtMP5JxIMpI"
+   },
+   {
+    "t": "5 - Upward dog (https://www.youtube.com/watch?v=zbG9LQst6EA)",
+    "i": 0,
+    "url": "https://www.youtube.com/watch?v=zbG9LQst6EA"
+   },
+   {
+    "t": "6 - Pigeon (https://www.youtube.com/watch?v=1o7awuDGzag)",
+    "i": 0,
+    "url": "https://www.youtube.com/watch?v=1o7awuDGzag"
+   },
+   {
+    "t": "Alternative: Figure 4 (https://www.youtube.com/shorts/ckHZyA99Das)",
+    "i": 2,
+    "url": "https://www.youtube.com/shorts/ckHZyA99Das"
+   },
+   {
+    "t": "Alternative: Seated Figure 4 (https://www.youtube.com/shorts/b2FwygFSgn0)",
+    "i": 2,
+    "url": "https://www.youtube.com/shorts/b2FwygFSgn0"
+   },
+   {
+    "t": "7 - Seated twists (https://www.youtube.com/watch?v=Pjq54qOuE_A)",
+    "i": 0,
+    "url": "https://www.youtube.com/watch?v=Pjq54qOuE_A"
+   },
+   {
+    "t": "8 - Hip flexor stretch (https://www.youtube.com/watch?v=DXuStgWuJV8)",
+    "i": 0,
+    "url": "https://www.youtube.com/watch?v=DXuStgWuJV8"
+   },
+   {
+    "t": "Alternative: Supine hip flexor stretch (can do at home on couch/bed) (https://www.youtube.com/watch?v=Z_esPBAUDhY)",
+    "i": 2,
+    "url": "https://www.youtube.com/watch?v=Z_esPBAUDhY"
+   },
+   {
+    "t": "9 - Child's pose with reach (https://www.youtube.com/watch?v=FPHDSZJw3EY)",
+    "i": 0,
+    "url": "https://www.youtube.com/watch?v=FPHDSZJw3EY"
+   },
+   {
     "t": "BW4:",
     "i": 0
    },
@@ -263,8 +481,8 @@
     "i": 0
    },
    {
-    "t": "Tempo Squats - 3 seconds to depth, 1 second up (https://www.youtube.com/watch?v=aDG5m7BRhSQ)",
-    "i": 2,
+    "t": "(1) Tempo Squats - 3 seconds to depth, 1 second up (https://www.youtube.com/watch?v=aDG5m7BRhSQ)",
+    "i": 1,
     "url": "https://www.youtube.com/watch?v=aDG5m7BRhSQ"
    },
    {
@@ -273,13 +491,13 @@
     "url": "https://www.youtube.com/watch?v=o4GKiEoYClI"
    },
    {
-    "t": "Hip thrust (https://www.youtube.com/shorts/rc9O9xpwqUY)",
-    "i": 2,
+    "t": "(2) Hip thrust (https://www.youtube.com/shorts/rc9O9xpwqUY)",
+    "i": 1,
     "url": "https://www.youtube.com/shorts/rc9O9xpwqUY"
    },
    {
-    "t": "Alternating Bird Dog (https://www.youtube.com/watch?v=QVRtIHp9h-M)",
-    "i": 2,
+    "t": "(3) Alternating Bird Dog (https://www.youtube.com/watch?v=QVRtIHp9h-M)",
+    "i": 1,
     "url": "https://www.youtube.com/watch?v=QVRtIHp9h-M"
    },
    {
@@ -291,17 +509,17 @@
     "i": 0
    },
    {
-    "t": "Pushups (from plank or from knees)",
-    "i": 2
+    "t": "(1) Pushups (from plank or from knees)",
+    "i": 1
    },
    {
-    "t": "Good mornings (https://www.youtube.com/shorts/sAAn3y-qxP4)",
-    "i": 2,
+    "t": "(2) Good mornings (https://www.youtube.com/shorts/sAAn3y-qxP4)",
+    "i": 1,
     "url": "https://www.youtube.com/shorts/sAAn3y-qxP4"
    },
    {
-    "t": "Shoulder taps (https://www.youtube.com/watch?v=QOCn3_iOAro)",
-    "i": 2,
+    "t": "(3) Shoulder taps (https://www.youtube.com/watch?v=QOCn3_iOAro)",
+    "i": 1,
     "url": "https://www.youtube.com/watch?v=QOCn3_iOAro"
    },
    {
@@ -310,8 +528,8 @@
     "url": "https://www.youtube.com/shorts/6dWIaqX1L5U"
    },
    {
-    "t": "Leg lifts",
-    "i": 2
+    "t": "(4) Leg lifts",
+    "i": 1
    },
    {
     "t": "30\" off",
@@ -322,8 +540,8 @@
     "i": 0
    },
    {
-    "t": "Mountain climbers (https://www.youtube.com/watch?v=kLh-uczlPLg)",
-    "i": 2,
+    "t": "(1) Mountain climbers (https://www.youtube.com/watch?v=kLh-uczlPLg)",
+    "i": 1,
     "url": "https://www.youtube.com/watch?v=kLh-uczlPLg"
    },
    {
@@ -332,8 +550,8 @@
     "url": "https://www.youtube.com/watch?v=yU1HZeBLFuU"
    },
    {
-    "t": "Scullers (for stability - place both hands behind on floor, fingers facing feet",
-    "i": 2
+    "t": "(2) Scullers (for stability - place both hands behind on floor, fingers facing feet",
+    "i": 1
    },
    {
     "t": "Bodyweight RDL (https://www.youtube.com/watch?v=wFF_ZUaaObc)",
@@ -341,8 +559,8 @@
     "url": "https://www.youtube.com/watch?v=wFF_ZUaaObc"
    },
    {
-    "t": "Penguin Crunches (https://www.youtube.com/shorts/sf-xXQOgktw)",
-    "i": 2,
+    "t": "(3) Penguin Crunches (https://www.youtube.com/shorts/sf-xXQOgktw)",
+    "i": 1,
     "url": "https://www.youtube.com/shorts/sf-xXQOgktw"
    },
    {
@@ -354,8 +572,8 @@
     "i": 0
    },
    {
-    "t": "Burpees w/o pushup (https://www.youtube.com/watch?v=HfV1UBKzQTo)",
-    "i": 2,
+    "t": "(1) Burpees w/o pushup (https://www.youtube.com/watch?v=HfV1UBKzQTo)",
+    "i": 1,
     "url": "https://www.youtube.com/watch?v=HfV1UBKzQTo"
    },
    {
@@ -364,26 +582,21 @@
     "url": "https://www.youtube.com/watch?v=iUL2tndomms"
    },
    {
-    "t": "Bicycles (https://www.youtube.com/watch?v=cbKIDZ_XyjY)",
-    "i": 2,
+    "t": "(2) Bicycles (https://www.youtube.com/watch?v=cbKIDZ_XyjY)",
+    "i": 1,
     "url": "https://www.youtube.com/watch?v=cbKIDZ_XyjY"
    },
    {
-    "t": "Inchworm (https://www.youtube.com/watch?v=pv_8CdDPAAk)",
-    "i": 2,
+    "t": "(3) Inchworm (https://www.youtube.com/watch?v=pv_8CdDPAAk)",
+    "i": 1,
     "url": "https://www.youtube.com/watch?v=pv_8CdDPAAk"
-   }
-  ],
-  "cooldown": [
-   {
-    "t": "5' cooldown on erg",
-    "i": 0
    },
    {
-    "t": "Calf Raises",
+    "t": "(4) Calf Raises",
     "i": 1
    }
-  ]
+  ],
+  "cooldown": []
  },
  "comp-2-4": {
   "tab": "Comp Wk2 Wo4",
@@ -479,14 +692,85 @@
    {
     "t": "rest = 2'",
     "i": 0
-   }
-  ],
-  "cooldown": [
+   },
+   {
+    "t": "COOL DOWN / STRETCHING",
+    "i": 0
+   },
    {
     "t": "5' cooldown on erg",
     "i": 0
+   },
+   {
+    "t": "Post-cool down Stretch",
+    "i": 1
+   },
+   {
+    "t": "Hold the movements for 30 seconds",
+    "i": 1
+   },
+   {
+    "t": "1 - Shoulder cross body stretch (https://www.youtube.com/shorts/aIq0fLi8iak)",
+    "i": 0,
+    "url": "https://www.youtube.com/shorts/aIq0fLi8iak"
+   },
+   {
+    "t": "2 - Tricep stretch (https://www.youtube.com/watch?v=zzvDO56B0HE)",
+    "i": 0,
+    "url": "https://www.youtube.com/watch?v=zzvDO56B0HE"
+   },
+   {
+    "t": "3 - Triangle stretch (https://www.youtube.com/watch?v=hY6cmXdq-Sw)",
+    "i": 0,
+    "url": "https://www.youtube.com/watch?v=hY6cmXdq-Sw"
+   },
+   {
+    "t": "4 - Downward dog (https://www.youtube.com/shorts/YtMP5JxIMpI)",
+    "i": 0,
+    "url": "https://www.youtube.com/shorts/YtMP5JxIMpI"
+   },
+   {
+    "t": "5 - Upward dog (https://www.youtube.com/watch?v=zbG9LQst6EA)",
+    "i": 0,
+    "url": "https://www.youtube.com/watch?v=zbG9LQst6EA"
+   },
+   {
+    "t": "6 - Pigeon (https://www.youtube.com/watch?v=1o7awuDGzag)",
+    "i": 0,
+    "url": "https://www.youtube.com/watch?v=1o7awuDGzag"
+   },
+   {
+    "t": "Alternative: Figure 4 (https://www.youtube.com/shorts/ckHZyA99Das)",
+    "i": 2,
+    "url": "https://www.youtube.com/shorts/ckHZyA99Das"
+   },
+   {
+    "t": "Alternative: Seated Figure 4 (https://www.youtube.com/shorts/b2FwygFSgn0)",
+    "i": 2,
+    "url": "https://www.youtube.com/shorts/b2FwygFSgn0"
+   },
+   {
+    "t": "7 - Seated twists (https://www.youtube.com/watch?v=Pjq54qOuE_A)",
+    "i": 0,
+    "url": "https://www.youtube.com/watch?v=Pjq54qOuE_A"
+   },
+   {
+    "t": "8 - Hip flexor stretch (https://www.youtube.com/watch?v=DXuStgWuJV8)",
+    "i": 0,
+    "url": "https://www.youtube.com/watch?v=DXuStgWuJV8"
+   },
+   {
+    "t": "Alternative: Supine hip flexor stretch (can do at home on couch/bed) (https://www.youtube.com/watch?v=Z_esPBAUDhY)",
+    "i": 2,
+    "url": "https://www.youtube.com/watch?v=Z_esPBAUDhY"
+   },
+   {
+    "t": "9 - Child's pose with reach (https://www.youtube.com/watch?v=FPHDSZJw3EY)",
+    "i": 0,
+    "url": "https://www.youtube.com/watch?v=FPHDSZJw3EY"
    }
-  ]
+  ],
+  "cooldown": []
  },
  "fit-2-1": {
   "tab": "Fit Wk2 Wo1",
@@ -575,14 +859,85 @@
    {
     "t": "P3: 10':  20 on, 5 off @ 22, 24, 26, 24, 22, ...",
     "i": 0
-   }
-  ],
-  "cooldown": [
+   },
+   {
+    "t": "COOL DOWN / STRETCHING",
+    "i": 0
+   },
    {
     "t": "5' cooldown on erg",
     "i": 0
+   },
+   {
+    "t": "Post-cool down Stretch",
+    "i": 0
+   },
+   {
+    "t": "Hold the movements for 30 seconds",
+    "i": 0
+   },
+   {
+    "t": "1 - Shoulder cross body stretch (https://www.youtube.com/shorts/aIq0fLi8iak)",
+    "i": 0,
+    "url": "https://www.youtube.com/shorts/aIq0fLi8iak"
+   },
+   {
+    "t": "2 - Tricep stretch (https://www.youtube.com/watch?v=zzvDO56B0HE)",
+    "i": 0,
+    "url": "https://www.youtube.com/watch?v=zzvDO56B0HE"
+   },
+   {
+    "t": "3 - Triangle stretch (https://www.youtube.com/watch?v=hY6cmXdq-Sw)",
+    "i": 0,
+    "url": "https://www.youtube.com/watch?v=hY6cmXdq-Sw"
+   },
+   {
+    "t": "4 - Downward dog (https://www.youtube.com/shorts/YtMP5JxIMpI)",
+    "i": 0,
+    "url": "https://www.youtube.com/shorts/YtMP5JxIMpI"
+   },
+   {
+    "t": "5 - Upward dog (https://www.youtube.com/watch?v=zbG9LQst6EA)",
+    "i": 0,
+    "url": "https://www.youtube.com/watch?v=zbG9LQst6EA"
+   },
+   {
+    "t": "6 - Pigeon (https://www.youtube.com/watch?v=1o7awuDGzag)",
+    "i": 0,
+    "url": "https://www.youtube.com/watch?v=1o7awuDGzag"
+   },
+   {
+    "t": "Alternative: Figure 4 (https://www.youtube.com/shorts/ckHZyA99Das)",
+    "i": 1,
+    "url": "https://www.youtube.com/shorts/ckHZyA99Das"
+   },
+   {
+    "t": "Alternative: Seated Figure 4 (https://www.youtube.com/shorts/b2FwygFSgn0)",
+    "i": 1,
+    "url": "https://www.youtube.com/shorts/b2FwygFSgn0"
+   },
+   {
+    "t": "7 - Seated twists (https://www.youtube.com/watch?v=Pjq54qOuE_A)",
+    "i": 0,
+    "url": "https://www.youtube.com/watch?v=Pjq54qOuE_A"
+   },
+   {
+    "t": "8 - Hip flexor stretch (https://www.youtube.com/watch?v=DXuStgWuJV8)",
+    "i": 0,
+    "url": "https://www.youtube.com/watch?v=DXuStgWuJV8"
+   },
+   {
+    "t": "Alternative: Supine hip flexor stretch (can do at home on couch/bed) (https://www.youtube.com/watch?v=Z_esPBAUDhY)",
+    "i": 1,
+    "url": "https://www.youtube.com/watch?v=Z_esPBAUDhY"
+   },
+   {
+    "t": "9 - Child's pose with reach (https://www.youtube.com/watch?v=FPHDSZJw3EY)",
+    "i": 0,
+    "url": "https://www.youtube.com/watch?v=FPHDSZJw3EY"
    }
-  ]
+  ],
+  "cooldown": []
  },
  "fit-2-2": {
   "tab": "Fit Wk2 Wo2",
@@ -670,14 +1025,144 @@
    {
     "t": "10' Body Weight Circuit",
     "i": 0
-   }
-  ],
-  "cooldown": [
+   },
+   {
+    "t": "30\" on, 10\" off",
+    "i": 0
+   },
+   {
+    "t": "Set 1:",
+    "i": 0
+   },
+   {
+    "t": "(1) Tempo Squats - 3 seconds to depth, 1 second up (https://www.youtube.com/watch?v=aDG5m7BRhSQ)",
+    "i": 1,
+    "url": "https://www.youtube.com/watch?v=aDG5m7BRhSQ"
+   },
+   {
+    "t": "Dead bugs (https://www.youtube.com/watch?v=o4GKiEoYClI)",
+    "i": 1,
+    "url": "https://www.youtube.com/watch?v=o4GKiEoYClI"
+   },
+   {
+    "t": "(2) Hip thrust (https://www.youtube.com/shorts/rc9O9xpwqUY)",
+    "i": 1,
+    "url": "https://www.youtube.com/shorts/rc9O9xpwqUY"
+   },
+   {
+    "t": "(3) Alternating Bird Dog (https://www.youtube.com/watch?v=QVRtIHp9h-M)",
+    "i": 1,
+    "url": "https://www.youtube.com/watch?v=QVRtIHp9h-M"
+   },
+   {
+    "t": "30\" off",
+    "i": 0
+   },
+   {
+    "t": "Set 2:",
+    "i": 0
+   },
+   {
+    "t": "(1) Pushups (from plank or from knees)",
+    "i": 1
+   },
+   {
+    "t": "(2) Good mornings (https://www.youtube.com/shorts/sAAn3y-qxP4)",
+    "i": 1,
+    "url": "https://www.youtube.com/shorts/sAAn3y-qxP4"
+   },
+   {
+    "t": "(3) Shoulder taps (https://www.youtube.com/watch?v=QOCn3_iOAro)",
+    "i": 1,
+    "url": "https://www.youtube.com/watch?v=QOCn3_iOAro"
+   },
+   {
+    "t": "Adaptation: Wall taps (https://www.youtube.com/shorts/6dWIaqX1L5U)",
+    "i": 2,
+    "url": "https://www.youtube.com/shorts/6dWIaqX1L5U"
+   },
+   {
+    "t": "(4) Leg lifts",
+    "i": 1
+   },
+   {
+    "t": "COOL DOWN / STRETCHING",
+    "i": 0
+   },
    {
     "t": "5' cooldown on erg",
     "i": 0
+   },
+   {
+    "t": "Post-cool down Stretch",
+    "i": 0
+   },
+   {
+    "t": "Hold the movements for 30 seconds",
+    "i": 0
+   },
+   {
+    "t": "1 - Shoulder cross body stretch (https://www.youtube.com/shorts/aIq0fLi8iak)",
+    "i": 0,
+    "url": "https://www.youtube.com/shorts/aIq0fLi8iak"
+   },
+   {
+    "t": "2 - Tricep stretch (https://www.youtube.com/watch?v=zzvDO56B0HE)",
+    "i": 0,
+    "url": "https://www.youtube.com/watch?v=zzvDO56B0HE"
+   },
+   {
+    "t": "3 - Triangle stretch (https://www.youtube.com/watch?v=hY6cmXdq-Sw)",
+    "i": 0,
+    "url": "https://www.youtube.com/watch?v=hY6cmXdq-Sw"
+   },
+   {
+    "t": "4 - Downward dog (https://www.youtube.com/shorts/YtMP5JxIMpI)",
+    "i": 0,
+    "url": "https://www.youtube.com/shorts/YtMP5JxIMpI"
+   },
+   {
+    "t": "5 - Upward dog (https://www.youtube.com/watch?v=zbG9LQst6EA)",
+    "i": 0,
+    "url": "https://www.youtube.com/watch?v=zbG9LQst6EA"
+   },
+   {
+    "t": "6 - Pigeon (https://www.youtube.com/watch?v=1o7awuDGzag)",
+    "i": 0,
+    "url": "https://www.youtube.com/watch?v=1o7awuDGzag"
+   },
+   {
+    "t": "Alternative: Figure 4 (https://www.youtube.com/shorts/ckHZyA99Das)",
+    "i": 1,
+    "url": "https://www.youtube.com/shorts/ckHZyA99Das"
+   },
+   {
+    "t": "Alternative: Seated Figure 4 (https://www.youtube.com/shorts/b2FwygFSgn0)",
+    "i": 1,
+    "url": "https://www.youtube.com/shorts/b2FwygFSgn0"
+   },
+   {
+    "t": "7 - Seated twists (https://www.youtube.com/watch?v=Pjq54qOuE_A)",
+    "i": 0,
+    "url": "https://www.youtube.com/watch?v=Pjq54qOuE_A"
+   },
+   {
+    "t": "8 - Hip flexor stretch (https://www.youtube.com/watch?v=DXuStgWuJV8)",
+    "i": 0,
+    "url": "https://www.youtube.com/watch?v=DXuStgWuJV8"
+   },
+   {
+    "t": "Alternative: Supine hip flexor stretch (can do at home on couch/bed) (https://www.youtube.com/watch?v=Z_esPBAUDhY)",
+    "i": 1,
+    "url": "https://www.youtube.com/watch?v=Z_esPBAUDhY"
+   },
+   {
+    "t": "9 - Child's pose with reach (https://www.youtube.com/watch?v=FPHDSZJw3EY)",
+    "i": 0,
+    "url": "https://www.youtube.com/watch?v=FPHDSZJw3EY"
    }
-  ]
+  ],
+  "cooldown": []
  },
  "fit-2-3": {
   "tab": "Fit Wk2 Wo3",
@@ -773,14 +1258,85 @@
    {
     "t": "rest = 2'",
     "i": 0
-   }
-  ],
-  "cooldown": [
+   },
+   {
+    "t": "COOL DOWN / STRETCHING",
+    "i": 0
+   },
    {
     "t": "5' cooldown on erg",
     "i": 0
+   },
+   {
+    "t": "Post-cool down Stretch",
+    "i": 1
+   },
+   {
+    "t": "Hold the movements for 30 seconds",
+    "i": 1
+   },
+   {
+    "t": "1 - Shoulder cross body stretch (https://www.youtube.com/shorts/aIq0fLi8iak)",
+    "i": 0,
+    "url": "https://www.youtube.com/shorts/aIq0fLi8iak"
+   },
+   {
+    "t": "2 - Tricep stretch (https://www.youtube.com/watch?v=zzvDO56B0HE)",
+    "i": 0,
+    "url": "https://www.youtube.com/watch?v=zzvDO56B0HE"
+   },
+   {
+    "t": "3 - Triangle stretch (https://www.youtube.com/watch?v=hY6cmXdq-Sw)",
+    "i": 0,
+    "url": "https://www.youtube.com/watch?v=hY6cmXdq-Sw"
+   },
+   {
+    "t": "4 - Downward dog (https://www.youtube.com/shorts/YtMP5JxIMpI)",
+    "i": 0,
+    "url": "https://www.youtube.com/shorts/YtMP5JxIMpI"
+   },
+   {
+    "t": "5 - Upward dog (https://www.youtube.com/watch?v=zbG9LQst6EA)",
+    "i": 0,
+    "url": "https://www.youtube.com/watch?v=zbG9LQst6EA"
+   },
+   {
+    "t": "6 - Pigeon (https://www.youtube.com/watch?v=1o7awuDGzag)",
+    "i": 0,
+    "url": "https://www.youtube.com/watch?v=1o7awuDGzag"
+   },
+   {
+    "t": "Alternative: Figure 4 (https://www.youtube.com/shorts/ckHZyA99Das)",
+    "i": 2,
+    "url": "https://www.youtube.com/shorts/ckHZyA99Das"
+   },
+   {
+    "t": "Alternative: Seated Figure 4 (https://www.youtube.com/shorts/b2FwygFSgn0)",
+    "i": 2,
+    "url": "https://www.youtube.com/shorts/b2FwygFSgn0"
+   },
+   {
+    "t": "7 - Seated twists (https://www.youtube.com/watch?v=Pjq54qOuE_A)",
+    "i": 0,
+    "url": "https://www.youtube.com/watch?v=Pjq54qOuE_A"
+   },
+   {
+    "t": "8 - Hip flexor stretch (https://www.youtube.com/watch?v=DXuStgWuJV8)",
+    "i": 0,
+    "url": "https://www.youtube.com/watch?v=DXuStgWuJV8"
+   },
+   {
+    "t": "Alternative: Supine hip flexor stretch (can do at home on couch/bed) (https://www.youtube.com/watch?v=Z_esPBAUDhY)",
+    "i": 2,
+    "url": "https://www.youtube.com/watch?v=Z_esPBAUDhY"
+   },
+   {
+    "t": "9 - Child's pose with reach (https://www.youtube.com/watch?v=FPHDSZJw3EY)",
+    "i": 0,
+    "url": "https://www.youtube.com/watch?v=FPHDSZJw3EY"
    }
-  ]
+  ],
+  "cooldown": []
  },
  "comp-1-4": {
   "tab": "Comp Wk1 Wo4",
