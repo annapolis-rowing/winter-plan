@@ -247,14 +247,141 @@
     "i": 0
    },
    {
-    "t": "Body-Weight Circuit",
+    "t": "Body-Weight Circuit  ---->",
     "i": 0
+   },
+   {
+    "t": "BW4:",
+    "i": 0
+   },
+   {
+    "t": "30\" on, 10\" off",
+    "i": 1
+   },
+   {
+    "t": "Set 1:",
+    "i": 0
+   },
+   {
+    "t": "Tempo Squats - 3 seconds to depth, 1 second up (https://www.youtube.com/watch?v=aDG5m7BRhSQ)",
+    "i": 2,
+    "url": "https://www.youtube.com/watch?v=aDG5m7BRhSQ"
+   },
+   {
+    "t": "Dead bugs (https://www.youtube.com/watch?v=o4GKiEoYClI)",
+    "i": 2,
+    "url": "https://www.youtube.com/watch?v=o4GKiEoYClI"
+   },
+   {
+    "t": "Hip thrust (https://www.youtube.com/shorts/rc9O9xpwqUY)",
+    "i": 2,
+    "url": "https://www.youtube.com/shorts/rc9O9xpwqUY"
+   },
+   {
+    "t": "Alternating Bird Dog (https://www.youtube.com/watch?v=QVRtIHp9h-M)",
+    "i": 2,
+    "url": "https://www.youtube.com/watch?v=QVRtIHp9h-M"
+   },
+   {
+    "t": "30\" off",
+    "i": 0
+   },
+   {
+    "t": "Set 2:",
+    "i": 0
+   },
+   {
+    "t": "Pushups (from plank or from knees)",
+    "i": 2
+   },
+   {
+    "t": "Good mornings (https://www.youtube.com/shorts/sAAn3y-qxP4)",
+    "i": 2,
+    "url": "https://www.youtube.com/shorts/sAAn3y-qxP4"
+   },
+   {
+    "t": "Shoulder taps (https://www.youtube.com/watch?v=QOCn3_iOAro)",
+    "i": 2,
+    "url": "https://www.youtube.com/watch?v=QOCn3_iOAro"
+   },
+   {
+    "t": "Adaptation: Wall taps (https://www.youtube.com/shorts/6dWIaqX1L5U)",
+    "i": 3,
+    "url": "https://www.youtube.com/shorts/6dWIaqX1L5U"
+   },
+   {
+    "t": "Leg lifts",
+    "i": 2
+   },
+   {
+    "t": "30\" off",
+    "i": 0
+   },
+   {
+    "t": "Set 3:",
+    "i": 0
+   },
+   {
+    "t": "Mountain climbers (https://www.youtube.com/watch?v=kLh-uczlPLg)",
+    "i": 2,
+    "url": "https://www.youtube.com/watch?v=kLh-uczlPLg"
+   },
+   {
+    "t": "Adaptation: Wall climbers (https://www.youtube.com/watch?v=yU1HZeBLFuU)",
+    "i": 3,
+    "url": "https://www.youtube.com/watch?v=yU1HZeBLFuU"
+   },
+   {
+    "t": "Scullers (for stability - place both hands behind on floor, fingers facing feet",
+    "i": 2
+   },
+   {
+    "t": "Bodyweight RDL (https://www.youtube.com/watch?v=wFF_ZUaaObc)",
+    "i": 2,
+    "url": "https://www.youtube.com/watch?v=wFF_ZUaaObc"
+   },
+   {
+    "t": "Penguin Crunches (https://www.youtube.com/shorts/sf-xXQOgktw)",
+    "i": 2,
+    "url": "https://www.youtube.com/shorts/sf-xXQOgktw"
+   },
+   {
+    "t": "30\" off",
+    "i": 0
+   },
+   {
+    "t": "Set 4:",
+    "i": 0
+   },
+   {
+    "t": "Burpees w/o pushup (https://www.youtube.com/watch?v=HfV1UBKzQTo)",
+    "i": 2,
+    "url": "https://www.youtube.com/watch?v=HfV1UBKzQTo"
+   },
+   {
+    "t": "Adaptation: https://www.youtube.com/watch?v=iUL2tndomms",
+    "i": 3,
+    "url": "https://www.youtube.com/watch?v=iUL2tndomms"
+   },
+   {
+    "t": "Bicycles (https://www.youtube.com/watch?v=cbKIDZ_XyjY)",
+    "i": 2,
+    "url": "https://www.youtube.com/watch?v=cbKIDZ_XyjY"
+   },
+   {
+    "t": "Inchworm (https://www.youtube.com/watch?v=pv_8CdDPAAk)",
+    "i": 2,
+    "url": "https://www.youtube.com/watch?v=pv_8CdDPAAk"
    }
   ],
   "cooldown": [
    {
     "t": "5' cooldown on erg",
     "i": 0
+   },
+   {
+    "t": "Calf Raises",
+    "i": 1
    }
   ]
  },

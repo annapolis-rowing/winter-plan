@@ -72,8 +72,25 @@ def parse(ws):
     # body sections
     cur, base_col, last_row = None, None, None
     dyn_on = False
+    side = {"warmup": [], "workout": [], "cooldown": []}
     for r, cells in sorted(rows.items()):
         line_cells = [(c, t, l) for c, t, l in cells]
+        # a side panel (e.g. a body-weight circuit in column L) is read as its own stream
+        if cur is not None and base_col is not None:
+            right = [x for x in line_cells if x[0] - base_col >= 8]
+            if right:
+                line_cells = [x for x in line_cells if x[0] - base_col < 8]
+                rc = right[0][0]
+                rtext = " ".join(t.strip() for _, t, _ in right).strip()
+                rlink = next((l for _, _, l in right if l), None)
+                ri = (len(right[0][1]) - len(right[0][1].lstrip())) // 4
+                if rtext.startswith("- "):
+                    rtext = rtext[2:].strip()
+                side[cur if not (cur == "warmup" and last_row and r - last_row >= 5 and d["warmup"]) else "workout"].append(
+                    {"t": rtext, "i": min(ri + (1 if right[0][1].lstrip().startswith("-") else 0), 3),
+                     **({"url": rlink} if rlink else {})})
+                if not line_cells:
+                    continue
         head = line_cells[0][1].strip().upper()
         if head in SECTIONS:
             cur, base_col, last_row, dyn_on = SECTIONS[head], line_cells[0][0], r, False
@@ -104,6 +121,7 @@ def parse(ws):
         d[cur].append({"t": text.lstrip("- ").strip() if text.startswith("- ") else text,
                        "i": min(indent, 3), **({"url": link} if link else {})})
     for s in ("warmup", "workout", "cooldown"):
+        d[s].extend(side[s])
         if d[s]:
             m = min(x["i"] for x in d[s])
             for x in d[s]:
