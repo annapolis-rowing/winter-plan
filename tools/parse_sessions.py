@@ -92,6 +92,11 @@ def parse(ws):
                 if not line_cells:
                     continue
         head = line_cells[0][1].strip().upper()
+        # headings may carry extra words, e.g. "COOL DOWN / STRETCHING"
+        for h, sec in SECTIONS.items():
+            if len(line_cells) == 1 and (head == h or head.startswith(h + " ") or head.startswith(h + "/")):
+                head = h
+                break
         if head in SECTIONS:
             cur, base_col, last_row, dyn_on = SECTIONS[head], line_cells[0][0], r, False
             continue
@@ -107,7 +112,12 @@ def parse(ws):
         if cur == "warmup" and last_row and r - last_row >= 5 and d["warmup"]:
             cur = "workout"
         last_row = r
-        text = " ".join(t.strip() for _, t, _ in line_cells).strip()
+        # a numbered list item ("1" in one cell, "- Stretch" in the next) reads as "1. Stretch"
+        if len(line_cells) >= 2 and re.fullmatch(r"\d+", line_cells[0][1].strip()):
+            rest_t = " ".join(t.strip() for _, t, _ in line_cells[1:]).strip()
+            line_cells = [(line_cells[1][0], f"{line_cells[0][1].strip()}. {rest_t.lstrip('- ').strip()}", None)] + \
+                         [(c, "", l) for c, _, l in line_cells[1:]]
+        text = " ".join(t.strip() for _, t, _ in line_cells if t.strip()).strip()
         link = next((l for _, _, l in line_cells if l), None)
         if link and "forms.gle" in link or (link and "docs.google.com/forms" in link):
             d["form"] = link
