@@ -1,0 +1,37 @@
+name: Rebuild coaches' page
+
+# Whenever the athletes' page (index.html) or the coaches' builder changes,
+# regenerate coaches/index.html so the coaches' edition stays matched.
+on:
+  push:
+    branches: [main]
+    paths:
+      - index.html
+      - tools/build_coaches.py
+      - coaches/config.js
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Build coaches/index.html
+        run: python3 -I tools/build_coaches.py
+      - name: Commit if it changed
+        run: |
+          if git diff --quiet -- coaches/index.html; then
+            echo "Coaches' page already up to date"
+          else
+            git config user.name "annapolis-rowing"
+            git config user.email "annapolis-rowing@users.noreply.github.com"
+            git add coaches/index.html
+            git commit -m "Rebuild coaches' page from index.html"
+            git push
+          fi
