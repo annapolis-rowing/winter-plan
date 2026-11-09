@@ -151,8 +151,10 @@ def build():
 
     s = re.sub(r"<title>.*?</title>", "<title>ARC Winter Erg Plan · Coaches</title>", s, count=1)
     rep("<title>", '<meta name="robots" content="noindex">\n<title>')
+    # the coaches' page has its own home-screen settings and icons in coaches/,
+    # so "Add to Home Screen" opens the coaches' edition, not the athletes' page
     for f in ("icon-192.png", "apple-touch-icon.png", "manifest.webmanifest"):
-        rep(f'href="{f}"', f'href="../{f}"')
+        assert os.path.exists(os.path.join(ROOT, "coaches", f)), f"coaches/{f} is missing"
     rep('content="ARC Erg"', 'content="ARC Coach"')
     for f in ("plan.json", "details.json"):
         rep(f'getJSON("{f}")', f'getJSON("../{f}")')
