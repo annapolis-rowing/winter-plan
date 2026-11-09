@@ -29,8 +29,9 @@ CSS = """
 .ci-msg{font-size:14px;color:var(--muted);margin:0}
 .ci-msg.err{color:var(--accent);font-weight:600}
 .panel .checkin{margin:0;border:0;padding:0;background:none}
-.ci-open{font:700 15px var(--body);border:0;background:var(--accent);color:var(--bg);border-radius:999px;padding:10px 16px;cursor:pointer;display:inline-flex;align-items:center;gap:6px}
-.ci-open:focus-visible{outline:2px solid var(--ink);outline-offset:2px}
+.ci-open{font:700 15px var(--body);border:1.5px solid #13283b;background:#ffffff;color:#13283b;border-radius:999px;padding:10px 16px;cursor:pointer;display:inline-flex;align-items:center;gap:6px}
+.ci-open:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.ci-open:hover{background:#eef3f6}
 """
 
 HTML = """
