@@ -1,0 +1,393 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="robots" content="noindex">
+<title>ARC Winter Erg Plan · Coaches</title>
+<meta name="description" content="Annapolis Rowing Club masters winter erg training plan, 2026–27.">
+<meta name="theme-color" content="#13283b">
+<link rel="icon" href="../icon-192.png" type="image/png">
+<link rel="apple-touch-icon" href="../apple-touch-icon.png">
+<meta name="apple-mobile-web-app-title" content="ARC Coach">
+<link rel="manifest" href="../manifest.webmanifest">
+<style>:root{padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}body{margin:0}img{max-width:100%}[hidden]{display:none!important}.checkin{margin-top:20px;background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:16px;display:grid;gap:12px}
+.ci-top{display:flex;flex-wrap:wrap;gap:10px;align-items:center;justify-content:space-between}
+.ci-top h2{margin:0}
+.ci-count{font:700 28px/1 var(--display);color:var(--accent)}
+.ci-count small{font:600 13px var(--body);color:var(--muted);margin-left:4px}
+.ci-controls{display:grid;grid-template-columns:1fr;gap:8px}
+@media (min-width:560px){.ci-controls{grid-template-columns:1fr 1fr}}
+.ci-controls select,.ci-controls input{font:500 16px var(--body);width:100%;padding:10px 12px;border:1px solid var(--line);border-radius:10px;background:var(--bg);color:var(--ink)}
+.ci-list{list-style:none;margin:0;padding:0;display:grid;gap:6px}
+.ci-list li{margin:0}
+.ci-btn{width:100%;display:flex;align-items:center;gap:12px;text-align:left;font:600 17px var(--body);color:var(--ink);background:var(--bg);border:1px solid var(--line);border-radius:12px;padding:12px 14px;cursor:pointer;min-height:52px}
+.ci-btn .box{flex:none;width:26px;height:26px;border-radius:7px;border:2px solid var(--muted);display:grid;place-items:center;font-size:16px;line-height:1;color:transparent}
+.ci-btn[aria-pressed="true"]{background:var(--accent-soft);border-color:var(--accent)}
+.ci-btn[aria-pressed="true"] .box{background:var(--accent);border-color:var(--accent);color:var(--bg)}
+.ci-btn.saving{opacity:.6}
+.ci-btn:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.ci-msg{font-size:14px;color:var(--muted);margin:0}
+.ci-msg.err{color:var(--accent);font-weight:600}
+.sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)}
+</style>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700&family=Source+Sans+3:wght@400;600;700&family=IBM+Plex+Mono:wght@500&display=swap">
+<style>
+/* Layout: single centered column; track switch on top, this week first, then the season from the coaching sheet, then the zone calculator */
+:root{
+  --bg:#eef3f6; --surface:#ffffff; --ink:#13283b; --muted:#5a6c7c; --line:#d3dde5;
+  --accent:#d9591a; --accent-soft:#fbe9de; --hi:#fff3e8; --off:#e4eaef;
+  --display:"Barlow Condensed","Arial Narrow",Arial,sans-serif;
+  --body:"Source Sans 3","Segoe UI",system-ui,sans-serif;
+  --mono:"IBM Plex Mono",ui-monospace,Menlo,monospace;
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --bg:#0c1620; --surface:#13212e; --ink:#e4edf4; --muted:#93a5b5; --line:#24384a;
+  --accent:#ff8a4c; --accent-soft:#3a2416; --hi:#2b1f17; --off:#182836; color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#0c1620; --surface:#13212e; --ink:#e4edf4; --muted:#93a5b5; --line:#24384a;
+  --accent:#ff8a4c; --accent-soft:#3a2416; --hi:#2b1f17; --off:#182836; color-scheme:dark}
+*{box-sizing:border-box}
+body{background:var(--bg);color:var(--ink);font:16px/1.5 var(--body);
+  padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));padding-block:0 64px}
+.wrap{max-width:960px;margin:0 auto}
+header{padding-block:36px 20px;display:grid;gap:6px}
+.eyebrow{font:600 13px/1 var(--body);letter-spacing:.12em;text-transform:uppercase;color:var(--accent)}
+h1{font:700 clamp(40px,8vw,64px)/.95 var(--display);margin:0;text-wrap:balance;letter-spacing:-.01em}
+.sub{color:var(--muted);margin:0;max-width:62ch}
+h2{font:700 30px/1.1 var(--display);margin:0 0 12px;text-wrap:balance}
+h3{font:700 20px/1.2 var(--display);margin:0 0 6px;letter-spacing:.01em}
+section{margin-top:44px}
+p{margin:0 0 12px;max-width:68ch}
+.muted{color:var(--muted)}
+.switch{position:sticky;top:env(safe-area-inset-top,0px);z-index:5;background:var(--bg);padding-block:10px;display:flex;flex-wrap:wrap;gap:10px;align-items:center;border-bottom:1px solid var(--line)}
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);z-index:10;background:var(--bg)}
+.seg{display:inline-flex;border:1px solid var(--line);border-radius:999px;background:var(--surface);padding:3px}
+.seg button{font:600 15px var(--body);border:0;background:none;color:var(--muted);padding:8px 16px;border-radius:999px;cursor:pointer}
+.seg button[aria-pressed="true"]{background:var(--ink);color:var(--bg)}
+.seg button:focus-visible,a:focus-visible,input:focus-visible,summary:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.jump{display:flex;gap:14px;flex-wrap:wrap;font-size:14px}
+.jump a{color:var(--muted);text-decoration:none}.jump a:hover{color:var(--accent)}
+/* this week */
+.now{margin-top:20px;background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:20px;display:grid;gap:14px}
+.now-head{display:flex;flex-wrap:wrap;justify-content:space-between;gap:8px;align-items:baseline}
+.now-head h2{margin:0}
+.pill{display:inline-block;font:600 12px/1 var(--body);letter-spacing:.08em;text-transform:uppercase;padding:5px 9px;border-radius:999px;background:var(--accent-soft);color:var(--accent)}
+.sessions{display:grid;grid-template-columns:repeat(auto-fit,minmax(190px,1fr));gap:10px}
+.s{border:1px solid var(--line);border-radius:10px;padding:12px;min-width:0}
+.s .lab{font:600 12px/1.2 var(--body);letter-spacing:.08em;text-transform:uppercase;color:var(--muted);margin-bottom:6px}
+.s .wo{font-weight:600}
+.s .rate{font:500 13px var(--mono);color:var(--muted);margin-top:4px}
+.s.key{background:var(--hi);border-color:var(--accent)}
+.s.key .lab{color:var(--accent)}
+.note{font-size:15px;color:var(--muted)}
+/* season */
+.weeks{display:grid;gap:8px}
+.wk{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:14px 16px;display:grid;grid-template-columns:150px 1fr;gap:14px}
+.wk.cur{border-color:var(--accent);box-shadow:0 0 0 1px var(--accent)}
+.wk.offwk{background:var(--off)}
+.wk-meta{display:grid;gap:3px;align-content:start}
+.wk-num{font:700 26px/1 var(--display)}
+.wk-dates{font-size:14px;color:var(--muted)}
+.wk-tag{font-size:13px;font-weight:600;color:var(--accent)}
+.wk .sessions{grid-template-columns:repeat(auto-fit,minmax(170px,1fr))}
+.wk .s{padding:10px;font-size:15px}
+.phase{font:700 15px var(--display);letter-spacing:.1em;text-transform:uppercase;color:var(--muted);margin:18px 0 4px}
+.phase:first-child{margin-top:0}
+/* tables */
+.tbl{overflow-x:auto;border:1px solid var(--line);border-radius:12px;background:var(--surface)}
+table{border-collapse:collapse;width:100%;font-size:15px}
+th,td{text-align:left;padding:10px 12px;border-bottom:1px solid var(--line);vertical-align:top}
+th{font-size:12px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);font-weight:600}
+tr:last-child td{border-bottom:0}
+td.num,.mono{font-family:var(--mono);font-variant-numeric:tabular-nums;white-space:nowrap}
+.calc{display:flex;flex-wrap:wrap;gap:10px;align-items:center;margin:0 0 12px}
+.calc label{font-weight:600}
+.calc input{font:500 18px var(--mono);width:110px;padding:8px 10px;border:1px solid var(--line);border-radius:8px;background:var(--surface);color:var(--ink)}
+ul{margin:0;padding-left:20px}li{margin-bottom:6px}
+a{color:var(--accent)}
+.s.has{border-color:var(--ink)}
+.coachline{font-size:13px;color:var(--muted);margin-top:6px}
+.more{display:inline-block;margin-top:8px;font-weight:700;font-size:14px;color:var(--accent);text-decoration:none}
+.more:hover{text-decoration:underline}
+.sheet{position:fixed;inset:0;z-index:20;background:color-mix(in srgb,var(--ink) 45%,transparent);display:flex;justify-content:flex-end}
+.panel{background:var(--bg);width:min(560px,100%);height:100%;overflow-y:auto;padding-top:calc(16px + env(safe-area-inset-top,0px));padding-bottom:calc(40px + env(safe-area-inset-bottom,0px));padding-left:max(18px,env(safe-area-inset-left,0px));padding-right:max(18px,env(safe-area-inset-right,0px));display:grid;gap:16px;align-content:start}
+.ptop{display:flex;justify-content:space-between;align-items:start;gap:12px}
+.ptop h2{margin:4px 0 0}
+.close{font:600 15px var(--body);border:1px solid var(--line);background:var(--surface);color:var(--ink);border-radius:999px;padding:8px 14px;cursor:pointer;flex:none}
+.meta{display:grid;grid-template-columns:auto 1fr;gap:4px 14px;font-size:15px;background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:12px 14px}
+.meta dt{color:var(--muted);font-weight:600}.meta dd{margin:0}
+.links{display:flex;flex-wrap:wrap;gap:8px}
+.links a{font-weight:600;font-size:14px;text-decoration:none;border:1px solid var(--line);background:var(--surface);color:var(--ink);border-radius:999px;padding:7px 12px}
+.links a.primary{background:var(--accent);border-color:var(--accent);color:var(--bg)}
+.blk{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:14px}
+.blk h3{color:var(--accent);font-size:17px;letter-spacing:.08em;text-transform:uppercase;margin-bottom:8px}
+.lines{list-style:none;padding:0;margin:0;display:grid;gap:5px}
+.lines li{margin:0;padding-left:calc(var(--i,0) * 18px)}
+.lines li.sub{color:var(--muted)}
+.lines li.top{font-weight:600}
+details summary{cursor:pointer;font-weight:600}
+.dyn{columns:2;column-gap:20px;margin-top:8px;padding-left:18px;font-size:15px}
+.vlink{display:inline-block;font-size:13px;font-weight:700;text-decoration:none;white-space:nowrap;margin-left:5px}
+.vlink:hover{text-decoration:underline}
+.rlink{display:inline-block;font-weight:700;text-decoration:none;background:var(--accent);color:var(--bg);border-radius:999px;padding:10px 16px}
+.rlink:hover{text-decoration:underline}
+.posted{font-size:14px;color:var(--muted)}
+@media (max-width:620px){.wk{grid-template-columns:1fr;gap:8px}.wk-meta{grid-auto-flow:column;justify-content:start;gap:12px;align-items:baseline}}
+.team{font-size:13px;color:var(--muted);margin-top:6px;font-style:italic}
+.mini{display:flex;flex-wrap:wrap;gap:4px 12px;margin-top:6px;font-size:13px;font-weight:600}
+.mini a{text-decoration:none}.mini a:hover{text-decoration:underline}
+.empty{color:var(--muted)}
+</style>
+</head>
+<body>
+
+<div class="wrap">
+<header>
+  <div class="eyebrow">Annapolis Rowing Club · Coaches' edition</div>
+  <h1>Winter Erg Plan 2026–27</h1>
+  <p class="sub">Mon Nov 2, 2026 – Wed Mar 31, 2027</p>
+</header>
+
+<div class="switch">
+  <div class="seg" role="group" aria-label="Choose your track">
+    <button id="btn-competitive" data-track="competitive" aria-pressed="true">Competitive · 4 days</button>
+    <button id="btn-fitness" data-track="fitness" aria-pressed="false">Fitness &amp; Community · 3 days</button>
+  </div>
+  <nav class="jump"><a href="#checkin">Check-in</a><a href="#season-list">Season</a><a href="#results">Results</a><a href="#zones">Zones</a></nav>
+</div>
+
+<section class="checkin" id="checkin" aria-labelledby="ci-title">
+  <div class="ci-top"><h2 id="ci-title">Check-in</h2><div class="ci-count" id="ci-count" aria-live="polite"></div></div>
+  <div class="ci-controls">
+    <label class="sr" for="ci-session">Session</label>
+    <select id="ci-session" aria-label="Session"></select>
+    <input id="ci-search" type="search" placeholder="Find a name" aria-label="Find a name" autocomplete="off">
+  </div>
+  <p class="ci-msg" id="ci-msg">Loading the attendance list…</p>
+  <ul class="ci-list" id="ci-list"></ul>
+  <p class="ci-msg">Tap a name to check them in; tap again to undo. Each tap saves to the Attendance tab. New athletes are added in the Sheet.</p>
+</section>
+
+<div class="now" id="now"><p class="empty">Loading this week's workouts…</p></div>
+
+<section id="season-list">
+  <h2>Full season</h2>
+  <div class="weeks" id="weeks"></div>
+</section>
+
+<section id="results">
+  <h2>Results</h2>
+  <p>See everyone's logged results in the team spreadsheet.</p>
+  <a class="rlink" href="https://docs.google.com/spreadsheets/d/1s_MzG2c8uqPr9-fNQo5RTkrWPZf2h2XPotyrbsmzpEQ/edit?usp=sharing" target="_blank" rel="noopener">Open the results spreadsheet <span aria-hidden="true">→</span></a>
+</section>
+
+<section id="zones">
+  <h2>Training zones</h2>
+  <p>Choose your most recent test, a 5k or a 2k, and enter its split (time per 500m) to see your target splits.</p>
+  <div class="calc"><div class="seg" role="group" aria-label="Which test split"><button type="button" id="t-5k" data-test="5k" aria-pressed="true">5k split</button><button type="button" id="t-2k" data-test="2k" aria-pressed="false">2k split</button></div><label for="split" id="splitlab">My 5k split</label><input id="split" inputmode="decimal" placeholder="2:12" value="2:12" aria-describedby="splithelp"><span class="muted" id="splithelp">per 500m, e.g. 2:12 or 212</span></div>
+  <div class="tbl"><table>
+    <thead><tr><th>Zone</th><th>Your split</th><th>Offset</th><th>Rate</th><th>RPE</th></tr></thead>
+    <tbody id="zonebody"></tbody>
+  </table></div>
+</section>
+</div>
+
+<div class="sheet" id="sheet" hidden><div class="panel" id="panel" role="dialog" aria-modal="true" aria-labelledby="ptitle"></div></div>
+<script src="config.js"></script>
+<script>
+let PLAN={competitive:[],fitness:[]}, DETAILS={}, track="competitive";
+const esc=s=>String(s??"").replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/"/g,"&quot;");
+const MON={Jan:0,Feb:1,Mar:2,Apr:3,May:4,Jun:5,Jul:6,Aug:7,Sep:8,Oct:9,Nov:10,Dec:11};
+const DAYS=["Sun","Mon","Tue","Wed","Thu","Fri","Sat"],MN=Object.keys(MON);
+function weekStart(dates){const m=String(dates).match(/([A-Z][a-z]{2})\s*(\d{1,2})/);if(!m)return null;const mo=MON[m[1]];return new Date(mo>=8?2026:2027,mo,+m[2])}
+function weekEnd(dates){const s=weekStart(dates);if(!s)return null;const m=String(dates).match(/[–-]\s*(?:([A-Z][a-z]{2})\s*)?(\d{1,2})\s*$/);if(!m)return new Date(s.getTime()+6*864e5);const mo=m[1]?MON[m[1]]:s.getMonth();return new Date(mo>=8?2026:2027,mo,+m[2])}
+function currentIdx(weeks){const t=new Date(),today=new Date(t.getFullYear(),t.getMonth(),t.getDate());
+  if(!weeks.length) return -1;
+  const last=weeks[weeks.length-1], le=weekEnd(last.dates); if(le&&today>le) return -2;
+  let idx=-1; weeks.forEach((w,i)=>{const s=weekStart(w.dates);if(s&&today>=s)idx=i}); return idx}
+const dkey=(wk,n)=>`${track==="competitive"?"comp":"fit"}-${wk}-${n}`;
+function fmtCoach(c){const m=String(c).match(/^(\d{1,2})\.(\d{1,2})\s*(am|pm)\s+(.*)$/i);
+  if(!m) return c.replace(/^UNCOACHED$/i,"Uncoached");
+  const mo=+m[1]-1,dy=+m[2],dt=new Date(mo>=8?2026:2027,mo,dy); return `${DAYS[dt.getDay()]} ${MN[mo]} ${dy} ${m[3].toUpperCase()}: ${m[4]}`}
+function coachText(w){const a=(w.coachAm||"").trim(),p=(w.coachPm||"").trim();
+  if(a&&p) return `AM: ${a} · PM: ${p}`; return a||p}
+function card(w,wk){
+  const key=/^(test|race)/i.test(w.workout), k=dkey(wk,w.n), d=wk&&w.n?DETAILS[k]:null;
+  const kind=w.kind&&!/^workout$/i.test(w.kind)?w.kind:"";
+  const label=[w.label,kind].filter(Boolean).join(" · ");
+  const coach=coachText(w);
+  const links=[...(w.erg||[]).map(e=>`<a href="${esc(e.url)}" target="_blank" rel="noopener">ErgData${(w.erg.length>1&&e.label)?": "+esc(e.label):""}</a>`),
+    w.form?`<a href="${esc(w.form)}" target="_blank" rel="noopener">Log results</a>`:""].join("");
+  return `<div class="s${key?" key":""}${d?" has":""}">
+    <div class="lab">${esc(label)}</div>
+    <div class="wo">${esc(w.workout)}</div>
+    ${w.rate?`<div class="rate">${esc(w.rate)}</div>`:""}
+    ${w.team?`<div class="team">Team: ${esc(w.team)}</div>`:""}
+    ${coach?`<div class="coachline">Coach ${esc(coach)}</div>`:""}
+    ${links?`<div class="mini">${links}</div>`:""}
+    ${d?`<a class="more" href="#${k}" data-open="${k}">Full session <span aria-hidden="true">→</span></a>`:""}
+  </div>`;
+}
+function render(){
+  document.querySelectorAll(".switch [data-track]").forEach(b=>b.setAttribute("aria-pressed",b.dataset.track===track));
+  const weeks=PLAN[track]||[], ci=currentIdx(weeks), now=document.getElementById("now");
+  if(!weeks.length){now.innerHTML=`<p class="empty">The season schedule isn't available right now. Try reloading the page.</p>`;document.getElementById("weeks").innerHTML="";return}
+  if(ci===-2){now.innerHTML=`<div class="now-head"><h2>Season complete</h2></div>`}
+  else{
+    const i=ci<0?0:ci, w=weeks[i], head=ci<0?"Coming up":"This week";
+    if(!w.wk){now.innerHTML=`<div class="now-head"><h2>${head}: ${esc(w.type||"Off")}</h2><span class="pill">${esc(w.dates)}</span></div>${w.workouts.map(x=>`<p class="note">${esc(x.workout)}</p>`).join("")}`}
+    else{
+      const has=w.workouts.some(x=>DETAILS[dkey(w.wk,x.n)]);
+      now.innerHTML=`<div class="now-head"><h2>${head} · Week ${w.wk}</h2><span class="pill">${esc(w.dates)}${w.type?" · "+esc(w.type):""}</span></div><div class="sessions">${w.workouts.map(x=>card(x,w.wk)).join("")}</div>${has?"":`<p class="posted">Detailed session layouts are posted by the Saturday before.</p>`}`;
+    }
+  }
+  let html="",lastPhase=null;
+  weeks.forEach((w,i)=>{
+    const ph=w.wk?w.phase:"Holiday break";
+    if(ph&&ph!==lastPhase){html+=`<div class="phase">${esc(ph)}</div>`;lastPhase=ph}
+    const cur=i===ci?" cur":"";
+    const tag=i===ci?`<div class="wk-tag">This week</div>`:(w.type?`<div class="wk-tag">${esc(w.type)}</div>`:"");
+    if(!w.wk){html+=`<div class="wk offwk${cur}"><div class="wk-meta"><div class="wk-num">${esc(w.type||"Off")}</div><div class="wk-dates">${esc(w.dates)}</div></div><div class="note">${w.workouts.map(x=>esc(x.workout)).join(" ")}</div></div>`;return}
+    html+=`<div class="wk${cur}" id="week-${w.wk}"><div class="wk-meta"><div class="wk-num">Week ${w.wk}</div><div class="wk-dates">${esc(w.dates)}</div>${tag}</div><div class="sessions">${w.workouts.map(x=>card(x,w.wk)).join("")}</div></div>`;
+  });
+  document.getElementById("weeks").innerHTML=html;
+}
+document.querySelectorAll(".switch [data-track]").forEach(b=>b.addEventListener("click",()=>{
+  track=b.dataset.track; history.replaceState(null,"","#"+track); try{localStorage.setItem("arc-track",track)}catch(e){} render()}));
+const SKEY=/^(comp|fit)-(\d+)-(\d+)$/;
+function fromHash(){const h=location.hash.slice(1);if(h==="competitive"||h==="fitness"){track=h;return true}
+  const m=h.match(SKEY);if(m){track=m[1]==="comp"?"competitive":"fitness";return true}return false}
+if(!fromHash()){try{const s=localStorage.getItem("arc-track");if(s==="competitive"||s==="fitness")track=s}catch(e){}}
+const sheet=document.getElementById("sheet"),panel=document.getElementById("panel");let lastFocus=null;
+// web addresses typed into the sheet become tappable "video" links
+function linkify(t){
+  const re=/\(?\s*(https?:\/\/[^\s()]+)\s*\)?/g; let out="",last=0,m;
+  while((m=re.exec(t))){out+=esc(t.slice(last,m.index)).replace(/\s+$/," ");
+    const u=m[1],vid=/youtu\.?be/i.test(u);
+    out+=`<a class="vlink" href="${esc(u)}" target="_blank" rel="noopener">${vid?"▶ video":"link"}</a>`; last=re.lastIndex}
+  return out+esc(t.slice(last))}
+function lines(arr){return `<ul class="lines">${arr.map(x=>{const cls=x.i>=2?"sub":(x.i===0&&arr.some(y=>y.i>0)?"top":"");const t=linkify(x.t);return `<li class="${cls}" style="--i:${x.i}">${x.url&&!/https?:/.test(x.t)?`<a href="${esc(x.url)}" target="_blank" rel="noopener">${t}</a>`:t}</li>`}).join("")}</ul>`}
+function openSession(k){
+  const d=DETAILS[k]; if(!d) return;
+  const m=k.match(SKEY), wk=+m[2], n=+m[3], tr=m[1]==="comp"?"competitive":"fitness";
+  const wrow=(PLAN[tr]||[]).find(x=>x.wk===wk), wo=wrow&&wrow.workouts.find(x=>x.n===n);
+  const links=[...d.erg.map(e=>`<a class="primary" href="${esc(e.url)}" target="_blank" rel="noopener">ErgData${d.erg.length>1?": "+esc(e.label):""}</a>`),
+    d.form?`<a class="primary" href="${esc(d.form)}" target="_blank" rel="noopener">Log your results</a>`:"",
+    d.video?`<a href="${esc(d.video)}" target="_blank" rel="noopener">CoachNow video</a>`:"",
+    d.dynamicLink?`<a href="${esc(d.dynamicLink)}" target="_blank" rel="noopener">Dynamic warm-up guide</a>`:""].join("");
+  const meta=[["Coach",d.coach.map(c=>esc(fmtCoach(c))).join("<br>")],["Focus",esc(d.focus)],["Type",esc(d.type)]].filter(x=>x[1]).map(x=>`<dt>${x[0]}</dt><dd>${x[1]}</dd>`).join("");
+  const title=wo?wo.label.replace(/\s*\(.*\)$/,""):`#${n}`;
+  panel.innerHTML=`<div class="ptop"><div><div class="eyebrow">${tr==="competitive"?"Competitive":"Fitness &amp; Community"} · Week ${wk}${wrow?" · "+esc(wrow.dates):""}</div><h2 id="ptitle">Workout ${esc(title)}</h2></div><button class="close" id="pclose" type="button">Close</button></div>
+  ${meta?`<dl class="meta">${meta}</dl>`:""}
+  ${links?`<div class="links">${links}</div>`:""}
+  ${d.dynamic.length?`<div class="blk"><details><summary>Dynamic warm-up (${d.dynamic.length} moves)</summary><ul class="dyn">${d.dynamic.map(x=>`<li>${esc(x)}</li>`).join("")}</ul></details></div>`:""}
+  ${d.warmup.length?`<div class="blk"><h3>Warm-up</h3>${lines(d.warmup)}</div>`:""}
+  ${d.workout.length?`<div class="blk"><h3>Workout</h3>${lines(d.workout)}</div>`:""}
+  ${d.cooldown.length?`<div class="blk"><h3>Cool-down / stretching</h3>${lines(d.cooldown)}</div>`:""}`;
+  lastFocus=document.activeElement; sheet.hidden=false; document.body.style.overflow="hidden";
+  document.getElementById("pclose").addEventListener("click",closeSession); document.getElementById("pclose").focus();
+}
+function closeSession(){if(sheet.hidden)return;sheet.hidden=true;document.body.style.overflow="";
+  if(SKEY.test(location.hash.slice(1)))history.replaceState(null,"","#"+track);
+  if(lastFocus&&lastFocus.focus)lastFocus.focus()}
+sheet.addEventListener("click",e=>{if(e.target===sheet)closeSession()});
+document.addEventListener("keydown",e=>{if(e.key==="Escape")closeSession()});
+document.addEventListener("click",e=>{const a=e.target.closest("[data-open]");if(!a)return;e.preventDefault();history.replaceState(null,"","#"+a.dataset.open);openSession(a.dataset.open)});
+function routeSession(){const h=location.hash.slice(1);if(SKEY.test(h))openSession(h)}
+window.addEventListener("hashchange",()=>{if(fromHash())render();routeSession()});
+const getJSON=u=>fetch(u,{cache:"no-store"}).then(r=>r.ok?r.json():null).catch(()=>null);
+Promise.all([getJSON("../plan.json"),getJSON("../details.json")]).then(([p,d])=>{if(p)PLAN=p;DETAILS=d||{};render();routeSession()});
+
+
+// zones
+const Z=[["UT2 (easy steady)",18,22,"18–20","3–4"],["UT1 (firm steady)",12,16,"20–22","5–6"],["AT (threshold)",6,10,"20–30","7"],["TR (transport)",2,5,"26–34","8"],["RP (race pace)",-2,2,"28–32","9"]];
+const fmt=s=>{const m=Math.floor(s/60),r=Math.round(s-m*60);return r===60?`${m+1}:00`:`${m}:${String(r).padStart(2,"0")}`};
+function parse(v){const m=v.trim().match(/^(\d)\s*[:.,;\s]?\s*([0-5]\d)(?:[.,]?(\d))?$/);return m?(+m[1])*60+(+m[2])+(m[3]?+m[3]/10:0):null}
+const fmt1=s=>{const m=Math.floor(s/60),r=s-m*60;return `${m}:${r.toFixed(r%1?1:0).padStart(r%1?4:2,"0")}`};
+let TEST="5k"; const SHIFT={"2k":0,"5k":-7};
+const sg=n=>n>0?`+${n}`:n<0?`−${-n}`:"0";
+function zones(){
+  const s=parse(document.getElementById("split").value), sh=SHIFT[TEST];
+  document.querySelectorAll("[data-test]").forEach(b=>b.setAttribute("aria-pressed",b.dataset.test===TEST));
+  document.getElementById("splitlab").textContent=`My ${TEST} split`;
+  document.getElementById("zonebody").innerHTML=Z.map(z=>{const a=z[1]+sh,b=z[2]+sh;
+    return `<tr><td><strong>${z[0]}</strong></td><td class="num"><strong>${s==null?"—":`${fmt(s+a)}–${fmt(s+b)}`}</strong></td><td class="num">${sg(a)} to ${sg(b)} sec vs ${TEST}</td><td class="num">${z[3]}</td><td class="num">${z[4]}</td></tr>`}).join("");
+  document.getElementById("splithelp").textContent=s==null?"Enter m:ss, or just the digits, e.g. 212 or 2.12 for 2:12":(TEST==="5k"?`${fmt1(s)} per 500m · 2k split estimated as 5k minus 7 sec`:`${fmt1(s)} per 500m`);
+}
+const inp=document.getElementById("split"), VAL={"5k":"2:12","2k":"2:05"};
+try{const t=localStorage.getItem("arc-test");if(t&&SHIFT[t]!==undefined)TEST=t;const v=localStorage.getItem("arc-split-"+TEST);inp.value=v||VAL[TEST]}catch(e){}
+inp.addEventListener("input",()=>{try{localStorage.setItem("arc-split-"+TEST,inp.value)}catch(e){}zones()});
+document.querySelectorAll("[data-test]").forEach(b=>b.addEventListener("click",()=>{TEST=b.dataset.test;let v=null;try{localStorage.setItem("arc-test",TEST);v=localStorage.getItem("arc-split-"+TEST)}catch(e){}inp.value=v||VAL[TEST];inp.placeholder=VAL[TEST];zones()}));
+zones();
+// coaches' check-in (Attendance tab via Google Apps Script)
+(function(){
+  const URL_=(window.ATTENDANCE_URL||"").trim();
+  const $=id=>document.getElementById(id);
+  const sel=$("ci-session"), list=$("ci-list"), msg=$("ci-msg"), count=$("ci-count"), search=$("ci-search");
+  let sessions=[], col=null, roster=[], pending=new Set(), timer=null;
+  const yr=m=>m>=8?2026:2027;
+  const label=s=>{const d=new Date(yr(s.month),s.month-1,s.day);return `${DAYS[d.getDay()]} ${MN[s.month-1]} ${s.day}${s.ampm?" · "+s.ampm:""}${s.cancelled?" (cancelled)":""}`};
+  const say=(t,err)=>{msg.textContent=t;msg.classList.toggle("err",!!err);msg.hidden=!t};
+  async function api(params){
+    const q=new URLSearchParams(params).toString();
+    const r=await fetch(`${URL_}?${q}`,{redirect:"follow"});
+    if(!r.ok) throw new Error(`The Sheet didn't answer (error ${r.status}).`);
+    const j=await r.json(); if(j.error) throw new Error(j.error); return j;
+  }
+  function pickDefault(){
+    const now=new Date(), t=new Date(now.getFullYear(),now.getMonth(),now.getDate()).getTime(), pm=now.getHours()>=12;
+    const ts=s=>new Date(yr(s.month),s.month-1,s.day).getTime();
+    const today=sessions.filter(s=>ts(s)===t);
+    if(today.length) return (today.find(s=>s.ampm===(pm?"PM":"AM"))||today[today.length-1]).col;
+    const past=sessions.filter(s=>ts(s)<t); const next=sessions.find(s=>ts(s)>t);
+    return (next||past[past.length-1]||sessions[0]).col;
+  }
+  function draw(){
+    const q=search.value.trim().toLowerCase();
+    const shown=roster.filter(p=>!q||`${p.first} ${p.last}`.toLowerCase().includes(q));
+    const n=roster.filter(p=>p.present).length;
+    count.innerHTML=`${n}<small>checked in</small>`;
+    list.innerHTML=shown.map(p=>`<li><button type="button" class="ci-btn${pending.has(p.row)?" saving":""}" data-row="${p.row}" aria-pressed="${p.present}"><span class="box" aria-hidden="true">✓</span><span>${esc(p.first)} ${esc(p.last)}</span></button></li>`).join("")
+      || (roster.length?`<li class="ci-msg">No names match "${esc(search.value)}".</li>`:"");
+  }
+  async function loadRoster(quiet){
+    if(!col) return;
+    try{
+      const j=await api({col});
+      if(+j.col!==+col) return;
+      const keep=new Map(roster.filter(p=>pending.has(p.row)).map(p=>[p.row,p.present]));
+      roster=(j.roster||[]).map(p=>keep.has(p.row)?{...p,present:keep.get(p.row)}:p);
+      say(roster.length?"":"No names in the Attendance tab yet."); draw();
+    }catch(e){ if(!quiet) say(`Couldn't load the list. ${e.message} Check your signal and pull down to reload.`,true) }
+  }
+  async function start(){
+    if(!URL_){say("Check-in isn't connected to the Sheet yet. Add the Google script's web app address to coaches/config.js.",true);return}
+    try{
+      const j=await api({});
+      sessions=(j.sessions||[]);
+      if(!sessions.length){say("No session dates found in row 3 of the Attendance tab.",true);return}
+      let saved=null; try{saved=+sessionStorage.getItem("arc-ci-col")}catch(e){}
+      col=sessions.some(s=>s.col===saved)?saved:pickDefault();
+      sel.innerHTML=sessions.map(s=>`<option value="${s.col}"${s.col===col?" selected":""}>${esc(label(s))}</option>`).join("");
+      say("Loading names…"); await loadRoster();
+      timer=setInterval(()=>{if(!document.hidden&&!pending.size)loadRoster(true)},30000);
+    }catch(e){say(`Couldn't reach the Sheet. ${e.message}`,true)}
+  }
+  sel.addEventListener("change",()=>{col=+sel.value;try{sessionStorage.setItem("arc-ci-col",col)}catch(e){};roster=[];pending.clear();draw();say("Loading names…");loadRoster()});
+  search.addEventListener("input",draw);
+  list.addEventListener("click",async e=>{
+    const b=e.target.closest("[data-row]"); if(!b) return;
+    const row=+b.dataset.row, p=roster.find(x=>x.row===row); if(!p||pending.has(row)) return;
+    const want=!p.present; p.present=want; pending.add(row); draw();
+    try{ const j=await api({action:"set",col,row,present:want?1:0}); p.present=!!j.present; say("") }
+    catch(err){ p.present=!want; say(`${p.first} ${p.last} wasn't saved. ${err.message} Tap again to retry.`,true) }
+    finally{ pending.delete(row); draw() }
+  });
+  document.addEventListener("visibilitychange",()=>{if(!document.hidden&&!pending.size)loadRoster(true)});
+  start();
+})();
+</script>
+
+</body>
+</html>
