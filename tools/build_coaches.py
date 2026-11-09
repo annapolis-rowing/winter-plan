@@ -135,7 +135,11 @@ def build():
     rep('<nav class="jump">', '<nav class="jump"><a href="#checkin">Check-in</a>')
     rep('<div class="now" id="now">', HTML.strip() + '\n\n<div class="now" id="now">')
     rep("</style>", CSS.strip() + "\n.sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)}\n</style>")
-    rep("<script>", '<script src="config.js"></script>\n<script>')
+    # version the settings file by its contents so phones never keep an old copy
+    import hashlib
+    cfgp = os.path.join(ROOT, "coaches", "config.js")
+    ver = hashlib.sha1(open(cfgp, "rb").read()).hexdigest()[:8] if os.path.exists(cfgp) else "0"
+    rep("<script>", f'<script src="config.js?v={ver}"></script>\n<script>')
     idx = s.rindex("</script>")
     s = s[:idx] + JS.strip() + "\n" + s[idx:]
     os.makedirs(os.path.join(ROOT, "coaches"), exist_ok=True)
