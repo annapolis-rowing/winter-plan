@@ -28,11 +28,15 @@ CSS = """
 .ci-btn:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
 .ci-msg{font-size:14px;color:var(--muted);margin:0}
 .ci-msg.err{color:var(--accent);font-weight:600}
+.panel .checkin{margin:0;border:0;padding:0;background:none}
+.ci-open{font:700 15px var(--body);border:0;background:var(--accent);color:var(--bg);border-radius:999px;padding:10px 16px;cursor:pointer;display:inline-flex;align-items:center;gap:6px}
+.ci-open:focus-visible{outline:2px solid var(--ink);outline-offset:2px}
 """
 
 HTML = """
+<div class="sheet" id="ci-sheet" hidden><div class="panel" role="dialog" aria-modal="true" aria-labelledby="ci-title">
 <section class="checkin" id="checkin" aria-labelledby="ci-title">
-  <div class="ci-top"><h2 id="ci-title">Check-in</h2><div class="ci-count" id="ci-count" aria-live="polite"></div></div>
+  <div class="ci-top"><h2 id="ci-title">Check-in</h2><div class="ci-count" id="ci-count" aria-live="polite"></div><button class="close" id="ci-close" type="button">Close</button></div>
   <div class="ci-controls">
     <label class="sr" for="ci-session">Session</label>
     <select id="ci-session" aria-label="Session"></select>
@@ -42,6 +46,7 @@ HTML = """
   <ul class="ci-list" id="ci-list"></ul>
   <p class="ci-msg">Tap a name to check them in; tap again to undo. Each tap saves to the Attendance tab. New athletes are added in the Sheet.</p>
 </section>
+</div></div>
 """
 
 JS = r"""
@@ -50,7 +55,27 @@ JS = r"""
   const URL_=(window.ATTENDANCE_URL||"").trim();
   const $=id=>document.getElementById(id);
   const sel=$("ci-session"), list=$("ci-list"), msg=$("ci-msg"), count=$("ci-count"), search=$("ci-search");
-  let sessions=[], col=null, roster=[], pending=new Set(), timer=null;
+  let sessions=[], col=null, roster=[], pending=new Set(), timer=null, started=false;
+  const sheetEl=$("ci-sheet"); let lastFocus=null;
+  const isOpen=()=>!sheetEl.hidden;
+  function openCI(){
+    if(isOpen()) return;
+    lastFocus=document.activeElement; sheetEl.hidden=false; document.body.style.overflow="hidden";
+    if(location.hash!=="#checkin") history.replaceState(null,"","#checkin");
+    if(!started){started=true;start()} else if(!pending.size) loadRoster(true);
+    $("ci-close").focus();
+  }
+  function closeCI(){
+    if(!isOpen()) return;
+    sheetEl.hidden=true; document.body.style.overflow="";
+    if(location.hash==="#checkin") history.replaceState(null,"","#"+track);
+    if(lastFocus&&lastFocus.focus) lastFocus.focus();
+  }
+  $("ci-close").addEventListener("click",closeCI);
+  sheetEl.addEventListener("click",e=>{if(e.target===sheetEl)closeCI()});
+  document.addEventListener("keydown",e=>{if(e.key==="Escape")closeCI()});
+  document.addEventListener("click",e=>{const a=e.target.closest('#ci-open,a[href="#checkin"]');if(!a)return;e.preventDefault();openCI()});
+  window.addEventListener("hashchange",()=>{if(location.hash==="#checkin")openCI()});
   const yr=m=>m>=8?2026:2027;
   const label=s=>{const d=new Date(yr(s.month),s.month-1,s.day);return `${DAYS[d.getDay()]} ${MN[s.month-1]} ${s.day}${s.ampm?" · "+s.ampm:""}${s.cancelled?" (cancelled)":""}`};
   const say=(t,err)=>{msg.textContent=t;msg.classList.toggle("err",!!err);msg.hidden=!t};
@@ -96,7 +121,7 @@ JS = r"""
       col=sessions.some(s=>s.col===saved)?saved:pickDefault();
       sel.innerHTML=sessions.map(s=>`<option value="${s.col}"${s.col===col?" selected":""}>${esc(label(s))}</option>`).join("");
       say("Loading names…"); await loadRoster();
-      timer=setInterval(()=>{if(!document.hidden&&!pending.size)loadRoster(true)},30000);
+      timer=setInterval(()=>{if(isOpen()&&!document.hidden&&!pending.size)loadRoster(true)},30000);
     }catch(e){say(`Couldn't reach the Sheet. ${e.message}`,true)}
   }
   sel.addEventListener("change",()=>{col=+sel.value;try{sessionStorage.setItem("arc-ci-col",col)}catch(e){};roster=[];pending.clear();draw();say("Loading names…");loadRoster()});
@@ -109,8 +134,8 @@ JS = r"""
     catch(err){ p.present=!want; say(`${p.first} ${p.last} wasn't saved. ${err.message} Tap again to retry.`,true) }
     finally{ pending.delete(row); draw() }
   });
-  document.addEventListener("visibilitychange",()=>{if(!document.hidden&&!pending.size)loadRoster(true)});
-  start();
+  document.addEventListener("visibilitychange",()=>{if(isOpen()&&started&&!document.hidden&&!pending.size)loadRoster(true)});
+  if(location.hash==="#checkin") openCI();
 })();
 """
 
@@ -132,7 +157,7 @@ def build():
     for f in ("plan.json", "details.json"):
         rep(f'getJSON("{f}")', f'getJSON("../{f}")')
     rep('<div class="eyebrow">Annapolis Rowing Club · Masters</div>', '<div class="eyebrow">Annapolis Rowing Club · Coaches\' edition</div>')
-    rep('<nav class="jump">', '<nav class="jump"><a href="#checkin">Check-in</a>')
+    rep('<nav class="jump">', '<button type="button" class="ci-open" id="ci-open"><span aria-hidden="true">✓</span> Check-in</button>\n  <nav class="jump">')
     rep('<div class="now" id="now">', HTML.strip() + '\n\n<div class="now" id="now">')
     rep("</style>", CSS.strip() + "\n.sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)}\n</style>")
     # version the settings file by its contents so phones never keep an old copy
