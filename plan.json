@@ -121,7 +121,7 @@
      "erg": [
       {
        "label": "AT",
-       "url": "https://workout.ergdata.com/shared/lvhfpdik"
+       "url": "https://workout.ergdata.com/shared/b4jywqrr"
       }
      ],
      "form": "https://forms.gle/zqWCvSMwrMjmUMd77",
@@ -176,8 +176,8 @@
     {
      "n": 1,
      "label": "#1",
-     "kind": "Steady",
-     "focus": "",
+     "kind": "UT2, UT1",
+     "focus": "Hinge",
      "workout": "30' UT2, 20' UT1",
      "team": "",
      "rate": "r18–20",
@@ -190,7 +190,7 @@
     {
      "n": 2,
      "label": "#2",
-     "kind": "Threshold",
+     "kind": "AT",
      "focus": "",
      "workout": "3×10' AT /3'",
      "team": "",

@@ -1,4 +1,151 @@
 {
+ "comp-3-1": {
+  "tab": "Comp Wk3 Wo1",
+  "erg": [],
+  "coach": [
+   "11.16 am Sophie Westfield",
+   "11.17 pm Kari Hughes"
+  ],
+  "focus": "Hinge",
+  "type": "UT2",
+  "dynamic": [
+   "10 jumping jacks",
+   "10 seal jacks",
+   "10 pancakes",
+   "10 arm circles (5 forward, 5 back)",
+   "10 monkeys",
+   "10 I's",
+   "10 Y's",
+   "10 T's",
+   "10 Windmills",
+   "10 Around the Worlds",
+   "10 sit, spin, reach (5 each side)",
+   "10 kicks (each side)",
+   "10 Spidermans",
+   "10 push ups"
+  ],
+  "dynamicLink": "https://drive.google.com/file/d/1Y63MDfROopiRK4V9vX1bb-Rbu7gB4y7X/view",
+  "video": "https://app.coachnow.io/i/b7d058bb74/02be",
+  "form": null,
+  "warmup": [
+   {
+    "t": "1' @ 18 - 20 @ 1/2 pressure",
+    "i": 0
+   },
+   {
+    "t": "1' pause at hip hinge every stroke",
+    "i": 0
+   },
+   {
+    "t": "1' @ 18 - 20; focus on hinge",
+    "i": 0
+   }
+  ],
+  "workout": [
+   {
+    "t": "10' UT2",
+    "i": 0
+   },
+   {
+    "t": "2 x (2', 3')",
+    "i": 1
+   },
+   {
+    "t": "2':  first minute, hinge at hip every stroke, pause, swing back to arms away, pause, swing to hip hinge, pause, slide to catch",
+    "i": 3
+   },
+   {
+    "t": "second minute, hinge hip pause every other stroke",
+    "i": 3
+   },
+   {
+    "t": "3': 18 - 20 with focus on hinge",
+    "i": 2
+   },
+   {
+    "t": "20' UT2",
+    "i": 0
+   },
+   {
+    "t": "4',3',2',1',2',3',4' @ 16,18,20,22,20,18,16",
+    "i": 3
+   }
+  ],
+  "cooldown": [
+   {
+    "t": "5' cooldown on erg",
+    "i": 0
+   },
+   {
+    "t": "Post-cool down Stretch",
+    "i": 1
+   },
+   {
+    "t": "Hold the movements for 30 seconds",
+    "i": 1
+   },
+   {
+    "t": "1. Shoulder cross body stretch (https://www.youtube.com/shorts/aIq0fLi8iak)",
+    "i": 1,
+    "url": "https://www.youtube.com/shorts/aIq0fLi8iak"
+   },
+   {
+    "t": "2. Tricep stretch (https://www.youtube.com/watch?v=zzvDO56B0HE)",
+    "i": 1,
+    "url": "https://www.youtube.com/watch?v=zzvDO56B0HE"
+   },
+   {
+    "t": "3. Triangle stretch (https://www.youtube.com/watch?v=hY6cmXdq-Sw)",
+    "i": 1,
+    "url": "https://www.youtube.com/watch?v=hY6cmXdq-Sw"
+   },
+   {
+    "t": "4. Downward dog (https://www.youtube.com/shorts/YtMP5JxIMpI)",
+    "i": 1,
+    "url": "https://www.youtube.com/shorts/YtMP5JxIMpI"
+   },
+   {
+    "t": "5. Upward dog (https://www.youtube.com/watch?v=zbG9LQst6EA)",
+    "i": 1,
+    "url": "https://www.youtube.com/watch?v=zbG9LQst6EA"
+   },
+   {
+    "t": "6. Pigeon (https://www.youtube.com/watch?v=1o7awuDGzag)",
+    "i": 1,
+    "url": "https://www.youtube.com/watch?v=1o7awuDGzag"
+   },
+   {
+    "t": "Alternative: Figure 4 (https://www.youtube.com/shorts/ckHZyA99Das)",
+    "i": 2,
+    "url": "https://www.youtube.com/shorts/ckHZyA99Das"
+   },
+   {
+    "t": "Alternative: Seated Figure 4 (https://www.youtube.com/shorts/b2FwygFSgn0)",
+    "i": 2,
+    "url": "https://www.youtube.com/shorts/b2FwygFSgn0"
+   },
+   {
+    "t": "7. Seated twists (https://www.youtube.com/watch?v=Pjq54qOuE_A)",
+    "i": 1,
+    "url": "https://www.youtube.com/watch?v=Pjq54qOuE_A"
+   },
+   {
+    "t": "8. Hip flexor stretch (https://www.youtube.com/watch?v=DXuStgWuJV8)",
+    "i": 1,
+    "url": "https://www.youtube.com/watch?v=DXuStgWuJV8"
+   },
+   {
+    "t": "Alternative: Supine hip flexor stretch (can do at home on couch/bed) (https://www.youtube.com/watch?v=Z_esPBAUDhY)",
+    "i": 2,
+    "url": "https://www.youtube.com/watch?v=Z_esPBAUDhY"
+   },
+   {
+    "t": "9. Child's pose with reach (https://www.youtube.com/watch?v=FPHDSZJw3EY)",
+    "i": 1,
+    "url": "https://www.youtube.com/watch?v=FPHDSZJw3EY"
+   }
+  ]
+ },
  "comp-2-1": {
   "tab": "Comp Wk2 Wo1",
   "erg": [
