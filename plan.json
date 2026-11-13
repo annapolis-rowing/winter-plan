@@ -176,14 +176,23 @@
     {
      "n": 1,
      "label": "#1",
-     "kind": "UT2, UT1",
+     "kind": "20' UT2",
      "focus": "Hinge",
      "workout": "30' UT2, 20' UT1",
      "team": "",
      "rate": "r18–20",
      "coachAm": "",
      "coachPm": "",
-     "erg": [],
+     "erg": [
+      {
+       "label": "20' UT2",
+       "url": "https://workout.ergdata.com/shared/mkjsdnfj"
+      },
+      {
+       "label": "UT1",
+       "url": "https://workout.ergdata.com/shared/iwgdcffh"
+      }
+     ],
      "form": null,
      "formLabel": ""
     },
@@ -197,7 +206,12 @@
      "rate": "r20–30",
      "coachAm": "",
      "coachPm": "",
-     "erg": [],
+     "erg": [
+      {
+       "label": "AT",
+       "url": "https://workout.ergdata.com/shared/pjxeqcz8"
+      }
+     ],
      "form": null,
      "formLabel": ""
     },
@@ -211,7 +225,12 @@
      "rate": "r18–20",
      "coachAm": "",
      "coachPm": "",
-     "erg": [],
+     "erg": [
+      {
+       "label": "UT2, BW",
+       "url": "https://workout.ergdata.com/shared/pw1mbcev"
+      }
+     ],
      "form": null,
      "formLabel": ""
     },
@@ -226,8 +245,8 @@
      "coachAm": "",
      "coachPm": "",
      "erg": [],
-     "form": null,
-     "formLabel": ""
+     "form": "https://forms.gle/Feci2LSiXKs92e9A7",
+     "formLabel": "5 x 4'"
     }
    ]
   },

@@ -1,13 +1,22 @@
 {
  "comp-3-1": {
   "tab": "Comp Wk3 Wo1",
-  "erg": [],
+  "erg": [
+   {
+    "label": "20' UT2",
+    "url": "https://workout.ergdata.com/shared/mkjsdnfj"
+   },
+   {
+    "label": "UT1",
+    "url": "https://workout.ergdata.com/shared/iwgdcffh"
+   }
+  ],
   "coach": [
    "11.16 am Sophie Westfield",
    "11.17 pm Kari Hughes"
   ],
   "focus": "Hinge",
-  "type": "UT2",
+  "type": "UT2, UT1",
   "dynamic": [
    "10 jumping jacks",
    "10 seal jacks",
@@ -29,16 +38,21 @@
   "form": null,
   "warmup": [
    {
-    "t": "1' @ 18 - 20 @ 1/2 pressure",
-    "i": 0
+    "t": "5' - 10': review hinge from video",
+    "i": 0,
+    "url": "https://www.youtube.com/watch?v=REcharFN8VU"
    },
    {
-    "t": "1' pause at hip hinge every stroke",
-    "i": 0
+    "t": "4:20 (from the kneeling position)",
+    "i": 3
    },
    {
-    "t": "1' @ 18 - 20; focus on hinge",
-    "i": 0
+    "t": "3\"21 (against a wall)",
+    "i": 3
+   },
+   {
+    "t": "2:20 (on the erg)",
+    "i": 3
    }
   ],
   "workout": [
@@ -69,6 +83,461 @@
    {
     "t": "4',3',2',1',2',3',4' @ 16,18,20,22,20,18,16",
     "i": 3
+   },
+   {
+    "t": "20' UT1",
+    "i": 0
+   },
+   {
+    "t": "10' : 3', 2', 3', 2' @ 18, 20, 18, 20 rest= 3'",
+    "i": 1
+   },
+   {
+    "t": "10':  5 x (20s @ 26; 1:40 @ 18)",
+    "i": 1
+   }
+  ],
+  "cooldown": [
+   {
+    "t": "5' cooldown on erg",
+    "i": 0
+   },
+   {
+    "t": "Post-cool down Stretch",
+    "i": 1
+   },
+   {
+    "t": "Hold the movements for 30 seconds",
+    "i": 1
+   },
+   {
+    "t": "1. Shoulder cross body stretch (https://www.youtube.com/shorts/aIq0fLi8iak)",
+    "i": 1,
+    "url": "https://www.youtube.com/shorts/aIq0fLi8iak"
+   },
+   {
+    "t": "2. Tricep stretch (https://www.youtube.com/watch?v=zzvDO56B0HE)",
+    "i": 1,
+    "url": "https://www.youtube.com/watch?v=zzvDO56B0HE"
+   },
+   {
+    "t": "3. Triangle stretch (https://www.youtube.com/watch?v=hY6cmXdq-Sw)",
+    "i": 1,
+    "url": "https://www.youtube.com/watch?v=hY6cmXdq-Sw"
+   },
+   {
+    "t": "4. Downward dog (https://www.youtube.com/shorts/YtMP5JxIMpI)",
+    "i": 1,
+    "url": "https://www.youtube.com/shorts/YtMP5JxIMpI"
+   },
+   {
+    "t": "5. Upward dog (https://www.youtube.com/watch?v=zbG9LQst6EA)",
+    "i": 1,
+    "url": "https://www.youtube.com/watch?v=zbG9LQst6EA"
+   },
+   {
+    "t": "6. Pigeon (https://www.youtube.com/watch?v=1o7awuDGzag)",
+    "i": 1,
+    "url": "https://www.youtube.com/watch?v=1o7awuDGzag"
+   },
+   {
+    "t": "Alternative: Figure 4 (https://www.youtube.com/shorts/ckHZyA99Das)",
+    "i": 2,
+    "url": "https://www.youtube.com/shorts/ckHZyA99Das"
+   },
+   {
+    "t": "Alternative: Seated Figure 4 (https://www.youtube.com/shorts/b2FwygFSgn0)",
+    "i": 2,
+    "url": "https://www.youtube.com/shorts/b2FwygFSgn0"
+   },
+   {
+    "t": "7. Seated twists (https://www.youtube.com/watch?v=Pjq54qOuE_A)",
+    "i": 1,
+    "url": "https://www.youtube.com/watch?v=Pjq54qOuE_A"
+   },
+   {
+    "t": "8. Hip flexor stretch (https://www.youtube.com/watch?v=DXuStgWuJV8)",
+    "i": 1,
+    "url": "https://www.youtube.com/watch?v=DXuStgWuJV8"
+   },
+   {
+    "t": "Alternative: Supine hip flexor stretch (can do at home on couch/bed) (https://www.youtube.com/watch?v=Z_esPBAUDhY)",
+    "i": 2,
+    "url": "https://www.youtube.com/watch?v=Z_esPBAUDhY"
+   },
+   {
+    "t": "9. Child's pose with reach (https://www.youtube.com/watch?v=FPHDSZJw3EY)",
+    "i": 1,
+    "url": "https://www.youtube.com/watch?v=FPHDSZJw3EY"
+   }
+  ]
+ },
+ "comp-3-2": {
+  "tab": "Comp Wk3 Wo2",
+  "erg": [
+   {
+    "label": "AT",
+    "url": "https://workout.ergdata.com/shared/pjxeqcz8"
+   }
+  ],
+  "coach": [
+   "11.18 am Sophie Westfield",
+   "11.19 pm Pascal Evans"
+  ],
+  "focus": "Suspension",
+  "type": "AT",
+  "dynamic": [
+   "10 jumping jacks",
+   "10 seal jacks",
+   "10 pancakes",
+   "10 arm circles (5 forward, 5 back)",
+   "10 monkeys",
+   "10 I's",
+   "10 Y's",
+   "10 T's",
+   "10 Windmills",
+   "10 Around the Worlds",
+   "10 sit, spin, reach (5 each side)",
+   "10 kicks (each side)",
+   "10 Spidermans",
+   "10 push ups"
+  ],
+  "dynamicLink": "https://drive.google.com/file/d/1Y63MDfROopiRK4V9vX1bb-Rbu7gB4y7X/view",
+  "video": "https://app.coachnow.io/i/b7d058bb74/02be",
+  "form": "https://forms.gle/zqWCvSMwrMjmUMd77",
+  "warmup": [
+   {
+    "t": "5' - 10': review hinge from video",
+    "i": 0,
+    "url": "https://www.youtube.com/watch?v=REcharFN8VU"
+   },
+   {
+    "t": "4:50 (w/pipe on back)",
+    "i": 3
+   },
+   {
+    "t": "5:30 (pipe in front)",
+    "i": 3
+   },
+   {
+    "t": "2:20 (on the erg)",
+    "i": 3
+   },
+   {
+    "t": "1' @ 18 - 20 @ 1/2 pressure",
+    "i": 0
+   },
+   {
+    "t": "Reverse pick drill x 10 strokes",
+    "i": 0
+   },
+   {
+    "t": "top 1/4, top 1/2, legs only, legs + hips, full stroke",
+    "i": 1
+   },
+   {
+    "t": "focus: suspension through the drive",
+    "i": 1
+   },
+   {
+    "t": "4' @ 20 - 22 @ 2/3 pressure",
+    "i": 0
+   },
+   {
+    "t": "2' @ 22 - 24",
+    "i": 0
+   },
+   {
+    "t": "3 x 1' @ 24 , 26, 28 with 1' easy between",
+    "i": 0
+   }
+  ],
+  "workout": [
+   {
+    "t": "3 x 10' AT (Choppy, single words or short phrases. You can manage 2 to 3 words at a time) RPE 7-8",
+    "i": 0
+   },
+   {
+    "t": "3 x 10':  4', 3', 2', 1' @ 22, 24, 26, 28",
+    "i": 0
+   },
+   {
+    "t": "rest = 4'",
+    "i": 0
+   }
+  ],
+  "cooldown": [
+   {
+    "t": "5' cooldown on erg",
+    "i": 0
+   },
+   {
+    "t": "Post-cool down Stretch",
+    "i": 1
+   },
+   {
+    "t": "Hold the movements for 30 seconds",
+    "i": 1
+   },
+   {
+    "t": "1. Shoulder cross body stretch (https://www.youtube.com/shorts/aIq0fLi8iak)",
+    "i": 1,
+    "url": "https://www.youtube.com/shorts/aIq0fLi8iak"
+   },
+   {
+    "t": "2. Tricep stretch (https://www.youtube.com/watch?v=zzvDO56B0HE)",
+    "i": 1,
+    "url": "https://www.youtube.com/watch?v=zzvDO56B0HE"
+   },
+   {
+    "t": "3. Triangle stretch (https://www.youtube.com/watch?v=hY6cmXdq-Sw)",
+    "i": 1,
+    "url": "https://www.youtube.com/watch?v=hY6cmXdq-Sw"
+   },
+   {
+    "t": "4. Downward dog (https://www.youtube.com/shorts/YtMP5JxIMpI)",
+    "i": 1,
+    "url": "https://www.youtube.com/shorts/YtMP5JxIMpI"
+   },
+   {
+    "t": "5. Upward dog (https://www.youtube.com/watch?v=zbG9LQst6EA)",
+    "i": 1,
+    "url": "https://www.youtube.com/watch?v=zbG9LQst6EA"
+   },
+   {
+    "t": "6. Pigeon (https://www.youtube.com/watch?v=1o7awuDGzag)",
+    "i": 1,
+    "url": "https://www.youtube.com/watch?v=1o7awuDGzag"
+   },
+   {
+    "t": "Alternative: Figure 4 (https://www.youtube.com/shorts/ckHZyA99Das)",
+    "i": 2,
+    "url": "https://www.youtube.com/shorts/ckHZyA99Das"
+   },
+   {
+    "t": "Alternative: Seated Figure 4 (https://www.youtube.com/shorts/b2FwygFSgn0)",
+    "i": 2,
+    "url": "https://www.youtube.com/shorts/b2FwygFSgn0"
+   },
+   {
+    "t": "7. Seated twists (https://www.youtube.com/watch?v=Pjq54qOuE_A)",
+    "i": 1,
+    "url": "https://www.youtube.com/watch?v=Pjq54qOuE_A"
+   },
+   {
+    "t": "8. Hip flexor stretch (https://www.youtube.com/watch?v=DXuStgWuJV8)",
+    "i": 1,
+    "url": "https://www.youtube.com/watch?v=DXuStgWuJV8"
+   },
+   {
+    "t": "Alternative: Supine hip flexor stretch (can do at home on couch/bed) (https://www.youtube.com/watch?v=Z_esPBAUDhY)",
+    "i": 2,
+    "url": "https://www.youtube.com/watch?v=Z_esPBAUDhY"
+   },
+   {
+    "t": "9. Child's pose with reach (https://www.youtube.com/watch?v=FPHDSZJw3EY)",
+    "i": 1,
+    "url": "https://www.youtube.com/watch?v=FPHDSZJw3EY"
+   }
+  ]
+ },
+ "comp-3-3": {
+  "tab": "Comp Wk3 Wo3",
+  "erg": [
+   {
+    "label": "UT2",
+    "url": "https://workout.ergdata.com/shared/pw1mbcev"
+   }
+  ],
+  "coach": [
+   "UNCOACHED"
+  ],
+  "focus": "Hinge",
+  "type": "UT2",
+  "dynamic": [
+   "10 jumping jacks",
+   "10 seal jacks",
+   "10 pancakes",
+   "10 arm circles (5 forward, 5 back)",
+   "10 monkeys",
+   "10 I's",
+   "10 Y's",
+   "10 T's",
+   "10 Windmills",
+   "10 Around the Worlds",
+   "10 sit, spin, reach (5 each side)",
+   "10 kicks (each side)",
+   "10 Spidermans",
+   "10 push ups"
+  ],
+  "dynamicLink": "https://drive.google.com/file/d/1Y63MDfROopiRK4V9vX1bb-Rbu7gB4y7X/view",
+  "video": "https://app.coachnow.io/i/b7d058bb74/02be",
+  "form": null,
+  "warmup": [
+   {
+    "t": "1' @ 18 - 20 @ 1/2 pressure",
+    "i": 0
+   },
+   {
+    "t": "1' pausing at hip hinge every stroke",
+    "i": 0
+   },
+   {
+    "t": "1' @ 20",
+    "i": 0
+   }
+  ],
+  "workout": [
+   {
+    "t": "35'  UT2 (relaxed steady state, able to hold a conversation, perceived exertion around 3-4 on a scale of 1-10)",
+    "i": 0
+   },
+   {
+    "t": "P1: 20': 3 x (1', 4')",
+    "i": 0
+   },
+   {
+    "t": "1' @ hip hinge pause, 4' @ 18 - 20",
+    "i": 1
+   },
+   {
+    "t": "rest = 3'",
+    "i": 0
+   },
+   {
+    "t": "P1: 15': 5', 4', 3', 2', 1' @ 16, 18, 20, 18, 16",
+    "i": 0
+   },
+   {
+    "t": "Body-Weight Circuit  ---->",
+    "i": 0
+   },
+   {
+    "t": "BW4:",
+    "i": 0
+   },
+   {
+    "t": "30\" on, 10\" off",
+    "i": 1
+   },
+   {
+    "t": "Set 1:",
+    "i": 0
+   },
+   {
+    "t": "(1) Tempo Squats - 3 seconds to depth, 1 second up (https://www.youtube.com/watch?v=aDG5m7BRhSQ)",
+    "i": 1,
+    "url": "https://www.youtube.com/watch?v=aDG5m7BRhSQ"
+   },
+   {
+    "t": "Dead bugs (https://www.youtube.com/watch?v=o4GKiEoYClI)",
+    "i": 2,
+    "url": "https://www.youtube.com/watch?v=o4GKiEoYClI"
+   },
+   {
+    "t": "(2) Hip thrust (https://www.youtube.com/shorts/rc9O9xpwqUY)",
+    "i": 1,
+    "url": "https://www.youtube.com/shorts/rc9O9xpwqUY"
+   },
+   {
+    "t": "(3) Alternating Bird Dog (https://www.youtube.com/watch?v=QVRtIHp9h-M)",
+    "i": 1,
+    "url": "https://www.youtube.com/watch?v=QVRtIHp9h-M"
+   },
+   {
+    "t": "30\" off",
+    "i": 0
+   },
+   {
+    "t": "Set 2:",
+    "i": 0
+   },
+   {
+    "t": "(1) Pushups (from plank or from knees)",
+    "i": 1
+   },
+   {
+    "t": "(2) Good mornings (https://www.youtube.com/shorts/sAAn3y-qxP4)",
+    "i": 1,
+    "url": "https://www.youtube.com/shorts/sAAn3y-qxP4"
+   },
+   {
+    "t": "(3) Shoulder taps (https://www.youtube.com/watch?v=QOCn3_iOAro)",
+    "i": 1,
+    "url": "https://www.youtube.com/watch?v=QOCn3_iOAro"
+   },
+   {
+    "t": "Adaptation: Wall taps (https://www.youtube.com/shorts/6dWIaqX1L5U)",
+    "i": 3,
+    "url": "https://www.youtube.com/shorts/6dWIaqX1L5U"
+   },
+   {
+    "t": "(4) Leg lifts",
+    "i": 1
+   },
+   {
+    "t": "30\" off",
+    "i": 0
+   },
+   {
+    "t": "Set 3:",
+    "i": 0
+   },
+   {
+    "t": "(1) Mountain climbers (https://www.youtube.com/watch?v=kLh-uczlPLg)",
+    "i": 1,
+    "url": "https://www.youtube.com/watch?v=kLh-uczlPLg"
+   },
+   {
+    "t": "Adaptation: Wall climbers (https://www.youtube.com/watch?v=yU1HZeBLFuU)",
+    "i": 3,
+    "url": "https://www.youtube.com/watch?v=yU1HZeBLFuU"
+   },
+   {
+    "t": "(2) Scullers (for stability - place both hands behind on floor, fingers facing feet",
+    "i": 1
+   },
+   {
+    "t": "Bodyweight RDL (https://www.youtube.com/watch?v=wFF_ZUaaObc)",
+    "i": 2,
+    "url": "https://www.youtube.com/watch?v=wFF_ZUaaObc"
+   },
+   {
+    "t": "(3) Penguin Crunches (https://www.youtube.com/shorts/sf-xXQOgktw)",
+    "i": 1,
+    "url": "https://www.youtube.com/shorts/sf-xXQOgktw"
+   },
+   {
+    "t": "30\" off",
+    "i": 0
+   },
+   {
+    "t": "Set 4:",
+    "i": 0
+   },
+   {
+    "t": "(1) Burpees w/o pushup (https://www.youtube.com/watch?v=HfV1UBKzQTo)",
+    "i": 1,
+    "url": "https://www.youtube.com/watch?v=HfV1UBKzQTo"
+   },
+   {
+    "t": "Adaptation: https://www.youtube.com/watch?v=iUL2tndomms",
+    "i": 3,
+    "url": "https://www.youtube.com/watch?v=iUL2tndomms"
+   },
+   {
+    "t": "(2) Bicycles (https://www.youtube.com/watch?v=cbKIDZ_XyjY)",
+    "i": 1,
+    "url": "https://www.youtube.com/watch?v=cbKIDZ_XyjY"
+   },
+   {
+    "t": "(3) Inchworm (https://www.youtube.com/watch?v=pv_8CdDPAAk)",
+    "i": 1,
+    "url": "https://www.youtube.com/watch?v=pv_8CdDPAAk"
+   },
+   {
+    "t": "(4) Calf Raises",
+    "i": 1
    }
   ],
   "cooldown": [
