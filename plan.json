@@ -1527,21 +1527,30 @@
     {
      "n": 1,
      "label": "#1",
-     "kind": "UT2, AT",
-     "focus": "",
-     "workout": "35' UT2 + 10' AT",
+     "kind": "UT2",
+     "focus": "Hinge",
+     "workout": "35' UT2 + 10' AT 4'3'2'1' 22-28",
      "team": "",
      "rate": "r18–20",
      "coachAm": "",
      "coachPm": "",
-     "erg": [],
+     "erg": [
+      {
+       "label": "UT2",
+       "url": "https://workout.ergdata.com/shared/xw3urcni"
+      },
+      {
+       "label": "AT",
+       "url": "https://workout.ergdata.com/shared/unmlplnp"
+      }
+     ],
      "form": null,
      "formLabel": ""
     },
     {
      "n": 2,
      "label": "#2",
-     "kind": "UT2, TR",
+     "kind": "UT2",
      "focus": "",
      "workout": "30' UT2 + 3 x (40\" on / 20\" off) r 26 28 30",
      "team": "",
@@ -1558,13 +1567,13 @@
      "kind": "Saturday team",
      "focus": "",
      "workout": "5x4' TR /2'",
-     "team": "Same clock, mixed teams; team score = total meters",
+     "team": "Same clock, mixed teams; team score = ave meters",
      "rate": "r20–30",
-     "coachAm": "",
+     "coachAm": "Sophie Westfiled",
      "coachPm": "",
      "erg": [],
-     "form": null,
-     "formLabel": ""
+     "form": "https://forms.gle/Feci2LSiXKs92e9A7",
+     "formLabel": "5 x 4'"
     }
    ]
   },

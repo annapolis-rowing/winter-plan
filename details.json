@@ -615,6 +615,178 @@
    }
   ]
  },
+ "fit-3-1": {
+  "tab": "Fit Wk3 Wo1",
+  "erg": [
+   {
+    "label": "UT2",
+    "url": "https://workout.ergdata.com/shared/xw3urcni"
+   },
+   {
+    "label": "AT",
+    "url": "https://workout.ergdata.com/shared/unmlplnp"
+   }
+  ],
+  "coach": [
+   "11.16 pm Kari Hughes / Evan Rea",
+   "11.17 am Pascal Evans"
+  ],
+  "focus": "Suspension",
+  "type": "UT2",
+  "dynamic": [
+   "10 jumping jacks",
+   "10 seal jacks",
+   "10 pancakes",
+   "10 arm circles (5 forward, 5 back)",
+   "10 monkeys",
+   "10 I's",
+   "10 Y's",
+   "10 T's",
+   "10 Windmills",
+   "10 Around the Worlds",
+   "10 sit, spin, reach (5 each side)",
+   "10 kicks (each side)",
+   "10 Spidermans",
+   "10 push ups"
+  ],
+  "dynamicLink": "https://drive.google.com/file/d/1Y63MDfROopiRK4V9vX1bb-Rbu7gB4y7X/view",
+  "video": "https://app.coachnow.io/i/b7d058bb74/02be",
+  "form": null,
+  "warmup": [
+   {
+    "t": "Suspension work with strap and partner",
+    "i": 0
+   },
+   {
+    "t": "1' @ 18 - 20 @ 1/2 pressure",
+    "i": 0
+   },
+   {
+    "t": "Reverse pick drill x 10 strokes",
+    "i": 0
+   },
+   {
+    "t": "top 1/4, top 1/2, legs only, legs + hips, full stroke",
+    "i": 1
+   },
+   {
+    "t": "focus: suspension through the drive",
+    "i": 1
+   },
+   {
+    "t": "1' @ 18 - 20 @ 3/4 pressure, focus on suspension",
+    "i": 0
+   }
+  ],
+  "workout": [
+   {
+    "t": "UT2 (easy steady state)",
+    "i": 0
+   },
+   {
+    "t": "15':  3 x (1' , 4')",
+    "i": 0
+   },
+   {
+    "t": "1':  gather at hip hinge every stroke, focus on posture to get good suspension at catch",
+    "i": 1
+   },
+   {
+    "t": "4':  rate 18 - 20, keeping focus on suspension",
+    "i": 1
+   },
+   {
+    "t": "rest = 2;",
+    "i": 0
+   },
+   {
+    "t": "20': 10, 20, 30, 20, 10, 20, .... 16, 18, 20, 18, 16, 18.... with 1/2 rest (10 strokes on = 5 strokes paddle)",
+    "i": 0
+   },
+   {
+    "t": "AT",
+    "i": 0
+   },
+   {
+    "t": "10': 4', 3', 2', 1' @ 22, 24, 26, 28",
+    "i": 0
+   }
+  ],
+  "cooldown": [
+   {
+    "t": "5' cooldown on erg",
+    "i": 0
+   },
+   {
+    "t": "Post-cool down Stretch",
+    "i": 1
+   },
+   {
+    "t": "Hold the movements for 30 seconds",
+    "i": 1
+   },
+   {
+    "t": "1. Shoulder cross body stretch (https://www.youtube.com/shorts/aIq0fLi8iak)",
+    "i": 1,
+    "url": "https://www.youtube.com/shorts/aIq0fLi8iak"
+   },
+   {
+    "t": "2. Tricep stretch (https://www.youtube.com/watch?v=zzvDO56B0HE)",
+    "i": 1,
+    "url": "https://www.youtube.com/watch?v=zzvDO56B0HE"
+   },
+   {
+    "t": "3. Triangle stretch (https://www.youtube.com/watch?v=hY6cmXdq-Sw)",
+    "i": 1,
+    "url": "https://www.youtube.com/watch?v=hY6cmXdq-Sw"
+   },
+   {
+    "t": "4. Downward dog (https://www.youtube.com/shorts/YtMP5JxIMpI)",
+    "i": 1,
+    "url": "https://www.youtube.com/shorts/YtMP5JxIMpI"
+   },
+   {
+    "t": "5. Upward dog (https://www.youtube.com/watch?v=zbG9LQst6EA)",
+    "i": 1,
+    "url": "https://www.youtube.com/watch?v=zbG9LQst6EA"
+   },
+   {
+    "t": "6. Pigeon (https://www.youtube.com/watch?v=1o7awuDGzag)",
+    "i": 1,
+    "url": "https://www.youtube.com/watch?v=1o7awuDGzag"
+   },
+   {
+    "t": "Alternative: Figure 4 (https://www.youtube.com/shorts/ckHZyA99Das)",
+    "i": 2,
+    "url": "https://www.youtube.com/shorts/ckHZyA99Das"
+   },
+   {
+    "t": "Alternative: Seated Figure 4 (https://www.youtube.com/shorts/b2FwygFSgn0)",
+    "i": 2,
+    "url": "https://www.youtube.com/shorts/b2FwygFSgn0"
+   },
+   {
+    "t": "7. Seated twists (https://www.youtube.com/watch?v=Pjq54qOuE_A)",
+    "i": 1,
+    "url": "https://www.youtube.com/watch?v=Pjq54qOuE_A"
+   },
+   {
+    "t": "8. Hip flexor stretch (https://www.youtube.com/watch?v=DXuStgWuJV8)",
+    "i": 1,
+    "url": "https://www.youtube.com/watch?v=DXuStgWuJV8"
+   },
+   {
+    "t": "Alternative: Supine hip flexor stretch (can do at home on couch/bed) (https://www.youtube.com/watch?v=Z_esPBAUDhY)",
+    "i": 2,
+    "url": "https://www.youtube.com/watch?v=Z_esPBAUDhY"
+   },
+   {
+    "t": "9. Child's pose with reach (https://www.youtube.com/watch?v=FPHDSZJw3EY)",
+    "i": 1,
+    "url": "https://www.youtube.com/watch?v=FPHDSZJw3EY"
+   }
+  ]
+ },
  "comp-2-1": {
   "tab": "Comp Wk2 Wo1",
   "erg": [
