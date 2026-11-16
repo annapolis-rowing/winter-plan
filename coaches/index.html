@@ -133,6 +133,22 @@ details summary{cursor:pointer;font-weight:600}
 .dyn{columns:2;column-gap:20px;margin-top:8px;padding-left:18px;font-size:15px}
 .vlink{display:inline-block;font-size:13px;font-weight:700;text-decoration:none;white-space:nowrap;margin-left:5px}
 .vlink:hover{text-decoration:underline}
+.chips{display:flex;gap:8px;overflow-x:auto;padding-bottom:4px;margin-bottom:12px;scrollbar-width:thin}
+.chip{flex:none;font:600 14px var(--body);border:1px solid var(--line);background:var(--surface);color:var(--ink);border-radius:999px;padding:7px 12px;cursor:pointer;white-space:nowrap}
+.chip[aria-pressed="true"]{background:var(--ink);color:var(--bg);border-color:var(--ink)}
+.chip:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.rlist{list-style:none;margin:0;padding:0;background:var(--surface);border:1px solid var(--line);border-radius:12px;overflow:hidden}
+.rrow{display:grid;grid-template-columns:2.2em 1fr auto;gap:10px;align-items:center;padding:10px 14px;border-bottom:1px solid var(--line);margin:0}
+.rrow:last-child{border-bottom:0}
+.rpos{font:700 20px var(--display);color:var(--muted);text-align:center;font-variant-numeric:tabular-nums}
+.rrow:nth-child(-n+3) .rpos{color:var(--accent)}
+.rwho{display:grid;min-width:0}
+.rname{font-weight:700}
+.rpieces{font:500 12px var(--mono);color:var(--muted);font-variant-numeric:tabular-nums;overflow-wrap:anywhere}
+.rnums{display:grid;justify-items:end}
+.rsplit{font:700 18px var(--mono);font-variant-numeric:tabular-nums}
+.rmeta{font:500 12px var(--mono);color:var(--muted)}
+.rnote{font-size:13px;color:var(--muted);margin:8px 0 14px}
 .rlink{display:inline-block;font-weight:700;text-decoration:none;background:var(--accent);color:var(--bg);border-radius:999px;padding:10px 16px}
 .rlink:hover{text-decoration:underline}
 .posted{font-size:14px;color:var(--muted)}
@@ -185,7 +201,8 @@ details summary{cursor:pointer;font-weight:600}
 
 <section id="results">
   <h2>Results</h2>
-  <p>See everyone's logged results in the team spreadsheet.</p>
+  <div class="chips" id="rchips" aria-label="Choose a workout"></div>
+  <div id="rbody"><p class="empty">Loading results…</p></div>
   <a class="rlink" href="https://docs.google.com/spreadsheets/d/1s_MzG2c8uqPr9-fNQo5RTkrWPZf2h2XPotyrbsmzpEQ/edit?usp=sharing" target="_blank" rel="noopener">Open the results spreadsheet <span aria-hidden="true">→</span></a>
 </section>
 
@@ -306,6 +323,67 @@ window.addEventListener("hashchange",()=>{if(fromHash())render();routeSession()}
 const getJSON=u=>fetch(u,{cache:"no-store"}).then(r=>r.ok?r.json():null).catch(()=>null);
 Promise.all([getJSON("../plan.json"),getJSON("../details.json")]).then(([p,d])=>{if(p)PLAN=p;DETAILS=d||{};render();routeSession()});
 
+
+// results board (read live from the results Google Sheet through a read-only script)
+const RESULTS_URL="";
+const RESULTS_SHEET="https://docs.google.com/spreadsheets/d/1s_MzG2c8uqPr9-fNQo5RTkrWPZf2h2XPotyrbsmzpEQ/edit?usp=sharing";
+let RES=[], rsel=0;
+const toSec=v=>{const m=String(v||"").trim().match(/^(\d{1,2}):(\d{1,2}(?:\.\d+)?)$/);return m?(+m[1])*60+(+m[2]):null};
+const fmtSec=s=>{const m=Math.floor(s/60);let r=(s-m*60).toFixed(1);if(r==="60.0"){return `${m+1}:00.0`}return `${m}:${r.padStart(4,"0")}`};
+const num=v=>{const m=String(v||"").match(/^\s*(?:av(?:e|g)?\.?\s*)?(\d{1,2}(?:\.\d)?)\s*$/i);return m?+m[1]:null};
+const cap=s=>s?s[0].toUpperCase()+s.slice(1):s;
+function parseResults(tabs){
+  const out={};
+  for(const t of tabs||[]){
+    const m=t.name.match(/^\s*(\d{1,2})\.(\d{1,2})(?:\.\d{2,4})?\s+(.+?)\s*$/); if(!m) continue;
+    const title=m[3].replace(/\s*manual\s*$/i,"").trim(), mo=+m[1], dy=+m[2], key=`${mo}.${dy} ${title.toLowerCase()}`;
+    const w=out[key]||(out[key]={month:mo,day:dy,year:mo>=8?2026:2027,title,rows:[]});
+    const vals=t.values||[]; const hi=vals.findIndex(r=>r.some(c=>String(c).trim().toLowerCase()==="first name")); if(hi<0) continue;
+    const H=vals[hi].map(h=>String(h).trim().toLowerCase());
+    const find=f=>H.findIndex(f);
+    const cF=H.indexOf("first name"), cL=H.indexOf("last name");
+    const cS=find(h=>/(overall|ave|average)/.test(h)&&/split/.test(h));
+    const cR=find(h=>/(overall|ave|average)/.test(h)&&(/\bsr\b/.test(h)||/stroke rate/.test(h)));
+    const cT=find(h=>/overall time|^time$|total time/.test(h));
+    const cE=find(h=>/rpe/.test(h));
+    const pieces=[]; H.forEach((h,i)=>{const p=h.match(/^p(\d+)\s*split/);if(p){const sr=H.findIndex(x=>x===`p${p[1]} sr`);pieces.push({n:+p[1],s:i,r:sr})}});
+    pieces.sort((a,b)=>a.n-b.n);
+    for(const r of vals.slice(hi+1)){
+      const g=i=>i>=0&&i<r.length?String(r[i]).trim():"";
+      const first=g(cF).split(/\s+/)[0], last=g(cL);
+      if(!first&&!last) continue;
+      const ps=pieces.map(p=>({split:toSec(g(p.s)),sr:p.r>=0?num(g(p.r)):null})).filter(p=>p.split!=null);
+      let split=toSec(g(cS)), est=false;
+      if(split==null&&ps.length){split=ps.reduce((a,p)=>a+p.split,0)/ps.length;est=true}
+      let sr=cR>=0?num(g(cR)):null;
+      const srs=ps.map(p=>p.sr).filter(x=>x!=null); if(sr==null&&srs.length) sr=Math.round(srs.reduce((a,b)=>a+b,0)/srs.length);
+      const time=g(cT);
+      if(split==null&&!time) continue;
+      w.rows.push({name:`${cap(first)}${last?" "+last[0].toUpperCase()+".":""}`,split,est,sr,time,rpe:num(g(cE)),pieces:ps});
+    }
+  }
+  return Object.values(out).filter(w=>w.rows.length).map(w=>{w.rows.sort((a,b)=>(a.split??1e9)-(b.split??1e9)||a.name.localeCompare(b.name));return w})
+    .sort((a,b)=>(b.year-a.year)||(b.month-a.month)||(b.day-a.day));
+}
+function renderResults(){
+  const chips=document.getElementById("rchips"), body=document.getElementById("rbody");
+  if(!RES.length){chips.innerHTML="";body.innerHTML=`<p class="empty">No results logged yet. Use the results link on each workout to add yours.</p>`;return}
+  chips.innerHTML=RES.map((w,i)=>{const d=new Date(w.year,w.month-1,w.day);return `<button type="button" class="chip" data-r="${i}" aria-pressed="${i===rsel}">${DAYS[d.getDay()]} ${MN[w.month-1]} ${w.day} · ${esc(w.title)}</button>`}).join("");
+  const w=RES[rsel], hasT=w.rows.some(r=>r.time), hasP=w.rows.some(r=>r.pieces.length>1);
+  body.innerHTML=`<ol class="rlist">${w.rows.map((r,i)=>`<li class="rrow">
+    <span class="rpos">${i+1}</span>
+    <span class="rwho"><span class="rname">${esc(r.name)}</span>${hasP&&r.pieces.length?`<span class="rpieces">${r.pieces.map(p=>fmtSec(p.split)).join(" · ")}</span>`:""}</span>
+    <span class="rnums"><span class="rsplit">${r.split!=null?fmtSec(r.split):"—"}</span><span class="rmeta">${[r.sr!=null?"r"+r.sr:"",hasT&&r.time?r.time:""].filter(Boolean).join(" · ")}</span></span>
+  </li>`).join("")}</ol>
+  <p class="rnote">${w.rows.length} result${w.rows.length===1?"":"s"}, fastest first. Split is the average per 500m${hasP?"; piece splits are listed under each name":""}.</p>`;
+}
+document.getElementById("rchips").addEventListener("click",e=>{const b=e.target.closest("[data-r]");if(!b)return;rsel=+b.dataset.r;renderResults()});
+if(RESULTS_URL){
+  getJSON(RESULTS_URL).then(j=>{
+    if(!j||j.error||!Array.isArray(j.tabs)){document.getElementById("rbody").innerHTML=`<p class="empty">Results couldn't load right now. Try again in a minute, or open the spreadsheet.</p>`;return}
+    RES=parseResults(j.tabs); renderResults();
+  });
+} else { document.getElementById("rbody").innerHTML=`<p class="empty">See everyone's results in the spreadsheet.</p>` }
 
 // zones
 const Z=[["UT2 (easy steady)",18,22,"18–20","3–4"],["UT1 (firm steady)",12,16,"20–22","5–6"],["AT (threshold)",6,10,"20–30","7"],["TR (transport)",2,5,"26–34","8"],["RP (race pace)",-2,2,"28–32","9"]];
