@@ -171,11 +171,16 @@ function adapt(p){
     const type=String(w.type||"").replace(/\s*\+\s*test\b/i,"").replace(/^test$/i,"");
     const workouts=w.workouts.filter(x=>ADAPT_SLOTS[x.n]).map(x=>{
       const sl=ADAPT_SLOTS[x.n], d=s?new Date(s.getTime()+sl.off*864e5):null;
-      return {...x,label:sl.day+(d?` · ${MN[d.getMonth()]} ${d.getDate()}`:""),coachAm:"",coachPm:x.coachPm||""};
+      return {...x,label:sl.day+(d?` · ${MN[d.getMonth()]} ${d.getDate()}`:""),coachAm:"",coachPm:pmFromDetail(w.wk,x.n)||x.coachPm||""};
     });
     return {...w,type,workouts};
   })};
 }
+// the session's detail tab names every PM coach (e.g. "11.16 pm Kari Hughes / Evan Rea"); prefer it
+function pmFromDetail(wk,n){const d=DETAILS[`fit-${wk}-${n}`];if(!d)return "";
+  return (d.coach||[]).filter(c=>/\bpm\b/i.test(c))
+    .map(c=>c.replace(/^\s*\d{1,2}\.\d{1,2}\s*pm\s*/i,"").replace(/\s*\((mon|wed)\w*\s*pm\)\s*$/i,"").trim())
+    .filter(Boolean).join(" / ")}
 // detail tabs list several coaches (e.g. "11.16 pm …", "11.17 am …"); keep the PM ones
 function pmCoaches(list){const pm=(list||[]).filter(c=>/\bpm\b/i.test(c));return pm.length?pm:(list||[])}
 
@@ -279,7 +284,7 @@ document.addEventListener("click",e=>{const a=e.target.closest("[data-open]");if
 function routeSession(){const h=location.hash.slice(1);if(SKEY.test(h))openSession(h)}
 window.addEventListener("hashchange",()=>{if(fromHash())render();routeSession()});
 const getJSON=u=>fetch(u,{cache:"no-store"}).then(r=>r.ok?r.json():null).catch(()=>null);
-Promise.all([getJSON("../plan.json"),getJSON("../details.json")]).then(([p,d])=>{if(p)PLAN=adapt(p);DETAILS=d||{};render();routeSession()});
+Promise.all([getJSON("../plan.json"),getJSON("../details.json")]).then(([p,d])=>{DETAILS=d||{};if(p)PLAN=adapt(p);render();routeSession()});
 
 
 // zones

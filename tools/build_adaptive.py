@@ -23,11 +23,16 @@ function adapt(p){
     const type=String(w.type||"").replace(/\s*\+\s*test\b/i,"").replace(/^test$/i,"");
     const workouts=w.workouts.filter(x=>ADAPT_SLOTS[x.n]).map(x=>{
       const sl=ADAPT_SLOTS[x.n], d=s?new Date(s.getTime()+sl.off*864e5):null;
-      return {...x,label:sl.day+(d?` · ${MN[d.getMonth()]} ${d.getDate()}`:""),coachAm:"",coachPm:x.coachPm||""};
+      return {...x,label:sl.day+(d?` · ${MN[d.getMonth()]} ${d.getDate()}`:""),coachAm:"",coachPm:pmFromDetail(w.wk,x.n)||x.coachPm||""};
     });
     return {...w,type,workouts};
   })};
 }
+// the session's detail tab names every PM coach (e.g. "11.16 pm Kari Hughes / Evan Rea"); prefer it
+function pmFromDetail(wk,n){const d=DETAILS[`fit-${wk}-${n}`];if(!d)return "";
+  return (d.coach||[]).filter(c=>/\bpm\b/i.test(c))
+    .map(c=>c.replace(/^\s*\d{1,2}\.\d{1,2}\s*pm\s*/i,"").replace(/\s*\((mon|wed)\w*\s*pm\)\s*$/i,"").trim())
+    .filter(Boolean).join(" / ")}
 // detail tabs list several coaches (e.g. "11.16 pm …", "11.17 am …"); keep the PM ones
 function pmCoaches(list){const pm=(list||[]).filter(c=>/\bpm\b/i.test(c));return pm.length?pm:(list||[])}
 """
@@ -69,7 +74,7 @@ def build():
     # data: filter to Mon PM / Wed PM and always show the Fitness track
     rep('let PLAN={competitive:[],fitness:[]}, DETAILS={}, track="competitive";',
         'let PLAN={competitive:[],fitness:[]}, DETAILS={}, track="fitness";' + ADAPT_JS)
-    rep("if(p)PLAN=p;", "if(p)PLAN=adapt(p);")
+    rep("if(p)PLAN=p;DETAILS=d||{};", "DETAILS=d||{};if(p)PLAN=adapt(p);")
     rep("function render(){", 'function render(){track="fitness";')
     rep("const d=DETAILS[k]; if(!d) return;",
         'const d=DETAILS[k]; if(!d||!/^fit-\\d+-[12]$/.test(k)) return;')
