@@ -45,6 +45,13 @@ def build():
     rep('content="Annapolis Rowing Club masters winter erg training plan, 2026–27."',
         'content="Annapolis Rowing Club Adaptive team: Monday and Wednesday PM erg sessions, winter 2026–27."')
     rep('content="ARC Erg"', 'content="ARC Adaptive"')
+    # versioned icon addresses so phones never reuse a stale or missing icon
+    rep('<link rel="icon" href="icon-192.png" type="image/png">',
+        '<link rel="icon" href="icon-192.png?v=2" type="image/png" sizes="192x192">')
+    rep('<link rel="apple-touch-icon" href="apple-touch-icon.png">',
+        '<link rel="apple-touch-icon" href="apple-touch-icon.png?v=2" sizes="180x180">')
+    rep('<link rel="manifest" href="manifest.webmanifest">',
+        '<link rel="manifest" href="manifest.webmanifest?v=2">')
     for f in ("plan.json", "details.json"):
         rep(f'getJSON("{f}")', f'getJSON("../{f}")')
 
