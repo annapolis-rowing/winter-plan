@@ -71,6 +71,11 @@ def build():
     rep('<p class="sub">Mon Nov 2, 2026 – Wed Mar 31, 2027</p>',
         '<p class="sub">Monday &amp; Wednesday PM Community &amp; Fitness sessions · Nov 2, 2026 – Mar 31, 2027</p>')
 
+    # button to the Adaptive athlete sign-up app
+    rep("</header>", """  <a class="signup" href="https://arc-adaptive-volunteers.netlify.app/athletes">Sign up for a rowing session ↗</a>
+</header>""")
+    s = s.replace("</style>", ".signup{display:inline-flex;align-items:center;gap:6px;margin-top:14px;font:700 16px var(--body);color:#fff;background:#13283b;border-radius:999px;padding:11px 18px;text-decoration:none}\n.signup:hover{background:#1f3d58}.signup:focus-visible{outline:2px solid var(--accent);outline-offset:2px}\n@media (prefers-color-scheme:dark){.signup{background:#fff;color:#13283b}.signup:hover{background:#eef3f6}}\n</style>", 1)
+
     # no track switch: this edition is Fitness & Community only
     s, n = re.subn(r'\s*<div class="seg" role="group" aria-label="Choose your track">.*?</div>', "", s, count=1, flags=re.S)
     assert n == 1, "track switch not found"
