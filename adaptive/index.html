@@ -309,7 +309,7 @@ Promise.all([getJSON("../plan.json"),getJSON("../details.json")]).then(([p,d])=>
 
 
 // results board (read live from the results Google Sheet through a read-only script)
-const RESULTS_URL="";
+const RESULTS_URL="https://script.google.com/macros/s/AKfycbwjNNHXg-j-xkIv6K43L2ZnzfsZzdit0U_2gBMs1GL1a6sBiyMxrNcRaB94Y_eiZIS1rw/exec";
 const RESULTS_SHEET="https://docs.google.com/spreadsheets/d/1s_MzG2c8uqPr9-fNQo5RTkrWPZf2h2XPotyrbsmzpEQ/edit?usp=sharing";
 let RES=[], rsel=0;
 const toSec=v=>{const m=String(v||"").trim().match(/^(\d{1,2}):(\d{1,2}(?:\.\d+)?)$/);return m?(+m[1])*60+(+m[2]):null};
