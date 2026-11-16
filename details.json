@@ -838,7 +838,7 @@
   "form": null,
   "warmup": [
    {
-    "t": "PR2 athletes: + 2 - 4 spm   / PR3 athletes: + 4 - 8 spm",
+    "t": "PR2 athletes: + 2 - 4 spm   / PR1 athletes: + 4 - 8 spm",
     "i": 0
    },
    {
@@ -881,7 +881,7 @@
   ],
   "workout": [
    {
-    "t": "UT2 (easy steady state) PR2 athletes: + 2 - 4 spm   / PR3 athletes: + 4 - 8 spm",
+    "t": "UT2 (easy steady state) PR2 athletes: + 2 - 4 spm   / PR1 athletes: + 4 - 8 spm",
     "i": 0
    },
    {
@@ -1031,7 +1031,7 @@
   "form": null,
   "warmup": [
    {
-    "t": "PR2 athletes: + 2 - 4 spm   / PR3 athletes: + 4 - 8 spm",
+    "t": "PR2 athletes: + 2 - 4 spm   / PR1 athletes: + 4 - 8 spm",
     "i": 0
    },
    {
@@ -1074,7 +1074,7 @@
   ],
   "workout": [
    {
-    "t": "2 x 15' UT2 (easy steady state) PR2 athletes: + 2 - 4 spm   / PR3 athletes: + 4 - 8 spm",
+    "t": "2 x 15' UT2 (easy steady state) PR2 athletes: + 2 - 4 spm   / PR1 athletes: + 4 - 8 spm",
     "i": 0
    },
    {
