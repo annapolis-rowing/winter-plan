@@ -43,15 +43,19 @@
     "url": "https://www.youtube.com/watch?v=REcharFN8VU"
    },
    {
-    "t": "4:20 (from the kneeling position)",
+    "t": "start with hinging from kneeling, then against wall and finally on erg",
+    "i": 0
+   },
+   {
+    "t": "@ 4:20 in video - kneeling",
     "i": 3
    },
    {
-    "t": "3\"21 (against a wall)",
+    "t": "@ 3:21 - against a wall",
     "i": 3
    },
    {
-    "t": "2:20 (on the erg)",
+    "t": "@ 2:20 - hinging on the erg",
     "i": 3
    }
   ],
@@ -212,15 +216,15 @@
     "url": "https://www.youtube.com/watch?v=REcharFN8VU"
    },
    {
-    "t": "4:50 (w/pipe on back)",
+    "t": "@ 4:50 (with pipe on back)",
     "i": 3
    },
    {
-    "t": "5:30 (pipe in front)",
+    "t": "@ 5:30 (pipe in front)",
     "i": 3
    },
    {
-    "t": "2:20 (on the erg)",
+    "t": "@ 2:20 (on the erg)",
     "i": 3
    },
    {
@@ -615,6 +619,182 @@
    }
   ]
  },
+ "comp-3-4": {
+  "tab": "Comp Wk3 Wo4",
+  "erg": [
+   {
+    "label": "TR",
+    "url": "https://workout.ergdata.com/shared/yj7oy6o1"
+   }
+  ],
+  "coach": [
+   "Sophie Westfield"
+  ],
+  "focus": "Suspension",
+  "type": "TR",
+  "dynamic": [
+   "10 jumping jacks",
+   "10 seal jacks",
+   "10 pancakes",
+   "10 arm circles (5 forward, 5 back)",
+   "10 monkeys",
+   "10 I's",
+   "10 Y's",
+   "10 T's",
+   "10 Windmills",
+   "10 Around the Worlds",
+   "10 sit, spin, reach (5 each side)",
+   "10 kicks (each side)",
+   "10 Spidermans",
+   "10 push ups"
+  ],
+  "dynamicLink": "https://drive.google.com/file/d/1Y63MDfROopiRK4V9vX1bb-Rbu7gB4y7X/view",
+  "video": "https://app.coachnow.io/i/b7d058bb74/02be",
+  "form": null,
+  "warmup": [
+   {
+    "t": "1' @ 18 - 20 @ 1/2 pressure",
+    "i": 0
+   },
+   {
+    "t": "Reverse pick drill x 10 strokes",
+    "i": 0
+   },
+   {
+    "t": "top 1/4, top 1/2, legs only, legs + hips, full stroke",
+    "i": 1
+   },
+   {
+    "t": "2' @ 18 - 20 @ 1/2 pressure",
+    "i": 0
+   },
+   {
+    "t": "1' paddle",
+    "i": 0
+   },
+   {
+    "t": "3 x 20 @ 22, 24, 26 (60 strokes continuous)",
+    "i": 0
+   },
+   {
+    "t": "1' paddle",
+    "i": 0
+   },
+   {
+    "t": "2' @ 20 - 22 @ full pressure",
+    "i": 0
+   },
+   {
+    "t": "4 x 15 @ 26, 28, 30, 32 with 5 stroke paddle between",
+    "i": 0
+   },
+   {
+    "t": "1' paddle",
+    "i": 0
+   },
+   {
+    "t": "10 @ 32 - 34",
+    "i": 0
+   },
+   {
+    "t": "1' paddle out",
+    "i": 0
+   }
+  ],
+  "workout": [
+   {
+    "t": "5 x 4' on , 3' off; racing in teams on alternate ergs - winning team has highest meters/person average",
+    "i": 0
+   },
+   {
+    "t": "rates = 26, 28, 30, 28, 26",
+    "i": 0
+   },
+   {
+    "t": "rest = 3'",
+    "i": 0
+   },
+   {
+    "t": "Please enter your data here (P1 - P65 average split and stroke rate)",
+    "i": 0,
+    "url": "https://workout.ergdata.com/shared/t2v5ed6x"
+   }
+  ],
+  "cooldown": [
+   {
+    "t": "5' cooldown on erg",
+    "i": 0
+   },
+   {
+    "t": "Post-cool down Stretch",
+    "i": 1
+   },
+   {
+    "t": "Hold the movements for 30 seconds",
+    "i": 1
+   },
+   {
+    "t": "1. Shoulder cross body stretch (https://www.youtube.com/shorts/aIq0fLi8iak)",
+    "i": 1,
+    "url": "https://www.youtube.com/shorts/aIq0fLi8iak"
+   },
+   {
+    "t": "2. Tricep stretch (https://www.youtube.com/watch?v=zzvDO56B0HE)",
+    "i": 1,
+    "url": "https://www.youtube.com/watch?v=zzvDO56B0HE"
+   },
+   {
+    "t": "3. Triangle stretch (https://www.youtube.com/watch?v=hY6cmXdq-Sw)",
+    "i": 1,
+    "url": "https://www.youtube.com/watch?v=hY6cmXdq-Sw"
+   },
+   {
+    "t": "4. Downward dog (https://www.youtube.com/shorts/YtMP5JxIMpI)",
+    "i": 1,
+    "url": "https://www.youtube.com/shorts/YtMP5JxIMpI"
+   },
+   {
+    "t": "5. Upward dog (https://www.youtube.com/watch?v=zbG9LQst6EA)",
+    "i": 1,
+    "url": "https://www.youtube.com/watch?v=zbG9LQst6EA"
+   },
+   {
+    "t": "6. Pigeon (https://www.youtube.com/watch?v=1o7awuDGzag)",
+    "i": 1,
+    "url": "https://www.youtube.com/watch?v=1o7awuDGzag"
+   },
+   {
+    "t": "Alternative: Figure 4 (https://www.youtube.com/shorts/ckHZyA99Das)",
+    "i": 2,
+    "url": "https://www.youtube.com/shorts/ckHZyA99Das"
+   },
+   {
+    "t": "Alternative: Seated Figure 4 (https://www.youtube.com/shorts/b2FwygFSgn0)",
+    "i": 2,
+    "url": "https://www.youtube.com/shorts/b2FwygFSgn0"
+   },
+   {
+    "t": "7. Seated twists (https://www.youtube.com/watch?v=Pjq54qOuE_A)",
+    "i": 1,
+    "url": "https://www.youtube.com/watch?v=Pjq54qOuE_A"
+   },
+   {
+    "t": "8. Hip flexor stretch (https://www.youtube.com/watch?v=DXuStgWuJV8)",
+    "i": 1,
+    "url": "https://www.youtube.com/watch?v=DXuStgWuJV8"
+   },
+   {
+    "t": "Alternative: Supine hip flexor stretch (can do at home on couch/bed) (https://www.youtube.com/watch?v=Z_esPBAUDhY)",
+    "i": 2,
+    "url": "https://www.youtube.com/watch?v=Z_esPBAUDhY"
+   },
+   {
+    "t": "9. Child's pose with reach (https://www.youtube.com/watch?v=FPHDSZJw3EY)",
+    "i": 1,
+    "url": "https://www.youtube.com/watch?v=FPHDSZJw3EY"
+   }
+  ]
+ },
  "fit-3-1": {
   "tab": "Fit Wk3 Wo1",
   "erg": [
@@ -631,7 +811,7 @@
    "11.16 pm Kari Hughes / Evan Rea",
    "11.17 am Pascal Evans"
   ],
-  "focus": "Suspension",
+  "focus": "Hinge",
   "type": "UT2",
   "dynamic": [
    "10 jumping jacks",
@@ -654,7 +834,7 @@
   "form": null,
   "warmup": [
    {
-    "t": "Suspension work with strap and partner",
+    "t": "PR2 athletes: + 2 - 4 spm   / PR3 athletes: + 4 - 8 spm",
     "i": 0
    },
    {
@@ -662,25 +842,42 @@
     "i": 0
    },
    {
-    "t": "Reverse pick drill x 10 strokes",
+    "t": "Pick Drill, 10 strokes each",
+    "i": 0
+   },
+   {
+    "t": "(a) Pick drill x 10 strokes (sliding seat)",
     "i": 0
    },
    {
     "t": "top 1/4, top 1/2, legs only, legs + hips, full stroke",
-    "i": 1
+    "i": 2
    },
    {
-    "t": "focus: suspension through the drive",
-    "i": 1
+    "t": "focus: hinging from the hips rather than rolling out the back",
+    "i": 3,
+    "url": "https://www.youtube.com/watch?v=REcharFN8VU"
    },
    {
-    "t": "1' @ 18 - 20 @ 3/4 pressure, focus on suspension",
+    "t": "(b) Pick drill x 10 strokes (fixed seat)",
+    "i": 0
+   },
+   {
+    "t": "2 x (arms only, hip hinge (scapular reach)",
+    "i": 2
+   },
+   {
+    "t": "focus: immediate switch to drive at full catch length",
+    "i": 3
+   },
+   {
+    "t": "1' @ 20 - 22 @ 2/3 pressure",
     "i": 0
    }
   ],
   "workout": [
    {
-    "t": "UT2 (easy steady state)",
+    "t": "UT2 (easy steady state) PR2 athletes: + 2 - 4 spm   / PR3 athletes: + 4 - 8 spm",
     "i": 0
    },
    {
@@ -688,15 +885,19 @@
     "i": 0
    },
    {
-    "t": "1':  gather at hip hinge every stroke, focus on posture to get good suspension at catch",
+    "t": "1':  (sliding seat) gather at hip hinge every stroke, focus on posture to get good suspension at catch",
     "i": 1
+   },
+   {
+    "t": "(fixed seat) gather at hands away every stroke, focus on posture to get good suspension at catch",
+    "i": 2
    },
    {
     "t": "4':  rate 18 - 20, keeping focus on suspension",
     "i": 1
    },
    {
-    "t": "rest = 2;",
+    "t": "rest = 3;",
     "i": 0
    },
    {
@@ -710,6 +911,362 @@
    {
     "t": "10': 4', 3', 2', 1' @ 22, 24, 26, 28",
     "i": 0
+   }
+  ],
+  "cooldown": [
+   {
+    "t": "5' cooldown on erg",
+    "i": 0
+   },
+   {
+    "t": "Post-cool down Stretch",
+    "i": 1
+   },
+   {
+    "t": "Hold the movements for 30 seconds",
+    "i": 1
+   },
+   {
+    "t": "1. Shoulder cross body stretch (https://www.youtube.com/shorts/aIq0fLi8iak)",
+    "i": 1,
+    "url": "https://www.youtube.com/shorts/aIq0fLi8iak"
+   },
+   {
+    "t": "2. Tricep stretch (https://www.youtube.com/watch?v=zzvDO56B0HE)",
+    "i": 1,
+    "url": "https://www.youtube.com/watch?v=zzvDO56B0HE"
+   },
+   {
+    "t": "3. Triangle stretch (https://www.youtube.com/watch?v=hY6cmXdq-Sw)",
+    "i": 1,
+    "url": "https://www.youtube.com/watch?v=hY6cmXdq-Sw"
+   },
+   {
+    "t": "4. Downward dog (https://www.youtube.com/shorts/YtMP5JxIMpI)",
+    "i": 1,
+    "url": "https://www.youtube.com/shorts/YtMP5JxIMpI"
+   },
+   {
+    "t": "5. Upward dog (https://www.youtube.com/watch?v=zbG9LQst6EA)",
+    "i": 1,
+    "url": "https://www.youtube.com/watch?v=zbG9LQst6EA"
+   },
+   {
+    "t": "6. Pigeon (https://www.youtube.com/watch?v=1o7awuDGzag)",
+    "i": 1,
+    "url": "https://www.youtube.com/watch?v=1o7awuDGzag"
+   },
+   {
+    "t": "Alternative: Figure 4 (https://www.youtube.com/shorts/ckHZyA99Das)",
+    "i": 2,
+    "url": "https://www.youtube.com/shorts/ckHZyA99Das"
+   },
+   {
+    "t": "Alternative: Seated Figure 4 (https://www.youtube.com/shorts/b2FwygFSgn0)",
+    "i": 2,
+    "url": "https://www.youtube.com/shorts/b2FwygFSgn0"
+   },
+   {
+    "t": "7. Seated twists (https://www.youtube.com/watch?v=Pjq54qOuE_A)",
+    "i": 1,
+    "url": "https://www.youtube.com/watch?v=Pjq54qOuE_A"
+   },
+   {
+    "t": "8. Hip flexor stretch (https://www.youtube.com/watch?v=DXuStgWuJV8)",
+    "i": 1,
+    "url": "https://www.youtube.com/watch?v=DXuStgWuJV8"
+   },
+   {
+    "t": "Alternative: Supine hip flexor stretch (can do at home on couch/bed) (https://www.youtube.com/watch?v=Z_esPBAUDhY)",
+    "i": 2,
+    "url": "https://www.youtube.com/watch?v=Z_esPBAUDhY"
+   },
+   {
+    "t": "9. Child's pose with reach (https://www.youtube.com/watch?v=FPHDSZJw3EY)",
+    "i": 1,
+    "url": "https://www.youtube.com/watch?v=FPHDSZJw3EY"
+   }
+  ]
+ },
+ "fit-3-2": {
+  "tab": "Fit Wk3 Wo2",
+  "erg": [
+   {
+    "label": "UT2",
+    "url": "https://workout.ergdata.com/shared/ttfondr9"
+   },
+   {
+    "label": "TR",
+    "url": "https://workout.ergdata.com/shared/xayf7ywa"
+   }
+  ],
+  "coach": [
+   "11.18 pm Kari Hughes / Pascal Evans"
+  ],
+  "focus": "Hinge",
+  "type": "UT2 and Short Intervals",
+  "dynamic": [
+   "10 jumping jacks",
+   "10 seal jacks",
+   "10 pancakes",
+   "10 arm circles (5 forward, 5 back)",
+   "10 monkeys",
+   "10 I's",
+   "10 Y's",
+   "10 T's",
+   "10 Windmills",
+   "10 Around the Worlds",
+   "10 sit, spin, reach (5 each side)",
+   "10 kicks (each side)",
+   "10 Spidermans",
+   "10 push ups"
+  ],
+  "dynamicLink": "https://drive.google.com/file/d/1Y63MDfROopiRK4V9vX1bb-Rbu7gB4y7X/view",
+  "video": "https://app.coachnow.io/i/b7d058bb74/02be",
+  "form": null,
+  "warmup": [
+   {
+    "t": "PR2 athletes: + 2 - 4 spm   / PR3 athletes: + 4 - 8 spm",
+    "i": 0
+   },
+   {
+    "t": "1' @ 18 - 20 @ 1/2 pressure",
+    "i": 0
+   },
+   {
+    "t": "Pick Drill, 10 strokes each",
+    "i": 0
+   },
+   {
+    "t": "(a) Pick drill x 10 strokes (sliding seat)",
+    "i": 0
+   },
+   {
+    "t": "top 1/4, top 1/2, legs only, legs + hips, full stroke",
+    "i": 2
+   },
+   {
+    "t": "focus: hinging from the hips rather than rolling out the back",
+    "i": 3,
+    "url": "https://www.youtube.com/watch?v=REcharFN8VU"
+   },
+   {
+    "t": "(b) Pick drill x 10 strokes (fixed seat)",
+    "i": 0
+   },
+   {
+    "t": "2 x (arms only, hip hinge (scapular reach)",
+    "i": 2
+   },
+   {
+    "t": "focus: immediate switch to drive at full catch length",
+    "i": 3
+   },
+   {
+    "t": "1' @ 20 - 22 @ 2/3 pressure",
+    "i": 0
+   }
+  ],
+  "workout": [
+   {
+    "t": "2 x 15' UT2 (easy steady state) PR2 athletes: + 2 - 4 spm   / PR3 athletes: + 4 - 8 spm",
+    "i": 0
+   },
+   {
+    "t": "15':  3', 2', 4', 3', 2', 1' @ 16, 18, 20, 18, 20, 18",
+    "i": 0
+   },
+   {
+    "t": "rest = 3;",
+    "i": 0
+   },
+   {
+    "t": "15': 3 x (2', 2', 1') @ 18, 20, 22",
+    "i": 0
+   },
+   {
+    "t": "TR2 (short Intervals)",
+    "i": 0
+   },
+   {
+    "t": "3 x (40s on, 20s off) @ 26 28, 30",
+    "i": 0
+   }
+  ],
+  "cooldown": [
+   {
+    "t": "5' cooldown on erg",
+    "i": 0
+   },
+   {
+    "t": "Post-cool down Stretch",
+    "i": 1
+   },
+   {
+    "t": "Hold the movements for 30 seconds",
+    "i": 1
+   },
+   {
+    "t": "1. Shoulder cross body stretch (https://www.youtube.com/shorts/aIq0fLi8iak)",
+    "i": 1,
+    "url": "https://www.youtube.com/shorts/aIq0fLi8iak"
+   },
+   {
+    "t": "2. Tricep stretch (https://www.youtube.com/watch?v=zzvDO56B0HE)",
+    "i": 1,
+    "url": "https://www.youtube.com/watch?v=zzvDO56B0HE"
+   },
+   {
+    "t": "3. Triangle stretch (https://www.youtube.com/watch?v=hY6cmXdq-Sw)",
+    "i": 1,
+    "url": "https://www.youtube.com/watch?v=hY6cmXdq-Sw"
+   },
+   {
+    "t": "4. Downward dog (https://www.youtube.com/shorts/YtMP5JxIMpI)",
+    "i": 1,
+    "url": "https://www.youtube.com/shorts/YtMP5JxIMpI"
+   },
+   {
+    "t": "5. Upward dog (https://www.youtube.com/watch?v=zbG9LQst6EA)",
+    "i": 1,
+    "url": "https://www.youtube.com/watch?v=zbG9LQst6EA"
+   },
+   {
+    "t": "6. Pigeon (https://www.youtube.com/watch?v=1o7awuDGzag)",
+    "i": 1,
+    "url": "https://www.youtube.com/watch?v=1o7awuDGzag"
+   },
+   {
+    "t": "Alternative: Figure 4 (https://www.youtube.com/shorts/ckHZyA99Das)",
+    "i": 2,
+    "url": "https://www.youtube.com/shorts/ckHZyA99Das"
+   },
+   {
+    "t": "Alternative: Seated Figure 4 (https://www.youtube.com/shorts/b2FwygFSgn0)",
+    "i": 2,
+    "url": "https://www.youtube.com/shorts/b2FwygFSgn0"
+   },
+   {
+    "t": "7. Seated twists (https://www.youtube.com/watch?v=Pjq54qOuE_A)",
+    "i": 1,
+    "url": "https://www.youtube.com/watch?v=Pjq54qOuE_A"
+   },
+   {
+    "t": "8. Hip flexor stretch (https://www.youtube.com/watch?v=DXuStgWuJV8)",
+    "i": 1,
+    "url": "https://www.youtube.com/watch?v=DXuStgWuJV8"
+   },
+   {
+    "t": "Alternative: Supine hip flexor stretch (can do at home on couch/bed) (https://www.youtube.com/watch?v=Z_esPBAUDhY)",
+    "i": 2,
+    "url": "https://www.youtube.com/watch?v=Z_esPBAUDhY"
+   },
+   {
+    "t": "9. Child's pose with reach (https://www.youtube.com/watch?v=FPHDSZJw3EY)",
+    "i": 1,
+    "url": "https://www.youtube.com/watch?v=FPHDSZJw3EY"
+   }
+  ]
+ },
+ "fit-3-3": {
+  "tab": "Fit Wk3 Wo3",
+  "erg": [
+   {
+    "label": "TR",
+    "url": "https://workout.ergdata.com/shared/yj7oy6o1"
+   }
+  ],
+  "coach": [
+   "Sophie Westfield"
+  ],
+  "focus": "Suspension",
+  "type": "TR",
+  "dynamic": [
+   "10 jumping jacks",
+   "10 seal jacks",
+   "10 pancakes",
+   "10 arm circles (5 forward, 5 back)",
+   "10 monkeys",
+   "10 I's",
+   "10 Y's",
+   "10 T's",
+   "10 Windmills",
+   "10 Around the Worlds",
+   "10 sit, spin, reach (5 each side)",
+   "10 kicks (each side)",
+   "10 Spidermans",
+   "10 push ups"
+  ],
+  "dynamicLink": "https://drive.google.com/file/d/1Y63MDfROopiRK4V9vX1bb-Rbu7gB4y7X/view",
+  "video": "https://app.coachnow.io/i/b7d058bb74/02be",
+  "form": null,
+  "warmup": [
+   {
+    "t": "1' @ 18 - 20 @ 1/2 pressure",
+    "i": 0
+   },
+   {
+    "t": "Reverse pick drill x 10 strokes",
+    "i": 0
+   },
+   {
+    "t": "top 1/4, top 1/2, legs only, legs + hips, full stroke",
+    "i": 1
+   },
+   {
+    "t": "2' @ 18 - 20 @ 1/2 pressure",
+    "i": 0
+   },
+   {
+    "t": "1' paddle",
+    "i": 0
+   },
+   {
+    "t": "3 x 20 @ 22, 24, 26 (60 strokes continuous)",
+    "i": 0
+   },
+   {
+    "t": "1' paddle",
+    "i": 0
+   },
+   {
+    "t": "2' @ 20 - 22 @ full pressure",
+    "i": 0
+   },
+   {
+    "t": "4 x 15 @ 26, 28, 30, 32 with 5 stroke paddle between",
+    "i": 0
+   },
+   {
+    "t": "1' paddle",
+    "i": 0
+   },
+   {
+    "t": "10 @ 32 - 34",
+    "i": 0
+   },
+   {
+    "t": "1' paddle out",
+    "i": 0
+   }
+  ],
+  "workout": [
+   {
+    "t": "5 x 4' on , 3' off; racing in teams on alternate ergs - winning team has highest meters/person average",
+    "i": 0
+   },
+   {
+    "t": "rates = 26, 28, 30, 28, 26",
+    "i": 0
+   },
+   {
+    "t": "rest = 3'",
+    "i": 0
+   },
+   {
+    "t": "Please enter your data here (P1 - P65 average split and stroke rate)",
+    "i": 0,
+    "url": "https://workout.ergdata.com/shared/t2v5ed6x"
    }
   ],
   "cooldown": [

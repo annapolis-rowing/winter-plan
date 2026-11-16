@@ -181,8 +181,8 @@
      "workout": "30' UT2, 20' UT1",
      "team": "",
      "rate": "r18–20",
-     "coachAm": "",
-     "coachPm": "",
+     "coachAm": "Sophie Westfield",
+     "coachPm": "Kari Hughes",
      "erg": [
       {
        "label": "20' UT2",
@@ -204,8 +204,8 @@
      "workout": "3×10' AT /3'",
      "team": "",
      "rate": "r20–30",
-     "coachAm": "",
-     "coachPm": "",
+     "coachAm": "Sophie Westfield",
+     "coachPm": "Pascal Evans",
      "erg": [
       {
        "label": "AT",
@@ -223,7 +223,7 @@
      "workout": "35' UT2 + 20' body-weight circuit",
      "team": "",
      "rate": "r18–20",
-     "coachAm": "",
+     "coachAm": "Uncoached",
      "coachPm": "",
      "erg": [
       {
@@ -242,7 +242,7 @@
      "workout": "5x4' TR /2'",
      "team": "Same clock, mixed teams; team score = total meters",
      "rate": "r20–30",
-     "coachAm": "",
+     "coachAm": "Sophie Westfield",
      "coachPm": "",
      "erg": [],
      "form": "https://forms.gle/Feci2LSiXKs92e9A7",
@@ -1532,8 +1532,8 @@
      "workout": "35' UT2 + 10' AT 4'3'2'1' 22-28",
      "team": "",
      "rate": "r18–20",
-     "coachAm": "",
-     "coachPm": "",
+     "coachAm": "Pascal Evans",
+     "coachPm": "Kari Hughes",
      "erg": [
       {
        "label": "UT2",
@@ -1556,22 +1556,36 @@
      "team": "",
      "rate": "r18–20",
      "coachAm": "",
-     "coachPm": "",
-     "erg": [],
+     "coachPm": "Kari Hughes",
+     "erg": [
+      {
+       "label": "UT2",
+       "url": "https://workout.ergdata.com/shared/ttfondr9"
+      },
+      {
+       "label": "TR",
+       "url": "https://workout.ergdata.com/shared/xayf7ywa"
+      }
+     ],
      "form": null,
      "formLabel": ""
     },
     {
      "n": 3,
      "label": "#3 (Sat Nov 21)",
-     "kind": "Saturday team",
+     "kind": "TR",
      "focus": "",
-     "workout": "5x4' TR /2'",
+     "workout": "5x4' TR /3'",
      "team": "Same clock, mixed teams; team score = ave meters",
      "rate": "r20–30",
      "coachAm": "Sophie Westfiled",
      "coachPm": "",
-     "erg": [],
+     "erg": [
+      {
+       "label": "TR",
+       "url": "https://workout.ergdata.com/shared/t2v5ed6x"
+      }
+     ],
      "form": "https://forms.gle/Feci2LSiXKs92e9A7",
      "formLabel": "5 x 4'"
     }
