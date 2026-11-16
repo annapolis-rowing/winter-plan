@@ -56,6 +56,15 @@ def parse(ws):
             if right and r < 12:
                 d["coach"].append(" ".join(right))
     d["coach"] = [c for c in d["coach"] if c]
+    # "Adaptive - Name" next to a coach marks the Adaptive team's coach; keep it separate
+    d["adaptiveCoach"] = ""
+    ADAPT = re.compile(r"\s*\badaptive\s*[-–—:]\s*(.+?)\s*$", re.I)
+    for i, c in enumerate(d["coach"]):
+        m = ADAPT.search(c)
+        if m:
+            d["adaptiveCoach"] = d["adaptiveCoach"] or m.group(1)
+            d["coach"][i] = c[:m.start()].strip()
+    d["coach"] = [c for c in d["coach"] if c and not re.fullmatch(r"\d{1,2}\.\d{1,2}\s*(am|pm)", c, re.I)]
 
     # ErgData links: any ergdata hyperlink in the header rows
     for r, cells in sorted(rows.items()):
@@ -156,6 +165,7 @@ def season(ws):
     col = lambda name: hdr.get(name, next((i for k, i in hdr.items() if k.startswith(name)), None))
     cW, cP, cT, cD, cN, cK, cF, cX, cWo, cR, cAM, cPM = (col("week"), col("phase"), col("week type"), col("week dates"),
         col("workout #"), col("erg data"), col("data form"), col("technical"), col("workout"), col("rate"), col("coach am"), col("coach pm"))
+    cAD = next((i for k, i in hdr.items() if k.startswith("coach") and "adaptive" in k), None)
     weeks, cur, phase = [], None, ""
     for row in ws.iter_rows(min_row=hrow + 1):
         g = lambda i: txt(row[i].value).strip() if i is not None and i < len(row) else ""
@@ -187,7 +197,7 @@ def season(ws):
             "n": int(num.group(1)) if num else 0, "label": g(cN), "kind": g(cK) if cur["wk"] else "",
             "focus": g(cX), "workout": wo, "team": team,
             "rate": "" if rate.lower() == "as noted" else rate,
-            "coachAm": g(cAM), "coachPm": g(cPM),
+            "coachAm": g(cAM), "coachPm": g(cPM), "coachAdaptive": g(cAD),
             "erg": [{"label": g(cK), "url": link(cK)}] if link(cK) else [],
             "form": link(cF), "formLabel": g(cF)})
     return weeks

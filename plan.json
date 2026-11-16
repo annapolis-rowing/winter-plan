@@ -16,6 +16,7 @@
      "rate": "",
      "coachAm": "Sophie Westfield",
      "coachPm": "Kari Hughes",
+     "coachAdaptive": "",
      "erg": [
       {
        "label": "workout",
@@ -35,6 +36,7 @@
      "rate": "r18–20; race pace",
      "coachAm": "Sophie Westfield",
      "coachPm": "Kari Hughes",
+     "coachAdaptive": "",
      "erg": [
       {
        "label": "UT2",
@@ -58,6 +60,7 @@
      "rate": "r18–20",
      "coachAm": "Uncoached",
      "coachPm": "",
+     "coachAdaptive": "",
      "erg": [
       {
        "label": "UT2",
@@ -77,6 +80,7 @@
      "rate": "r24–race pace",
      "coachAm": "Sophie Westfield",
      "coachPm": "",
+     "coachAdaptive": "",
      "erg": [],
      "form": "https://forms.gle/Fb2akZdWbUoeFRUB6",
      "formLabel": "5k data"
@@ -99,6 +103,7 @@
      "rate": "r16-22",
      "coachAm": "Sophie Westfield",
      "coachPm": "Kari Hughes",
+     "coachAdaptive": "",
      "erg": [
       {
        "label": "UT2",
@@ -118,6 +123,7 @@
      "rate": "r22–26",
      "coachAm": "Sophie Westfield",
      "coachPm": "Kari Hughes or Pascal Evans",
+     "coachAdaptive": "",
      "erg": [
       {
        "label": "AT",
@@ -137,6 +143,7 @@
      "rate": "r18–20",
      "coachAm": "Uncoached",
      "coachPm": "",
+     "coachAdaptive": "",
      "erg": [
       {
        "label": "UT2, BW",
@@ -156,6 +163,7 @@
      "rate": "r20–30",
      "coachAm": "Kari Hughes",
      "coachPm": "",
+     "coachAdaptive": "",
      "erg": [
       {
        "label": "TR",
@@ -183,6 +191,7 @@
      "rate": "r18–20",
      "coachAm": "Sophie Westfield",
      "coachPm": "Kari Hughes",
+     "coachAdaptive": "",
      "erg": [
       {
        "label": "20' UT2",
@@ -206,6 +215,7 @@
      "rate": "r20–30",
      "coachAm": "Sophie Westfield",
      "coachPm": "Pascal Evans",
+     "coachAdaptive": "",
      "erg": [
       {
        "label": "AT",
@@ -225,6 +235,7 @@
      "rate": "r18–20",
      "coachAm": "Uncoached",
      "coachPm": "",
+     "coachAdaptive": "",
      "erg": [
       {
        "label": "UT2, BW",
@@ -244,6 +255,7 @@
      "rate": "r20–30",
      "coachAm": "Sophie Westfield",
      "coachPm": "",
+     "coachAdaptive": "",
      "erg": [],
      "form": "https://forms.gle/Feci2LSiXKs92e9A7",
      "formLabel": "5 x 4'"
@@ -266,6 +278,7 @@
      "rate": "r18–20",
      "coachAm": "",
      "coachPm": "",
+     "coachAdaptive": "",
      "erg": [],
      "form": null,
      "formLabel": ""
@@ -280,6 +293,7 @@
      "rate": "r20–30",
      "coachAm": "",
      "coachPm": "",
+     "coachAdaptive": "",
      "erg": [],
      "form": null,
      "formLabel": ""
@@ -294,6 +308,7 @@
      "rate": "r18–20",
      "coachAm": "",
      "coachPm": "",
+     "coachAdaptive": "",
      "erg": [],
      "form": null,
      "formLabel": ""
@@ -308,6 +323,7 @@
      "rate": "r20–22",
      "coachAm": "",
      "coachPm": "",
+     "coachAdaptive": "",
      "erg": [],
      "form": null,
      "formLabel": ""
@@ -330,6 +346,7 @@
      "rate": "r18–20",
      "coachAm": "",
      "coachPm": "",
+     "coachAdaptive": "",
      "erg": [],
      "form": null,
      "formLabel": ""
@@ -344,6 +361,7 @@
      "rate": "r20–30",
      "coachAm": "",
      "coachPm": "",
+     "coachAdaptive": "",
      "erg": [],
      "form": null,
      "formLabel": ""
@@ -358,6 +376,7 @@
      "rate": "r18–20",
      "coachAm": "",
      "coachPm": "",
+     "coachAdaptive": "",
      "erg": [],
      "form": null,
      "formLabel": ""
@@ -372,6 +391,7 @@
      "rate": "r26–30",
      "coachAm": "",
      "coachPm": "",
+     "coachAdaptive": "",
      "erg": [],
      "form": null,
      "formLabel": ""
@@ -394,6 +414,7 @@
      "rate": "r18–20",
      "coachAm": "",
      "coachPm": "",
+     "coachAdaptive": "",
      "erg": [],
      "form": null,
      "formLabel": ""
@@ -408,6 +429,7 @@
      "rate": "r20–30",
      "coachAm": "",
      "coachPm": "",
+     "coachAdaptive": "",
      "erg": [],
      "form": null,
      "formLabel": ""
@@ -422,6 +444,7 @@
      "rate": "r28–32",
      "coachAm": "",
      "coachPm": "",
+     "coachAdaptive": "",
      "erg": [],
      "form": null,
      "formLabel": ""
@@ -436,6 +459,7 @@
      "rate": "r18–20",
      "coachAm": "",
      "coachPm": "",
+     "coachAdaptive": "",
      "erg": [],
      "form": null,
      "formLabel": ""
@@ -458,6 +482,7 @@
      "rate": "r18–20",
      "coachAm": "",
      "coachPm": "",
+     "coachAdaptive": "",
      "erg": [],
      "form": null,
      "formLabel": ""
@@ -472,6 +497,7 @@
      "rate": "r20–30",
      "coachAm": "",
      "coachPm": "",
+     "coachAdaptive": "",
      "erg": [],
      "form": null,
      "formLabel": ""
@@ -486,6 +512,7 @@
      "rate": "r18–20",
      "coachAm": "",
      "coachPm": "",
+     "coachAdaptive": "",
      "erg": [],
      "form": null,
      "formLabel": ""
@@ -500,6 +527,7 @@
      "rate": "r28–34",
      "coachAm": "",
      "coachPm": "",
+     "coachAdaptive": "",
      "erg": [],
      "form": null,
      "formLabel": ""
@@ -522,6 +550,7 @@
      "rate": "",
      "coachAm": "",
      "coachPm": "",
+     "coachAdaptive": "",
      "erg": [],
      "form": null,
      "formLabel": ""
@@ -544,6 +573,7 @@
      "rate": "r18–20",
      "coachAm": "",
      "coachPm": "",
+     "coachAdaptive": "",
      "erg": [],
      "form": null,
      "formLabel": ""
@@ -558,6 +588,7 @@
      "rate": "r20–30",
      "coachAm": "",
      "coachPm": "",
+     "coachAdaptive": "",
      "erg": [],
      "form": null,
      "formLabel": ""
@@ -572,6 +603,7 @@
      "rate": "r18–20",
      "coachAm": "",
      "coachPm": "",
+     "coachAdaptive": "",
      "erg": [],
      "form": null,
      "formLabel": ""
@@ -586,6 +618,7 @@
      "rate": "r26–30",
      "coachAm": "",
      "coachPm": "",
+     "coachAdaptive": "",
      "erg": [],
      "form": null,
      "formLabel": ""
@@ -608,6 +641,7 @@
      "rate": "r18–20",
      "coachAm": "",
      "coachPm": "",
+     "coachAdaptive": "",
      "erg": [],
      "form": null,
      "formLabel": ""
@@ -622,6 +656,7 @@
      "rate": "",
      "coachAm": "",
      "coachPm": "",
+     "coachAdaptive": "",
      "erg": [],
      "form": null,
      "formLabel": ""
@@ -636,6 +671,7 @@
      "rate": "r20–22",
      "coachAm": "",
      "coachPm": "",
+     "coachAdaptive": "",
      "erg": [],
      "form": null,
      "formLabel": ""
@@ -650,6 +686,7 @@
      "rate": "r28–34",
      "coachAm": "",
      "coachPm": "",
+     "coachAdaptive": "",
      "erg": [],
      "form": null,
      "formLabel": ""
@@ -672,6 +709,7 @@
      "rate": "r18–20",
      "coachAm": "",
      "coachPm": "",
+     "coachAdaptive": "",
      "erg": [],
      "form": null,
      "formLabel": ""
@@ -686,6 +724,7 @@
      "rate": "r20–30",
      "coachAm": "",
      "coachPm": "",
+     "coachAdaptive": "",
      "erg": [],
      "form": null,
      "formLabel": ""
@@ -700,6 +739,7 @@
      "rate": "r18–20",
      "coachAm": "",
      "coachPm": "",
+     "coachAdaptive": "",
      "erg": [],
      "form": null,
      "formLabel": ""
@@ -714,6 +754,7 @@
      "rate": "r26–30",
      "coachAm": "",
      "coachPm": "",
+     "coachAdaptive": "",
      "erg": [],
      "form": null,
      "formLabel": ""
@@ -736,6 +777,7 @@
      "rate": "r18–20",
      "coachAm": "",
      "coachPm": "",
+     "coachAdaptive": "",
      "erg": [],
      "form": null,
      "formLabel": ""
@@ -750,6 +792,7 @@
      "rate": "",
      "coachAm": "",
      "coachPm": "",
+     "coachAdaptive": "",
      "erg": [],
      "form": null,
      "formLabel": ""
@@ -764,6 +807,7 @@
      "rate": "r18–20",
      "coachAm": "",
      "coachPm": "",
+     "coachAdaptive": "",
      "erg": [],
      "form": null,
      "formLabel": ""
@@ -778,6 +822,7 @@
      "rate": "r28–32 / r20–22",
      "coachAm": "",
      "coachPm": "",
+     "coachAdaptive": "",
      "erg": [],
      "form": null,
      "formLabel": ""
@@ -800,6 +845,7 @@
      "rate": "r18–20 / r28–32",
      "coachAm": "",
      "coachPm": "",
+     "coachAdaptive": "",
      "erg": [],
      "form": null,
      "formLabel": ""
@@ -814,6 +860,7 @@
      "rate": "",
      "coachAm": "",
      "coachPm": "",
+     "coachAdaptive": "",
      "erg": [],
      "form": null,
      "formLabel": ""
@@ -828,6 +875,7 @@
      "rate": "r18–20 / hard strokes r28–32",
      "coachAm": "",
      "coachPm": "",
+     "coachAdaptive": "",
      "erg": [],
      "form": null,
      "formLabel": ""
@@ -842,6 +890,7 @@
      "rate": "r28–32",
      "coachAm": "",
      "coachPm": "",
+     "coachAdaptive": "",
      "erg": [],
      "form": null,
      "formLabel": ""
@@ -864,6 +913,7 @@
      "rate": "r18–20",
      "coachAm": "",
      "coachPm": "",
+     "coachAdaptive": "",
      "erg": [],
      "form": null,
      "formLabel": ""
@@ -878,6 +928,7 @@
      "rate": "r20–30",
      "coachAm": "",
      "coachPm": "",
+     "coachAdaptive": "",
      "erg": [],
      "form": null,
      "formLabel": ""
@@ -892,6 +943,7 @@
      "rate": "r18–20",
      "coachAm": "",
      "coachPm": "",
+     "coachAdaptive": "",
      "erg": [],
      "form": null,
      "formLabel": ""
@@ -906,6 +958,7 @@
      "rate": "r20–22",
      "coachAm": "",
      "coachPm": "",
+     "coachAdaptive": "",
      "erg": [],
      "form": null,
      "formLabel": ""
@@ -928,6 +981,7 @@
      "rate": "r18–20",
      "coachAm": "",
      "coachPm": "",
+     "coachAdaptive": "",
      "erg": [],
      "form": null,
      "formLabel": ""
@@ -942,6 +996,7 @@
      "rate": "r20–30",
      "coachAm": "",
      "coachPm": "",
+     "coachAdaptive": "",
      "erg": [],
      "form": null,
      "formLabel": ""
@@ -956,6 +1011,7 @@
      "rate": "r18–20",
      "coachAm": "",
      "coachPm": "",
+     "coachAdaptive": "",
      "erg": [],
      "form": null,
      "formLabel": ""
@@ -970,6 +1026,7 @@
      "rate": "r26–30",
      "coachAm": "",
      "coachPm": "",
+     "coachAdaptive": "",
      "erg": [],
      "form": null,
      "formLabel": ""
@@ -992,6 +1049,7 @@
      "rate": "r18–20",
      "coachAm": "",
      "coachPm": "",
+     "coachAdaptive": "",
      "erg": [],
      "form": null,
      "formLabel": ""
@@ -1006,6 +1064,7 @@
      "rate": "r20–30",
      "coachAm": "",
      "coachPm": "",
+     "coachAdaptive": "",
      "erg": [],
      "form": null,
      "formLabel": ""
@@ -1020,6 +1079,7 @@
      "rate": "r18–20",
      "coachAm": "",
      "coachPm": "",
+     "coachAdaptive": "",
      "erg": [],
      "form": null,
      "formLabel": ""
@@ -1034,6 +1094,7 @@
      "rate": "1–2' r28–34 / 3–4' r26–30",
      "coachAm": "",
      "coachPm": "",
+     "coachAdaptive": "",
      "erg": [],
      "form": null,
      "formLabel": ""
@@ -1056,6 +1117,7 @@
      "rate": "r18–20",
      "coachAm": "",
      "coachPm": "",
+     "coachAdaptive": "",
      "erg": [],
      "form": null,
      "formLabel": ""
@@ -1070,6 +1132,7 @@
      "rate": "r20–30",
      "coachAm": "",
      "coachPm": "",
+     "coachAdaptive": "",
      "erg": [],
      "form": null,
      "formLabel": ""
@@ -1084,6 +1147,7 @@
      "rate": "r18–20",
      "coachAm": "",
      "coachPm": "",
+     "coachAdaptive": "",
      "erg": [],
      "form": null,
      "formLabel": ""
@@ -1098,6 +1162,7 @@
      "rate": "r20–30",
      "coachAm": "",
      "coachPm": "",
+     "coachAdaptive": "",
      "erg": [],
      "form": null,
      "formLabel": ""
@@ -1120,6 +1185,7 @@
      "rate": "r18–20",
      "coachAm": "",
      "coachPm": "",
+     "coachAdaptive": "",
      "erg": [],
      "form": null,
      "formLabel": ""
@@ -1134,6 +1200,7 @@
      "rate": "r20–30",
      "coachAm": "",
      "coachPm": "",
+     "coachAdaptive": "",
      "erg": [],
      "form": null,
      "formLabel": ""
@@ -1148,6 +1215,7 @@
      "rate": "r18–20",
      "coachAm": "",
      "coachPm": "",
+     "coachAdaptive": "",
      "erg": [],
      "form": null,
      "formLabel": ""
@@ -1162,6 +1230,7 @@
      "rate": "r28–32",
      "coachAm": "",
      "coachPm": "",
+     "coachAdaptive": "",
      "erg": [],
      "form": null,
      "formLabel": ""
@@ -1184,6 +1253,7 @@
      "rate": "r18–20",
      "coachAm": "",
      "coachPm": "",
+     "coachAdaptive": "",
      "erg": [],
      "form": null,
      "formLabel": ""
@@ -1198,6 +1268,7 @@
      "rate": "",
      "coachAm": "",
      "coachPm": "",
+     "coachAdaptive": "",
      "erg": [],
      "form": null,
      "formLabel": ""
@@ -1212,6 +1283,7 @@
      "rate": "r18–20",
      "coachAm": "",
      "coachPm": "",
+     "coachAdaptive": "",
      "erg": [],
      "form": null,
      "formLabel": ""
@@ -1226,6 +1298,7 @@
      "rate": "r26–30",
      "coachAm": "",
      "coachPm": "",
+     "coachAdaptive": "",
      "erg": [],
      "form": null,
      "formLabel": ""
@@ -1248,6 +1321,7 @@
      "rate": "r18–20",
      "coachAm": "",
      "coachPm": "",
+     "coachAdaptive": "",
      "erg": [],
      "form": null,
      "formLabel": ""
@@ -1262,6 +1336,7 @@
      "rate": "r20–30",
      "coachAm": "",
      "coachPm": "",
+     "coachAdaptive": "",
      "erg": [],
      "form": null,
      "formLabel": ""
@@ -1276,6 +1351,7 @@
      "rate": "r18–20",
      "coachAm": "",
      "coachPm": "",
+     "coachAdaptive": "",
      "erg": [],
      "form": null,
      "formLabel": ""
@@ -1290,6 +1366,7 @@
      "rate": "r28–32 / r20–22",
      "coachAm": "",
      "coachPm": "",
+     "coachAdaptive": "",
      "erg": [],
      "form": null,
      "formLabel": ""
@@ -1312,6 +1389,7 @@
      "rate": "r18–20",
      "coachAm": "",
      "coachPm": "",
+     "coachAdaptive": "",
      "erg": [],
      "form": null,
      "formLabel": ""
@@ -1326,6 +1404,7 @@
      "rate": "r28–32",
      "coachAm": "",
      "coachPm": "",
+     "coachAdaptive": "",
      "erg": [],
      "form": null,
      "formLabel": ""
@@ -1340,6 +1419,7 @@
      "rate": "r18–20",
      "coachAm": "",
      "coachPm": "",
+     "coachAdaptive": "",
      "erg": [],
      "form": null,
      "formLabel": ""
@@ -1354,6 +1434,7 @@
      "rate": "r28–32",
      "coachAm": "",
      "coachPm": "",
+     "coachAdaptive": "",
      "erg": [],
      "form": null,
      "formLabel": ""
@@ -1376,6 +1457,7 @@
      "rate": "r18–20",
      "coachAm": "",
      "coachPm": "",
+     "coachAdaptive": "",
      "erg": [],
      "form": null,
      "formLabel": ""
@@ -1390,6 +1472,7 @@
      "rate": "r18–20",
      "coachAm": "",
      "coachPm": "",
+     "coachAdaptive": "",
      "erg": [],
      "form": null,
      "formLabel": ""
@@ -1414,6 +1497,7 @@
      "rate": "r18–20",
      "coachAm": "Jay Evans",
      "coachPm": "Kari Hughes",
+     "coachAdaptive": "",
      "erg": [],
      "form": null,
      "formLabel": ""
@@ -1428,6 +1512,7 @@
      "rate": "r18–20",
      "coachAm": "",
      "coachPm": "All Hands",
+     "coachAdaptive": "",
      "erg": [],
      "form": null,
      "formLabel": ""
@@ -1442,6 +1527,7 @@
      "rate": "r22",
      "coachAm": "",
      "coachPm": "",
+     "coachAdaptive": "",
      "erg": [
       {
        "label": "UT1/AT",
@@ -1469,6 +1555,7 @@
      "rate": "r18 - 22",
      "coachAm": "Pascal Evans",
      "coachPm": "Evan Rea",
+     "coachAdaptive": "",
      "erg": [
       {
        "label": "UT1, drill",
@@ -1488,6 +1575,7 @@
      "rate": "r16–20",
      "coachAm": "",
      "coachPm": "Kari Hughes",
+     "coachAdaptive": "",
      "erg": [
       {
        "label": "UT2, BW",
@@ -1507,6 +1595,7 @@
      "rate": "r20–30",
      "coachAm": "Kari Hughes",
      "coachPm": "",
+     "coachAdaptive": "",
      "erg": [
       {
        "label": "TR",
@@ -1534,6 +1623,7 @@
      "rate": "r18–20",
      "coachAm": "Pascal Evans",
      "coachPm": "Kari Hughes",
+     "coachAdaptive": "Evan Rea",
      "erg": [
       {
        "label": "UT2",
@@ -1557,6 +1647,7 @@
      "rate": "r18–20",
      "coachAm": "",
      "coachPm": "Kari Hughes",
+     "coachAdaptive": "Pascal Evans",
      "erg": [
       {
        "label": "UT2",
@@ -1580,6 +1671,7 @@
      "rate": "r20–30",
      "coachAm": "Sophie Westfiled",
      "coachPm": "",
+     "coachAdaptive": "",
      "erg": [
       {
        "label": "TR",
@@ -1607,6 +1699,7 @@
      "rate": "r18–20",
      "coachAm": "",
      "coachPm": "",
+     "coachAdaptive": "",
      "erg": [],
      "form": null,
      "formLabel": ""
@@ -1621,6 +1714,7 @@
      "rate": "r18–20",
      "coachAm": "",
      "coachPm": "",
+     "coachAdaptive": "",
      "erg": [],
      "form": null,
      "formLabel": ""
@@ -1635,6 +1729,7 @@
      "rate": "r20–22",
      "coachAm": "",
      "coachPm": "",
+     "coachAdaptive": "",
      "erg": [],
      "form": null,
      "formLabel": ""
@@ -1657,6 +1752,7 @@
      "rate": "r20 - 22",
      "coachAm": "",
      "coachPm": "",
+     "coachAdaptive": "",
      "erg": [],
      "form": null,
      "formLabel": ""
@@ -1671,6 +1767,7 @@
      "rate": "r18–20",
      "coachAm": "",
      "coachPm": "",
+     "coachAdaptive": "",
      "erg": [],
      "form": null,
      "formLabel": ""
@@ -1685,6 +1782,7 @@
      "rate": "r26–30",
      "coachAm": "",
      "coachPm": "",
+     "coachAdaptive": "",
      "erg": [],
      "form": null,
      "formLabel": ""
@@ -1707,6 +1805,7 @@
      "rate": "r18–20",
      "coachAm": "",
      "coachPm": "",
+     "coachAdaptive": "",
      "erg": [],
      "form": null,
      "formLabel": ""
@@ -1721,6 +1820,7 @@
      "rate": "r18–20",
      "coachAm": "",
      "coachPm": "",
+     "coachAdaptive": "",
      "erg": [],
      "form": null,
      "formLabel": ""
@@ -1735,6 +1835,7 @@
      "rate": "r22",
      "coachAm": "",
      "coachPm": "",
+     "coachAdaptive": "",
      "erg": [],
      "form": null,
      "formLabel": ""
@@ -1757,6 +1858,7 @@
      "rate": "r20 - 22",
      "coachAm": "",
      "coachPm": "",
+     "coachAdaptive": "",
      "erg": [],
      "form": null,
      "formLabel": ""
@@ -1771,6 +1873,7 @@
      "rate": "r18–20",
      "coachAm": "",
      "coachPm": "",
+     "coachAdaptive": "",
      "erg": [],
      "form": null,
      "formLabel": ""
@@ -1785,6 +1888,7 @@
      "rate": "r28–34",
      "coachAm": "",
      "coachPm": "",
+     "coachAdaptive": "",
      "erg": [],
      "form": null,
      "formLabel": ""
@@ -1807,6 +1911,7 @@
      "rate": "",
      "coachAm": "",
      "coachPm": "",
+     "coachAdaptive": "",
      "erg": [],
      "form": null,
      "formLabel": ""
@@ -1829,6 +1934,7 @@
      "rate": "r18–20",
      "coachAm": "",
      "coachPm": "",
+     "coachAdaptive": "",
      "erg": [],
      "form": null,
      "formLabel": ""
@@ -1843,6 +1949,7 @@
      "rate": "r18–20",
      "coachAm": "",
      "coachPm": "",
+     "coachAdaptive": "",
      "erg": [],
      "form": null,
      "formLabel": ""
@@ -1857,6 +1964,7 @@
      "rate": "r26–30",
      "coachAm": "",
      "coachPm": "",
+     "coachAdaptive": "",
      "erg": [],
      "form": null,
      "formLabel": ""
@@ -1879,6 +1987,7 @@
      "rate": "r18–20",
      "coachAm": "",
      "coachPm": "",
+     "coachAdaptive": "",
      "erg": [],
      "form": null,
      "formLabel": ""
@@ -1893,6 +2002,7 @@
      "rate": "r18–20",
      "coachAm": "",
      "coachPm": "",
+     "coachAdaptive": "",
      "erg": [],
      "form": null,
      "formLabel": ""
@@ -1907,6 +2017,7 @@
      "rate": "r28–34",
      "coachAm": "",
      "coachPm": "",
+     "coachAdaptive": "",
      "erg": [],
      "form": null,
      "formLabel": ""
@@ -1929,6 +2040,7 @@
      "rate": "r18–20",
      "coachAm": "",
      "coachPm": "",
+     "coachAdaptive": "",
      "erg": [],
      "form": null,
      "formLabel": ""
@@ -1943,6 +2055,7 @@
      "rate": "r18–20",
      "coachAm": "",
      "coachPm": "",
+     "coachAdaptive": "",
      "erg": [],
      "form": null,
      "formLabel": ""
@@ -1957,6 +2070,7 @@
      "rate": "r26–30",
      "coachAm": "",
      "coachPm": "",
+     "coachAdaptive": "",
      "erg": [],
      "form": null,
      "formLabel": ""
@@ -1979,6 +2093,7 @@
      "rate": "r18–20",
      "coachAm": "",
      "coachPm": "",
+     "coachAdaptive": "",
      "erg": [],
      "form": null,
      "formLabel": ""
@@ -1993,6 +2108,7 @@
      "rate": "r18–20",
      "coachAm": "",
      "coachPm": "",
+     "coachAdaptive": "",
      "erg": [],
      "form": null,
      "formLabel": ""
@@ -2007,6 +2123,7 @@
      "rate": "r28–32 / r20–22",
      "coachAm": "",
      "coachPm": "",
+     "coachAdaptive": "",
      "erg": [],
      "form": null,
      "formLabel": ""
@@ -2029,6 +2146,7 @@
      "rate": "r18–20",
      "coachAm": "",
      "coachPm": "",
+     "coachAdaptive": "",
      "erg": [],
      "form": null,
      "formLabel": ""
@@ -2043,6 +2161,7 @@
      "rate": "r18–20",
      "coachAm": "",
      "coachPm": "",
+     "coachAdaptive": "",
      "erg": [],
      "form": null,
      "formLabel": ""
@@ -2057,6 +2176,7 @@
      "rate": "r28–32",
      "coachAm": "",
      "coachPm": "",
+     "coachAdaptive": "",
      "erg": [],
      "form": null,
      "formLabel": ""
@@ -2079,6 +2199,7 @@
      "rate": "r18–20",
      "coachAm": "",
      "coachPm": "",
+     "coachAdaptive": "",
      "erg": [],
      "form": null,
      "formLabel": ""
@@ -2093,6 +2214,7 @@
      "rate": "r18–20",
      "coachAm": "",
      "coachPm": "",
+     "coachAdaptive": "",
      "erg": [],
      "form": null,
      "formLabel": ""
@@ -2107,6 +2229,7 @@
      "rate": "r20–22",
      "coachAm": "",
      "coachPm": "",
+     "coachAdaptive": "",
      "erg": [],
      "form": null,
      "formLabel": ""
@@ -2129,6 +2252,7 @@
      "rate": "r18–20",
      "coachAm": "",
      "coachPm": "",
+     "coachAdaptive": "",
      "erg": [],
      "form": null,
      "formLabel": ""
@@ -2143,6 +2267,7 @@
      "rate": "r18–20",
      "coachAm": "",
      "coachPm": "",
+     "coachAdaptive": "",
      "erg": [],
      "form": null,
      "formLabel": ""
@@ -2157,6 +2282,7 @@
      "rate": "r26–30",
      "coachAm": "",
      "coachPm": "",
+     "coachAdaptive": "",
      "erg": [],
      "form": null,
      "formLabel": ""
@@ -2179,6 +2305,7 @@
      "rate": "r18–20",
      "coachAm": "",
      "coachPm": "",
+     "coachAdaptive": "",
      "erg": [],
      "form": null,
      "formLabel": ""
@@ -2193,6 +2320,7 @@
      "rate": "r18–20",
      "coachAm": "",
      "coachPm": "",
+     "coachAdaptive": "",
      "erg": [],
      "form": null,
      "formLabel": ""
@@ -2207,6 +2335,7 @@
      "rate": "1–2' r28–34 / 3–4' r26–30",
      "coachAm": "",
      "coachPm": "",
+     "coachAdaptive": "",
      "erg": [],
      "form": null,
      "formLabel": ""
@@ -2229,6 +2358,7 @@
      "rate": "r18–20",
      "coachAm": "",
      "coachPm": "",
+     "coachAdaptive": "",
      "erg": [],
      "form": null,
      "formLabel": ""
@@ -2243,6 +2373,7 @@
      "rate": "r18–20",
      "coachAm": "",
      "coachPm": "",
+     "coachAdaptive": "",
      "erg": [],
      "form": null,
      "formLabel": ""
@@ -2257,6 +2388,7 @@
      "rate": "r20–30",
      "coachAm": "",
      "coachPm": "",
+     "coachAdaptive": "",
      "erg": [],
      "form": null,
      "formLabel": ""
@@ -2279,6 +2411,7 @@
      "rate": "r18–20",
      "coachAm": "",
      "coachPm": "",
+     "coachAdaptive": "",
      "erg": [],
      "form": null,
      "formLabel": ""
@@ -2293,6 +2426,7 @@
      "rate": "r18–20",
      "coachAm": "",
      "coachPm": "",
+     "coachAdaptive": "",
      "erg": [],
      "form": null,
      "formLabel": ""
@@ -2307,6 +2441,7 @@
      "rate": "r28–32",
      "coachAm": "",
      "coachPm": "",
+     "coachAdaptive": "",
      "erg": [],
      "form": null,
      "formLabel": ""
@@ -2329,6 +2464,7 @@
      "rate": "r18–20",
      "coachAm": "",
      "coachPm": "",
+     "coachAdaptive": "",
      "erg": [],
      "form": null,
      "formLabel": ""
@@ -2343,6 +2479,7 @@
      "rate": "r18–20",
      "coachAm": "",
      "coachPm": "",
+     "coachAdaptive": "",
      "erg": [],
      "form": null,
      "formLabel": ""
@@ -2357,6 +2494,7 @@
      "rate": "r26–30",
      "coachAm": "",
      "coachPm": "",
+     "coachAdaptive": "",
      "erg": [],
      "form": null,
      "formLabel": ""
@@ -2379,6 +2517,7 @@
      "rate": "r18–20",
      "coachAm": "",
      "coachPm": "",
+     "coachAdaptive": "",
      "erg": [],
      "form": null,
      "formLabel": ""
@@ -2393,6 +2532,7 @@
      "rate": "r18–20",
      "coachAm": "",
      "coachPm": "",
+     "coachAdaptive": "",
      "erg": [],
      "form": null,
      "formLabel": ""
@@ -2407,6 +2547,7 @@
      "rate": "r28–32 / r20–22",
      "coachAm": "",
      "coachPm": "",
+     "coachAdaptive": "",
      "erg": [],
      "form": null,
      "formLabel": ""
@@ -2429,6 +2570,7 @@
      "rate": "r18–20",
      "coachAm": "",
      "coachPm": "",
+     "coachAdaptive": "",
      "erg": [],
      "form": null,
      "formLabel": ""
@@ -2443,6 +2585,7 @@
      "rate": "r18–20",
      "coachAm": "",
      "coachPm": "",
+     "coachAdaptive": "",
      "erg": [],
      "form": null,
      "formLabel": ""
@@ -2457,6 +2600,7 @@
      "rate": "r28–32",
      "coachAm": "",
      "coachPm": "",
+     "coachAdaptive": "",
      "erg": [],
      "form": null,
      "formLabel": ""
@@ -2479,6 +2623,7 @@
      "rate": "r18–20",
      "coachAm": "",
      "coachPm": "",
+     "coachAdaptive": "",
      "erg": [],
      "form": null,
      "formLabel": ""
@@ -2493,6 +2638,7 @@
      "rate": "r18–20",
      "coachAm": "",
      "coachPm": "",
+     "coachAdaptive": "",
      "erg": [],
      "form": null,
      "formLabel": ""

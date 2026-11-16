@@ -23,7 +23,7 @@ function adapt(p){
     const type=String(w.type||"").replace(/\s*\+\s*test\b/i,"").replace(/^test$/i,"");
     const workouts=w.workouts.filter(x=>ADAPT_SLOTS[x.n]).map(x=>{
       const sl=ADAPT_SLOTS[x.n], d=s?new Date(s.getTime()+sl.off*864e5):null;
-      return {...x,label:sl.day+(d?` · ${MN[d.getMonth()]} ${d.getDate()}`:""),coachAm:"",coachPm:pmFromDetail(w.wk,x.n)||x.coachPm||""};
+      return {...x,label:sl.day+(d?` · ${MN[d.getMonth()]} ${d.getDate()}`:""),coachAm:"",coachPm:adaptiveCoach(w.wk,x.n,x)};
     });
     return {...w,type,workouts};
   })};
@@ -33,6 +33,10 @@ function pmFromDetail(wk,n){const d=DETAILS[`fit-${wk}-${n}`];if(!d)return "";
   return (d.coach||[]).filter(c=>/\bpm\b/i.test(c))
     .map(c=>c.replace(/^\s*\d{1,2}\.\d{1,2}\s*pm\s*/i,"").replace(/\s*\((mon|wed)\w*\s*pm\)\s*$/i,"").trim())
     .filter(Boolean).join(" / ")}
+// the Adaptive coach (sheet column "Coach pm (Adaptive)" or "Adaptive - Name" in the session tab);
+// weeks before Kari started marking one fall back to the PM coaches
+function adaptiveCoach(wk,n,x){const d=DETAILS[`fit-${wk}-${n}`];
+  return (x.coachAdaptive||"").trim()||(d&&d.adaptiveCoach||"").trim()||pmFromDetail(wk,n)||x.coachPm||""}
 // detail tabs list several coaches (e.g. "11.16 pm …", "11.17 am …"); keep the PM ones
 function pmCoaches(list){const pm=(list||[]).filter(c=>/\bpm\b/i.test(c));return pm.length?pm:(list||[])}
 """
@@ -78,7 +82,7 @@ def build():
     rep("function render(){", 'function render(){track="fitness";')
     rep("const d=DETAILS[k]; if(!d) return;",
         'const d=DETAILS[k]; if(!d||!/^fit-\\d+-[12]$/.test(k)) return;')
-    rep("d.coach.map(c=>esc(fmtCoach(c)))", "pmCoaches(d.coach).map(c=>esc(fmtCoach(c)))")
+    rep("d.coach.map(c=>esc(fmtCoach(c)))", "(wo&&wo.coachPm?[wo.coachPm]:pmCoaches(d.coach).map(fmtCoach)).map(c=>esc(c))")
     rep('${tr==="competitive"?"Competitive":"Fitness &amp; Community"} · Week',
         'Adaptive · Week')
     rep("<h2 id=\"ptitle\">Workout ${esc(title)}</h2>", "<h2 id=\"ptitle\">${esc(title)}</h2>")
