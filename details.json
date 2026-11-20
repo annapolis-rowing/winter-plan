@@ -403,7 +403,7 @@
     "i": 0
    },
    {
-    "t": "1' @ hip hinge pause, 4' @ 18 - 20",
+    "t": "1' gather every stroke @ hip hinge pause, 4' @ 18 - 20 (focus on holidng good hinge position)",
     "i": 1
    },
    {
@@ -624,12 +624,7 @@
  },
  "comp-3-4": {
   "tab": "Comp Wk3 Wo4",
-  "erg": [
-   {
-    "label": "TR",
-    "url": "https://workout.ergdata.com/shared/yj7oy6o1"
-   }
-  ],
+  "erg": [],
   "coach": [
    "Sophie Westfield"
   ],
@@ -653,7 +648,7 @@
   ],
   "dynamicLink": "https://drive.google.com/file/d/1Y63MDfROopiRK4V9vX1bb-Rbu7gB4y7X/view",
   "video": "https://app.coachnow.io/i/b7d058bb74/02be",
-  "form": null,
+  "form": "https://forms.gle/pGc4sLYhLotXjB6i8",
   "warmup": [
    {
     "t": "1' @ 18 - 20 @ 1/2 pressure",
@@ -716,11 +711,6 @@
    {
     "t": "rest = 3'",
     "i": 0
-   },
-   {
-    "t": "Please enter your data here (P1 - P65 average split and stroke rate)",
-    "i": 0,
-    "url": "https://workout.ergdata.com/shared/t2v5ed6x"
    }
   ],
   "cooldown": [
@@ -1176,12 +1166,7 @@
  },
  "fit-3-3": {
   "tab": "Fit Wk3 Wo3",
-  "erg": [
-   {
-    "label": "TR",
-    "url": "https://workout.ergdata.com/shared/yj7oy6o1"
-   }
-  ],
+  "erg": [],
   "coach": [
    "Sophie Westfield"
   ],
@@ -1205,7 +1190,7 @@
   ],
   "dynamicLink": "https://drive.google.com/file/d/1Y63MDfROopiRK4V9vX1bb-Rbu7gB4y7X/view",
   "video": "https://app.coachnow.io/i/b7d058bb74/02be",
-  "form": null,
+  "form": "https://forms.gle/pGc4sLYhLotXjB6i8",
   "warmup": [
    {
     "t": "1' @ 18 - 20 @ 1/2 pressure",
@@ -1268,11 +1253,6 @@
    {
     "t": "rest = 3'",
     "i": 0
-   },
-   {
-    "t": "Please enter your data here (P1 - P65 average split and stroke rate)",
-    "i": 0,
-    "url": "https://workout.ergdata.com/shared/t2v5ed6x"
    }
   ],
   "cooldown": [
