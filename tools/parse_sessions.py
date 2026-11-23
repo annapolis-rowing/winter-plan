@@ -24,7 +24,7 @@ def parse(ws):
     rows = {}
     for row in ws.iter_rows():
         cells = [(c.column, txt(c.value), c.hyperlink.target if c.hyperlink else None)
-                 for c in row if txt(c.value).strip()]
+                 for c in row if txt(c.value).strip(", ")]  # skip blank and comma-only spacer cells
         if cells:
             rows[row[0].row] = cells
     d = {"tab": ws.title, "erg": [], "coach": [], "focus": "", "type": "", "dynamic": [],
